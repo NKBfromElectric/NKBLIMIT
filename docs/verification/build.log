@@ -1,0 +1,107 @@
+[0/2] Re-checking globbed directories...
+[1/98] Building CXX object CMakeFiles\nkblimit.dir\Source\PluginEditor.cpp.obj
+[2/98] Building CXX object CMakeFiles\nkblimit.dir\Source\PluginProcessor.cpp.obj
+[3/98] Building CXX object CMakeFiles\nkblimit.dir\ThirdParty\JUCE\modules\juce_audio_processors\juce_audio_processors.cpp.obj
+[4/98] Building CXX object CMakeFiles\nkblimit.dir\ThirdParty\JUCE\modules\juce_gui_extra\juce_gui_extra.cpp.obj
+[5/98] Building CXX object CMakeFiles\nkblimit.dir\ThirdParty\JUCE\modules\juce_gui_basics\juce_gui_basics_2.cpp.obj
+[6/98] Building CXX object CMakeFiles\nkblimit.dir\ThirdParty\JUCE\modules\juce_gui_basics\juce_gui_basics_4.cpp.obj
+[7/98] Building CXX object CMakeFiles\nkblimit.dir\ThirdParty\JUCE\modules\juce_gui_basics\juce_gui_basics_3.cpp.obj
+[8/98] Building CXX object CMakeFiles\nkblimit.dir\ThirdParty\JUCE\modules\juce_gui_basics\juce_gui_basics.cpp.obj
+C:\Users\nkbys\Documents\Codex\2026-10-14\files-pasted-by-the-user-nkblimit\outputs\NKBLIMIT\ThirdParty\JUCE\modules\juce_gui_basics\juce_gui_basics.cpp(61) : Warning: This version of JUCE does not use the splash screen, the flag JUCE_DISPLAY_SPLASH_SCREEN is ignored
+[9/98] Building CXX object CMakeFiles\nkblimit.dir\ThirdParty\JUCE\modules\juce_gui_basics\juce_gui_basics_5.cpp.obj
+[10/98] Building C object CMakeFiles\nkblimit.dir\ThirdParty\JUCE\modules\juce_graphics\juce_graphics_Sheenbidi.c.obj
+[11/98] Building CXX object CMakeFiles\nkblimit.dir\ThirdParty\JUCE\modules\juce_events\juce_events.cpp.obj
+[12/98] Building CXX object CMakeFiles\nkblimit.dir\ThirdParty\JUCE\modules\juce_core\juce_core_CompilationTime.cpp.obj
+[13/98] Building CXX object CMakeFiles\nkblimit.dir\ThirdParty\JUCE\modules\juce_data_structures\juce_data_structures.cpp.obj
+[14/98] Building CXX object CMakeFiles\nkblimit.dir\ThirdParty\JUCE\modules\juce_core\juce_core.cpp.obj
+[15/98] Building CXX object CMakeFiles\nkblimit.dir\ThirdParty\JUCE\modules\juce_audio_processors_headless\juce_audio_processors_headless_ara.cpp.obj
+[16/98] Building CXX object CMakeFiles\nkblimit.dir\ThirdParty\JUCE\modules\juce_audio_processors_headless\juce_audio_processors_headless_lv2_libs.cpp.obj
+[17/98] Building CXX object CMakeFiles\nkblimit.dir\ThirdParty\JUCE\modules\juce_audio_basics\juce_audio_basics.cpp.obj
+[18/98] Building CXX object CMakeFiles\nkblimit.dir\ThirdParty\JUCE\modules\juce_audio_processors_headless\juce_audio_processors_headless.cpp.obj
+[19/98] Building CXX object CMakeFiles\nkblimit.dir\ThirdParty\JUCE\modules\juce_graphics\juce_graphics.cpp.obj
+[20/98] Building CXX object CMakeFiles\nkblimit.dir\ThirdParty\JUCE\modules\juce_graphics\juce_graphics_Harfbuzz.cpp.obj
+[21/98] Building CXX object CMakeFiles\nkblimit.dir\ThirdParty\JUCE\modules\juce_audio_formats\juce_audio_formats.cpp.obj
+[22/98] Building CXX object CMakeFiles\nkblimit.dir\ThirdParty\JUCE\modules\juce_audio_utils\juce_audio_utils.cpp.obj
+[23/98] Building VST3 manifest helper for nkblimit
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: C:/Users/nkbys/Documents/Codex/2026-10-14/files-pasted-by-the-user-nkblimit/outputs/NKBLIMIT/build/vst3_helpers/nkblimit
+ninja: no work to do.
+[24/98] Building CXX object CMakeFiles\nkblimit.dir\ThirdParty\JUCE\modules\juce_dsp\juce_dsp.cpp.obj
+[25/98] Building CXX object CMakeFiles\nkblimit.dir\ThirdParty\JUCE\modules\juce_audio_devices\juce_audio_devices.cpp.obj
+[26/98] Linking CXX static library nkblimit_artefacts\Release\nkblimit_SharedCode.lib
+[27/98] Building CXX object CMakeFiles\DSPTests.dir\Tests\DSPTests\Main.cpp.obj
+[28/98] Building CXX object CMakeFiles\nkblimit_VST3.dir\ThirdParty\JUCE\modules\juce_audio_utils\juce_audio_utils.cpp.obj
+[29/98] Building CXX object CMakeFiles\nkblimit_VST3.dir\ThirdParty\JUCE\modules\juce_audio_processors\juce_audio_processors.cpp.obj
+[30/98] Building CXX object CMakeFiles\nkblimit_VST3.dir\ThirdParty\JUCE\modules\juce_gui_extra\juce_gui_extra.cpp.obj
+[31/98] Building CXX object CMakeFiles\nkblimit_VST3.dir\ThirdParty\JUCE\modules\juce_gui_basics\juce_gui_basics_2.cpp.obj
+[32/98] Building CXX object CMakeFiles\nkblimit_VST3.dir\ThirdParty\JUCE\modules\juce_gui_basics\juce_gui_basics_4.cpp.obj
+[33/98] Building CXX object CMakeFiles\nkblimit_VST3.dir\ThirdParty\JUCE\modules\juce_gui_basics\juce_gui_basics.cpp.obj
+C:\Users\nkbys\Documents\Codex\2026-10-14\files-pasted-by-the-user-nkblimit\outputs\NKBLIMIT\ThirdParty\JUCE\modules\juce_gui_basics\juce_gui_basics.cpp(61) : Warning: This version of JUCE does not use the splash screen, the flag JUCE_DISPLAY_SPLASH_SCREEN is ignored
+[34/98] Building CXX object CMakeFiles\nkblimit_VST3.dir\ThirdParty\JUCE\modules\juce_gui_basics\juce_gui_basics_3.cpp.obj
+[35/98] Building C object CMakeFiles\nkblimit_VST3.dir\ThirdParty\JUCE\modules\juce_graphics\juce_graphics_Sheenbidi.c.obj
+[36/98] Building CXX object CMakeFiles\nkblimit_VST3.dir\ThirdParty\JUCE\modules\juce_gui_basics\juce_gui_basics_5.cpp.obj
+[37/98] Building CXX object CMakeFiles\nkblimit_VST3.dir\ThirdParty\JUCE\modules\juce_events\juce_events.cpp.obj
+[38/98] Building CXX object CMakeFiles\nkblimit_VST3.dir\ThirdParty\JUCE\modules\juce_core\juce_core_CompilationTime.cpp.obj
+[39/98] Building CXX object CMakeFiles\nkblimit_VST3.dir\ThirdParty\JUCE\modules\juce_data_structures\juce_data_structures.cpp.obj
+[40/98] Building CXX object CMakeFiles\nkblimit_VST3.dir\ThirdParty\JUCE\modules\juce_core\juce_core.cpp.obj
+[41/98] Building CXX object CMakeFiles\nkblimit_VST3.dir\ThirdParty\JUCE\modules\juce_audio_processors_headless\juce_audio_processors_headless_ara.cpp.obj
+[42/98] Building CXX object CMakeFiles\nkblimit_VST3.dir\ThirdParty\JUCE\modules\juce_audio_processors_headless\juce_audio_processors_headless_lv2_libs.cpp.obj
+[43/98] Building CXX object CMakeFiles\nkblimit_VST3.dir\ThirdParty\JUCE\modules\juce_audio_processors_headless\juce_audio_processors_headless.cpp.obj
+[44/98] Building CXX object CMakeFiles\nkblimit_VST3.dir\ThirdParty\JUCE\modules\juce_audio_basics\juce_audio_basics.cpp.obj
+[45/98] Building CXX object CMakeFiles\nkblimit_VST3.dir\ThirdParty\JUCE\modules\juce_graphics\juce_graphics.cpp.obj
+[46/98] Building CXX object CMakeFiles\nkblimit_VST3.dir\ThirdParty\JUCE\modules\juce_graphics\juce_graphics_Harfbuzz.cpp.obj
+[47/98] Building CXX object CMakeFiles\nkblimit_VST3.dir\ThirdParty\JUCE\modules\juce_audio_plugin_client\juce_audio_plugin_client_AAX.cpp.obj
+[48/98] Building CXX object CMakeFiles\nkblimit_VST3.dir\ThirdParty\JUCE\modules\juce_audio_plugin_client\juce_audio_plugin_client_AAX_utils.cpp.obj
+[49/98] Building CXX object CMakeFiles\nkblimit_VST3.dir\ThirdParty\JUCE\modules\juce_audio_plugin_client\juce_audio_plugin_client_ARA.cpp.obj
+[50/98] Building CXX object CMakeFiles\nkblimit_VST3.dir\ThirdParty\JUCE\modules\juce_audio_plugin_client\juce_audio_plugin_client_LV2.cpp.obj
+[51/98] Building CXX object CMakeFiles\nkblimit_VST3.dir\ThirdParty\JUCE\modules\juce_audio_plugin_client\juce_audio_plugin_client_Standalone.cpp.obj
+[52/98] Building CXX object CMakeFiles\nkblimit_VST3.dir\ThirdParty\JUCE\modules\juce_audio_plugin_client\juce_audio_plugin_client_Unity.cpp.obj
+[53/98] Building CXX object CMakeFiles\nkblimit_VST3.dir\ThirdParty\JUCE\modules\juce_audio_plugin_client\juce_audio_plugin_client_VST2.cpp.obj
+[54/98] Building CXX object CMakeFiles\nkblimit_VST3.dir\ThirdParty\JUCE\modules\juce_audio_formats\juce_audio_formats.cpp.obj
+[55/98] Building CXX object CMakeFiles\nkblimit_VST3.dir\ThirdParty\JUCE\modules\juce_dsp\juce_dsp.cpp.obj
+[56/98] Building CXX object CMakeFiles\nkblimit_VST3.dir\ThirdParty\JUCE\modules\juce_audio_devices\juce_audio_devices.cpp.obj
+[57/98] Building CXX object CMakeFiles\DSPTests.dir\ThirdParty\JUCE\modules\juce_dsp\juce_dsp.cpp.obj
+[58/98] Building CXX object CMakeFiles\DSPTests.dir\ThirdParty\JUCE\modules\juce_audio_formats\juce_audio_formats.cpp.obj
+[59/98] Building CXX object CMakeFiles\DSPTests.dir\ThirdParty\JUCE\modules\juce_core\juce_core_CompilationTime.cpp.obj
+[60/98] Building CXX object CMakeFiles\nkblimit_VST3.dir\ThirdParty\JUCE\modules\juce_audio_plugin_client\juce_audio_plugin_client_VST3.cpp.obj
+[61/98] Building CXX object CMakeFiles\DSPTests.dir\ThirdParty\JUCE\modules\juce_audio_basics\juce_audio_basics.cpp.obj
+[62/98] Linking CXX shared module nkblimit_artefacts\Release\VST3\nkblimit.vst3\Contents\x86_64-win\nkblimit.vst3
+removing moduleinfo.json
+creating C:/Users/nkbys/Documents/Codex/2026-10-14/files-pasted-by-the-user-nkblimit/outputs/NKBLIMIT/build/nkblimit_artefacts/Release/VST3/nkblimit.vst3/Contents/Resources/moduleinfo.json
+[63/98] Building CXX object CMakeFiles\ProcessorTests.dir\Tests\DSPTests\ProcessorTests.cpp.obj
+[64/98] Building CXX object CMakeFiles\DSPTests.dir\ThirdParty\JUCE\modules\juce_core\juce_core.cpp.obj
+[65/98] Building CXX object CMakeFiles\ProcessorTests.dir\ThirdParty\JUCE\modules\juce_audio_processors\juce_audio_processors.cpp.obj
+[66/98] Building CXX object CMakeFiles\ProcessorTests.dir\ThirdParty\JUCE\modules\juce_audio_utils\juce_audio_utils.cpp.obj
+[67/98] Building CXX object CMakeFiles\ProcessorTests.dir\ThirdParty\JUCE\modules\juce_gui_extra\juce_gui_extra.cpp.obj
+[68/98] Building CXX object CMakeFiles\ProcessorTests.dir\ThirdParty\JUCE\modules\juce_gui_basics\juce_gui_basics_2.cpp.obj
+[69/98] Building CXX object CMakeFiles\ProcessorTests.dir\ThirdParty\JUCE\modules\juce_gui_basics\juce_gui_basics_3.cpp.obj
+[70/98] Building CXX object CMakeFiles\ProcessorTests.dir\ThirdParty\JUCE\modules\juce_gui_basics\juce_gui_basics.cpp.obj
+C:\Users\nkbys\Documents\Codex\2026-10-14\files-pasted-by-the-user-nkblimit\outputs\NKBLIMIT\ThirdParty\JUCE\modules\juce_gui_basics\juce_gui_basics.cpp(61) : Warning: This version of JUCE does not use the splash screen, the flag JUCE_DISPLAY_SPLASH_SCREEN is ignored
+[71/98] Building CXX object CMakeFiles\ProcessorTests.dir\ThirdParty\JUCE\modules\juce_gui_basics\juce_gui_basics_4.cpp.obj
+[72/98] Building C object CMakeFiles\ProcessorTests.dir\ThirdParty\JUCE\modules\juce_graphics\juce_graphics_Sheenbidi.c.obj
+[73/98] Building CXX object CMakeFiles\ProcessorTests.dir\ThirdParty\JUCE\modules\juce_gui_basics\juce_gui_basics_5.cpp.obj
+[74/98] Building CXX object CMakeFiles\ProcessorTests.dir\ThirdParty\JUCE\modules\juce_events\juce_events.cpp.obj
+[75/98] Building CXX object CMakeFiles\ProcessorTests.dir\ThirdParty\JUCE\modules\juce_core\juce_core_CompilationTime.cpp.obj
+[76/98] Building CXX object CMakeFiles\ProcessorTests.dir\ThirdParty\JUCE\modules\juce_data_structures\juce_data_structures.cpp.obj
+[77/98] Building CXX object CMakeFiles\ProcessorTests.dir\ThirdParty\JUCE\modules\juce_core\juce_core.cpp.obj
+[78/98] Building CXX object CMakeFiles\ProcessorTests.dir\ThirdParty\JUCE\modules\juce_audio_processors_headless\juce_audio_processors_headless_ara.cpp.obj
+[79/98] Building CXX object CMakeFiles\ProcessorTests.dir\ThirdParty\JUCE\modules\juce_audio_processors_headless\juce_audio_processors_headless_lv2_libs.cpp.obj
+[80/98] Building CXX object CMakeFiles\ProcessorTests.dir\ThirdParty\JUCE\modules\juce_audio_processors_headless\juce_audio_processors_headless.cpp.obj
+[81/98] Building CXX object CMakeFiles\ProcessorTests.dir\ThirdParty\JUCE\modules\juce_audio_basics\juce_audio_basics.cpp.obj
+[82/98] Building CXX object CMakeFiles\ProcessorTests.dir\ThirdParty\JUCE\modules\juce_graphics\juce_graphics.cpp.obj
+[83/98] Building CXX object CMakeFiles\ProcessorTests.dir\ThirdParty\JUCE\modules\juce_graphics\juce_graphics_Harfbuzz.cpp.obj
+[84/98] Building CXX object CMakeFiles\ProcessorTests.dir\ThirdParty\JUCE\modules\juce_audio_formats\juce_audio_formats.cpp.obj
+[85/98] Building CXX object CMakeFiles\VST3HostTests.dir\Tests\DSPTests\VST3HostTests.cpp.obj
+[86/98] Building CXX object CMakeFiles\VST3HostTests.dir\ThirdParty\JUCE\modules\juce_audio_processors_headless\juce_audio_processors_headless_ara.cpp.obj
+[87/98] Building CXX object CMakeFiles\VST3HostTests.dir\ThirdParty\JUCE\modules\juce_audio_processors_headless\juce_audio_processors_headless_lv2_libs.cpp.obj
+[88/98] Building CXX object CMakeFiles\ProcessorTests.dir\ThirdParty\JUCE\modules\juce_dsp\juce_dsp.cpp.obj
+[89/98] Building CXX object CMakeFiles\ProcessorTests.dir\ThirdParty\JUCE\modules\juce_audio_devices\juce_audio_devices.cpp.obj
+[90/98] Building CXX object CMakeFiles\VST3HostTests.dir\ThirdParty\JUCE\modules\juce_core\juce_core_CompilationTime.cpp.obj
+[91/98] Building CXX object CMakeFiles\VST3HostTests.dir\ThirdParty\JUCE\modules\juce_events\juce_events.cpp.obj
+[92/98] Linking CXX executable DSPTests.exe
+[93/98] Building CXX object CMakeFiles\VST3HostTests.dir\ThirdParty\JUCE\modules\juce_audio_basics\juce_audio_basics.cpp.obj
+[94/98] Linking CXX executable ProcessorTests.exe
+[95/98] Building CXX object CMakeFiles\VST3HostTests.dir\ThirdParty\JUCE\modules\juce_core\juce_core.cpp.obj
+[96/98] Building CXX object CMakeFiles\VST3HostTests.dir\ThirdParty\JUCE\modules\juce_audio_processors_headless\juce_audio_processors_headless.cpp.obj
+[97/98] Linking CXX executable VST3HostTests.exe

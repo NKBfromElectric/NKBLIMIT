@@ -1,0 +1,53 @@
+cmake_minimum_required(VERSION 3.25)
+project(NKBLIMIT VERSION 0.1.0 LANGUAGES C CXX)
+set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(CMAKE_CXX_EXTENSIONS OFF)
+add_compile_options("$<$<C_COMPILER_ID:MSVC>:/utf-8>" "$<$<CXX_COMPILER_ID:MSVC>:/utf-8>")
+if(MSVC AND DEFINED NKBLIMIT_MSVC_INCLUDE_PREFIX)
+  # CMake may mis-decode /showIncludes on a Japanese-only MSVC installation.
+  set(CMAKE_CL_SHOWINCLUDES_PREFIX "${NKBLIMIT_MSVC_INCLUDE_PREFIX}")
+endif()
+set(JUCE_PIN 91ad83ae34a81e0833b1a2b0866f54846370ae53)
+if(EXISTS "${CMAKE_CURRENT_SOURCE_DIR}/ThirdParty/JUCE/CMakeLists.txt")
+  find_package(Git REQUIRED)
+  execute_process(COMMAND ${GIT_EXECUTABLE} rev-parse HEAD
+    WORKING_DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}/ThirdParty/JUCE"
+    OUTPUT_VARIABLE JUCE_HEAD OUTPUT_STRIP_TRAILING_WHITESPACE COMMAND_ERROR_IS_FATAL ANY)
+  if(NOT JUCE_HEAD STREQUAL JUCE_PIN)
+    message(FATAL_ERROR "JUCE checkout must be ${JUCE_PIN}, got ${JUCE_HEAD}")
+  endif()
+  add_subdirectory(ThirdParty/JUCE EXCLUDE_FROM_ALL)
+else()
+  include(FetchContent)
+  FetchContent_Declare(JUCE GIT_REPOSITORY https://github.com/juce-framework/JUCE.git
+    GIT_TAG ${JUCE_PIN})
+  FetchContent_MakeAvailable(JUCE)
+endif()
+juce_add_plugin(nkblimit COMPANY_NAME "nkblimit contributors"
+  BUNDLE_ID org.nkblimit.limiter PLUGIN_MANUFACTURER_CODE Nkbl PLUGIN_CODE Nkli
+  FORMATS VST3 PRODUCT_NAME nkblimit IS_SYNTH FALSE NEEDS_MIDI_INPUT FALSE
+  NEEDS_MIDI_OUTPUT FALSE IS_MIDI_EFFECT FALSE COPY_PLUGIN_AFTER_BUILD FALSE
+  VST3_CATEGORIES Fx Dynamics)
+target_sources(nkblimit PRIVATE Source/PluginProcessor.cpp Source/PluginEditor.cpp)
+target_include_directories(nkblimit PUBLIC Source)
+target_compile_definitions(nkblimit PUBLIC JUCE_WEB_BROWSER=0 JUCE_USE_CURL=0
+  JUCE_VST3_CAN_REPLACE_VST2=0 JUCE_DISPLAY_SPLASH_SCREEN=0)
+target_link_libraries(nkblimit PUBLIC juce::juce_audio_utils juce::juce_dsp
+  PRIVATE juce::juce_recommended_config_flags juce::juce_recommended_warning_flags)
+include(CTest)
+if(BUILD_TESTING)
+  add_executable(DSPTests Tests/DSPTests/Main.cpp)
+  target_include_directories(DSPTests PRIVATE Source)
+  target_compile_definitions(DSPTests PRIVATE JUCE_WEB_BROWSER=0 JUCE_USE_CURL=0)
+  target_link_libraries(DSPTests PRIVATE juce::juce_dsp juce::juce_recommended_config_flags)
+  add_test(NAME DSPTests COMMAND DSPTests)
+  add_executable(ProcessorTests Tests/DSPTests/ProcessorTests.cpp)
+  target_link_libraries(ProcessorTests PRIVATE nkblimit)
+  add_test(NAME ProcessorTests COMMAND ProcessorTests)
+  add_executable(VST3HostTests Tests/DSPTests/VST3HostTests.cpp)
+  target_compile_definitions(VST3HostTests PRIVATE JUCE_PLUGINHOST_VST3=1 JUCE_WEB_BROWSER=0 JUCE_USE_CURL=0)
+  target_link_libraries(VST3HostTests PRIVATE juce::juce_audio_processors_headless juce::juce_recommended_config_flags)
+  add_dependencies(VST3HostTests nkblimit_VST3)
+  add_test(NAME VST3HostTests COMMAND VST3HostTests $<TARGET_FILE_DIR:nkblimit_VST3>/../..)
+endif()
