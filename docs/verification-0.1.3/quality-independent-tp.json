@@ -1,0 +1,77 @@
+{
+  "method": "Independent finite-FIR TP cross-check, distinguishing excerpt cut edges.\n\nFor interior peak, output index>=taps-1 and<len(data); every FIR input tap\ntherefore comes from the processed excerpt. Whole-song peak comes from the\nseparate host benchmark. No compliance-certification claim.\n",
+  "files": {
+    "baseline7": {
+      "rate": 48000,
+      "frames": 1440000,
+      "banks": {
+        "ui32tap8xBlackman": {
+          "interior_peak_dbtp": -0.5515864791467208,
+          "peak_including_artificial_excerpt_cut_edges_dbtp": -0.5515864791467208
+        },
+        "reference96tap16xKaiser9": {
+          "interior_peak_dbtp": -0.5537650991370031,
+          "peak_including_artificial_excerpt_cut_edges_dbtp": -0.5537650991370031
+        },
+        "reference192tap32xKaiser12": {
+          "interior_peak_dbtp": -0.5538048178697769,
+          "peak_including_artificial_excerpt_cut_edges_dbtp": -0.5538048178697769
+        }
+      }
+    },
+    "candidate7": {
+      "rate": 48000,
+      "frames": 1440000,
+      "banks": {
+        "ui32tap8xBlackman": {
+          "interior_peak_dbtp": -0.5523412510396145,
+          "peak_including_artificial_excerpt_cut_edges_dbtp": -0.5523412510396145
+        },
+        "reference96tap16xKaiser9": {
+          "interior_peak_dbtp": -0.5537650982777622,
+          "peak_including_artificial_excerpt_cut_edges_dbtp": -0.5537650982777622
+        },
+        "reference192tap32xKaiser12": {
+          "interior_peak_dbtp": -0.5538056409772112,
+          "peak_including_artificial_excerpt_cut_edges_dbtp": -0.5538056409772112
+        }
+      }
+    },
+    "baseline16": {
+      "rate": 48000,
+      "frames": 1440000,
+      "banks": {
+        "ui32tap8xBlackman": {
+          "interior_peak_dbtp": -0.5424810407515697,
+          "peak_including_artificial_excerpt_cut_edges_dbtp": -0.5424810407515697
+        },
+        "reference96tap16xKaiser9": {
+          "interior_peak_dbtp": -0.5502195032048348,
+          "peak_including_artificial_excerpt_cut_edges_dbtp": -0.5502195032048348
+        },
+        "reference192tap32xKaiser12": {
+          "interior_peak_dbtp": -0.5497146906172738,
+          "peak_including_artificial_excerpt_cut_edges_dbtp": -0.5497146906172738
+        }
+      }
+    },
+    "candidate16": {
+      "rate": 48000,
+      "frames": 1440000,
+      "banks": {
+        "ui32tap8xBlackman": {
+          "interior_peak_dbtp": -0.541855076412308,
+          "peak_including_artificial_excerpt_cut_edges_dbtp": -0.541855076412308
+        },
+        "reference96tap16xKaiser9": {
+          "interior_peak_dbtp": -0.5503980128402126,
+          "peak_including_artificial_excerpt_cut_edges_dbtp": -0.5503980128402126
+        },
+        "reference192tap32xKaiser12": {
+          "interior_peak_dbtp": -0.549890383957068,
+          "peak_including_artificial_excerpt_cut_edges_dbtp": -0.549890383957068
+        }
+      }
+    }
+  }
+}

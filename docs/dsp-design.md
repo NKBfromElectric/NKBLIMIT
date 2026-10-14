@@ -1,6 +1,6 @@
-# DSP architecture and decisions — 0.1.2
+# DSP architecture and decisions — 0.1.3
 
-Current integrated results are in [validation-0.1.2.md](validation-0.1.2.md).
+Current integrated results are in [validation-0.1.3.md](validation-0.1.3.md).
 Earlier validation files and [truepeakguard-design.md](truepeakguard-design.md)
 retain historical 0.1.0/0.1.1 measurements; they do not describe the current guard.
 
@@ -27,7 +27,7 @@ path for tones while reducing early ducking before isolated transients. Predicti
 supplies the attack bound; the old additional 0.1 ms attack filter was removed.
 An exact linked sample cap remains for numerical rounding and ceiling changes.
 
-AdaptiveRelease uses a 100 ms decaying peak envelope over 25 ms smoothed energy,
+AdaptiveRelease uses a 100 ms decaying peak envelope over 50 ms smoothed energy,
 rather than dividing RMS by the instantaneous sample. Its normalized crest blend
 runs from zero at 1.65 to one at 2.80, selecting a peak-path release from 200 ms for
 tonal content to 6 ms for high-crest transients. A separate sustained path follows
@@ -41,6 +41,14 @@ distortion in that test. Mixed-frequency signals can still exhibit gain modulati
 See [envelope-revision.md](envelope-revision.md) for measurements, regression limits,
 and the distinction between main-stage and complete-plugin results.
 This control law is not a claim of subjective transparency.
+The 0.1.3 energy window increases from 25 to 50 ms to reduce rapid gain
+variation on mixed transient/sustained material. The release endpoints and
+prediction ramp remain unchanged. The approved music preserves mean loudness
+while reducing short-window source-relative gain variation across three excerpts.
+Periodic held-bed tests also show reduced 50 ms variation and kick-rate AM,
+but some 400 ms windows and heavily limited periodic recovery become worse.
+This is a measured tradeoff, not a claim of pumping elimination or improved
+transient preservation. See [independent quality audit](quality-validation-0.1.3.md).
 Punch/Loud must later use distinct control topologies rather than preset constants.
 
 ## Resampling and latency

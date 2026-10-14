@@ -1,0 +1,23 @@
+real_audio seconds=30 rate=48000 excerpt_start=0 excerpt_seconds=30
+CALIBRATION old drive=7 quiet_makeup_dB=6.99306 precision=double latency=567
+RENDER_LATENCY old samples=567
+old drive=7 rendered_seconds=30.0053
+old drive=7 analyzing_independent_16x_true_peak
+old drive=7 max_LUFS-S=-14.6719 median_LUFS-S=-16.0286 dBTP=-0.559921 elapsed_s=5.64758
+CALIBRATION updated drive=7 quiet_makeup_dB=6.99306 precision=double latency=567
+RENDER_LATENCY updated samples=567
+updated drive=7 rendered_seconds=30.0053
+updated drive=7 analyzing_independent_16x_true_peak
+updated drive=7 max_LUFS-S=-13.8874 median_LUFS-S=-15.4403 dBTP=-0.559883 elapsed_s=7.20051
+REAL_RESULT drive=7 old_max_LUFS-S=-14.6719 new_max_LUFS-S=-13.8874 old_median_LUFS-S=-16.0286 new_median_LUFS-S=-15.4403 median_gain_LU=0.588246 old_dBTP=-0.559921 new_dBTP=-0.559883 equivalent_nkb_gain=7
+CALIBRATION old drive=16 quiet_makeup_dB=15.9931 precision=double latency=567
+RENDER_LATENCY old samples=567
+old drive=16 rendered_seconds=30.0053
+old drive=16 analyzing_independent_16x_true_peak
+old drive=16 max_LUFS-S=-7.09185 median_LUFS-S=-9.59897 dBTP=-0.559943 elapsed_s=7.36099
+CALIBRATION updated drive=16 quiet_makeup_dB=15.9931 precision=double latency=567
+RENDER_LATENCY updated samples=567
+updated drive=16 rendered_seconds=30.0053
+updated drive=16 analyzing_independent_16x_true_peak
+updated drive=16 max_LUFS-S=-7.11727 median_LUFS-S=-9.43692 dBTP=-0.559921 elapsed_s=7.39118
+REAL_RESULT drive=16 old_max_LUFS-S=-7.09185 new_max_LUFS-S=-7.11727 old_median_LUFS-S=-9.59897 new_median_LUFS-S=-9.43692 median_gain_LU=0.162056 old_dBTP=-0.559943 new_dBTP=-0.559921 equivalent_nkb_gain=16

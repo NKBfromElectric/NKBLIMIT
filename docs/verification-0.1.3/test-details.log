@@ -1,0 +1,234 @@
+Start testing: Oct 14 20:02 東京 (標準時)
+----------------------------------------------------------
+1/9 Testing: DSPTests
+1/9 Test: DSPTests
+Command: "C:/Users/nkbys/Documents/Codex/2026-10-14/files-pasted-by-the-user-nkblimit/outputs/NKBLIMIT/build/DSPTests.exe"
+Directory: C:/Users/nkbys/Documents/Codex/2026-10-14/files-pasted-by-the-user-nkblimit/outputs/NKBLIMIT/build
+"DSPTests" start time: Oct 14 20:02 東京 (標準時)
+Output:
+----------------------------------------------------------
+passband 8x=0 error_ratio=1.22297e-07 latency=567
+passband 8x=1 error_ratio=6.41622e-07 latency=567
+passband 8x=0 error_ratio=1.22298e-07 latency=567
+passband 8x=1 error_ratio=6.41657e-07 latency=567
+float matrix rate=44100 PASS
+float matrix rate=48000 PASS
+float matrix rate=88200 PASS
+float matrix rate=96000 PASS
+float matrix rate=192000 PASS
+double matrix rate=44100 PASS
+double matrix rate=48000 PASS
+double matrix rate=88200 PASS
+double matrix rate=96000 PASS
+double matrix rate=192000 PASS
+PASS checks=2397066 worst_ceiling_excess_dB=-0.0191593 largest_short_run_RTF=0.421778
+RTF includes both warm 4x/8x paths, safety FIR, meter; not a DAW CPU benchmark.
+<end of output>
+Test time =   6.81 sec
+----------------------------------------------------------
+Test Passed.
+"DSPTests" end time: Oct 14 20:02 東京 (標準時)
+"DSPTests" time elapsed: 00:00:06
+----------------------------------------------------------
+
+2/9 Testing: LoudnessTests
+2/9 Test: LoudnessTests
+Command: "C:/Users/nkbys/Documents/Codex/2026-10-14/files-pasted-by-the-user-nkblimit/outputs/NKBLIMIT/build/LoudnessTests.exe"
+Directory: C:/Users/nkbys/Documents/Codex/2026-10-14/files-pasted-by-the-user-nkblimit/outputs/NKBLIMIT/build
+"LoudnessTests" start time: Oct 14 20:02 東京 (標準時)
+Output:
+----------------------------------------------------------
+LUFS sine calibration / frequency response rate=44100 PASS
+LUFS sine calibration / frequency response rate=48000 PASS
+LUFS sine calibration / frequency response rate=88200 PASS
+LUFS sine calibration / frequency response rate=96000 PASS
+LUFS sine calibration / frequency response rate=192000 PASS
+LUFS callbacks and reset: zero operator new allocations PASS
+LoudnessTests PASS: 3339 checks, 0.755358 seconds
+<end of output>
+Test time =   0.76 sec
+----------------------------------------------------------
+Test Passed.
+"LoudnessTests" end time: Oct 14 20:02 東京 (標準時)
+"LoudnessTests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/9 Testing: MeterBallisticsTests
+3/9 Test: MeterBallisticsTests
+Command: "C:/Users/nkbys/Documents/Codex/2026-10-14/files-pasted-by-the-user-nkblimit/outputs/NKBLIMIT/build/MeterBallisticsTests.exe"
+Directory: C:/Users/nkbys/Documents/Codex/2026-10-14/files-pasted-by-the-user-nkblimit/outputs/NKBLIMIT/build
+"MeterBallisticsTests" start time: Oct 14 20:02 東京 (標準時)
+Output:
+----------------------------------------------------------
+Meter ballistics tests passed
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"MeterBallisticsTests" end time: Oct 14 20:02 東京 (標準時)
+"MeterBallisticsTests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/9 Testing: TruePeakGuardTests
+4/9 Test: TruePeakGuardTests
+Command: "C:/Users/nkbys/Documents/Codex/2026-10-14/files-pasted-by-the-user-nkblimit/outputs/NKBLIMIT/build/TruePeakGuardTests.exe"
+Directory: C:/Users/nkbys/Documents/Codex/2026-10-14/files-pasted-by-the-user-nkblimit/outputs/NKBLIMIT/build
+"TruePeakGuardTests" start time: Oct 14 20:02 東京 (標準時)
+Output:
+----------------------------------------------------------
+PASS TruePeakGuard cases=768 worst_reference_excess_dB=0.0793027
+<end of output>
+Test time =   7.60 sec
+----------------------------------------------------------
+Test Passed.
+"TruePeakGuardTests" end time: Oct 14 20:02 東京 (標準時)
+"TruePeakGuardTests" time elapsed: 00:00:07
+----------------------------------------------------------
+
+5/9 Testing: LimiterBehaviourTests
+5/9 Test: LimiterBehaviourTests
+Command: "C:/Users/nkbys/Documents/Codex/2026-10-14/files-pasted-by-the-user-nkblimit/outputs/NKBLIMIT/build/LimiterBehaviourTests.exe"
+Directory: C:/Users/nkbys/Documents/Codex/2026-10-14/files-pasted-by-the-user-nkblimit/outputs/NKBLIMIT/build
+"LimiterBehaviourTests" start time: Oct 14 20:02 東京 (標準時)
+Output:
+----------------------------------------------------------
+kick rate=44100 recovery-after-burst=38.7755 ms
+kick rate=48000 recovery-after-burst=38.7708 ms
+kick rate=96000 recovery-after-burst=38.7708 ms
+kick rate=384000 recovery-after-burst=38.7708 ms
+synthetic drive=4 RMS=-12.044 dBFS
+synthetic drive=8 RMS=-10.2895 dBFS
+synthetic drive=12 RMS=-8.74495 dBFS
+synthetic drive=16 RMS=-7.67006 dBFS
+synthetic drive=20 RMS=-7.47037 dBFS
+synthetic drive=24 RMS=-7.43584 dBFS
+60 Hz rate=48000 reduction=2 THD=0.0806723%
+60 Hz rate=48000 reduction=6 THD=0.12992%
+60 Hz rate=48000 reduction=10 THD=0.131129%
+60 Hz rate=384000 reduction=2 THD=0.0804948%
+60 Hz rate=384000 reduction=6 THD=0.129556%
+60 Hz rate=384000 reduction=10 THD=0.130751%
+PASS limiter sample bound, finite handling, latency/reset, transient recovery, drive monotonicity, bass distortion
+<end of output>
+Test time =   0.79 sec
+----------------------------------------------------------
+Test Passed.
+"LimiterBehaviourTests" end time: Oct 14 20:02 東京 (標準時)
+"LimiterBehaviourTests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/9 Testing: PumpingBehaviourTests
+6/9 Test: PumpingBehaviourTests
+Command: "C:/Users/nkbys/Documents/Codex/2026-10-14/files-pasted-by-the-user-nkblimit/outputs/NKBLIMIT/build/PumpingBehaviourTests.exe"
+Directory: C:/Users/nkbys/Documents/Codex/2026-10-14/files-pasted-by-the-user-nkblimit/outputs/NKBLIMIT/build
+"PumpingBehaviourTests" start time: Oct 14 20:02 東京 (標準時)
+Output:
+----------------------------------------------------------
+pumping rate=44100 bpm=120 drive=7 bass=0 bed-50ms-spread=1.5392 dB bed-400ms-spread=0.25927 dB AM=4.92544% recovery=14.4671 ms
+pumping rate=44100 bpm=120 drive=7 bass=1 bed-50ms-spread=1.42074 dB bed-400ms-spread=0.339175 dB AM=4.18647% recovery=0 ms
+pumping rate=44100 bpm=120 drive=16 bass=0 bed-50ms-spread=8.18412 dB bed-400ms-spread=1.23095 dB AM=26.3996% recovery=249.592 ms
+pumping rate=44100 bpm=120 drive=16 bass=1 bed-50ms-spread=6.43923 dB bed-400ms-spread=1.11201 dB AM=21.8803% recovery=231.916 ms
+pumping rate=44100 bpm=180 drive=7 bass=0 bed-50ms-spread=1.10216 dB bed-400ms-spread=0.209345 dB AM=5.43105% recovery=0 ms
+pumping rate=44100 bpm=180 drive=7 bass=1 bed-50ms-spread=2.19705 dB bed-400ms-spread=0.969539 dB AM=5.9366% recovery=64.9068 ms
+pumping rate=44100 bpm=180 drive=16 bass=0 bed-50ms-spread=6.4583 dB bed-400ms-spread=0.833151 dB AM=28.3243% recovery=138.815 ms
+pumping rate=44100 bpm=180 drive=16 bass=1 bed-50ms-spread=7.24932 dB bed-400ms-spread=2.79949 dB AM=28.0381% recovery=130.869 ms
+pumping rate=48000 bpm=120 drive=7 bass=0 bed-50ms-spread=1.53882 dB bed-400ms-spread=0.259421 dB AM=4.92221% recovery=14.3542 ms
+pumping rate=48000 bpm=120 drive=7 bass=1 bed-50ms-spread=1.41953 dB bed-400ms-spread=0.339508 dB AM=4.18396% recovery=0 ms
+pumping rate=48000 bpm=120 drive=16 bass=0 bed-50ms-spread=8.17733 dB bed-400ms-spread=1.2308 dB AM=26.3822% recovery=249.51 ms
+pumping rate=48000 bpm=120 drive=16 bass=1 bed-50ms-spread=6.43291 dB bed-400ms-spread=1.11056 dB AM=21.8689% recovery=231.875 ms
+pumping rate=48000 bpm=180 drive=7 bass=0 bed-50ms-spread=1.10144 dB bed-400ms-spread=0.208238 dB AM=5.42645% recovery=0 ms
+pumping rate=48000 bpm=180 drive=7 bass=1 bed-50ms-spread=2.19693 dB bed-400ms-spread=0.968992 dB AM=5.93314% recovery=64.8889 ms
+pumping rate=48000 bpm=180 drive=16 bass=0 bed-50ms-spread=6.45308 dB bed-400ms-spread=0.82978 dB AM=28.3019% recovery=138.743 ms
+pumping rate=48000 bpm=180 drive=16 bass=1 bed-50ms-spread=7.24802 dB bed-400ms-spread=2.79977 dB AM=28.0299% recovery=130.826 ms
+pumping rate=96000 bpm=120 drive=7 bass=0 bed-50ms-spread=1.53898 dB bed-400ms-spread=0.25952 dB AM=4.92177% recovery=14.3125 ms
+pumping rate=96000 bpm=120 drive=7 bass=1 bed-50ms-spread=1.41995 dB bed-400ms-spread=0.339028 dB AM=4.18365% recovery=0 ms
+pumping rate=96000 bpm=120 drive=16 bass=0 bed-50ms-spread=8.17623 dB bed-400ms-spread=1.23088 dB AM=26.3782% recovery=249.484 ms
+pumping rate=96000 bpm=120 drive=16 bass=1 bed-50ms-spread=6.43381 dB bed-400ms-spread=1.10886 dB AM=21.8666% recovery=231.844 ms
+pumping rate=96000 bpm=180 drive=7 bass=0 bed-50ms-spread=1.10143 dB bed-400ms-spread=0.208489 dB AM=5.42747% recovery=0 ms
+pumping rate=96000 bpm=180 drive=7 bass=1 bed-50ms-spread=2.19729 dB bed-400ms-spread=0.969461 dB AM=5.93229% recovery=64.9132 ms
+pumping rate=96000 bpm=180 drive=16 bass=0 bed-50ms-spread=6.45288 dB bed-400ms-spread=0.830661 dB AM=28.3021% recovery=138.74 ms
+pumping rate=96000 bpm=180 drive=16 bass=1 bed-50ms-spread=7.24904 dB bed-400ms-spread=2.80116 dB AM=28.0264% recovery=130.792 ms
+pumping rate=384000 bpm=120 drive=7 bass=0 bed-50ms-spread=1.53925 dB bed-400ms-spread=0.259549 dB AM=4.92269% recovery=14.3346 ms
+pumping rate=384000 bpm=120 drive=7 bass=1 bed-50ms-spread=1.42003 dB bed-400ms-spread=0.339377 dB AM=4.18491% recovery=0 ms
+pumping rate=384000 bpm=120 drive=16 bass=0 bed-50ms-spread=8.17651 dB bed-400ms-spread=1.23086 dB AM=26.3793% recovery=249.49 ms
+pumping rate=384000 bpm=120 drive=16 bass=1 bed-50ms-spread=6.4335 dB bed-400ms-spread=1.1094 dB AM=21.8692% recovery=231.84 ms
+pumping rate=384000 bpm=180 drive=7 bass=0 bed-50ms-spread=1.10148 dB bed-400ms-spread=0.208534 dB AM=5.4284% recovery=0 ms
+pumping rate=384000 bpm=180 drive=7 bass=1 bed-50ms-spread=2.19745 dB bed-400ms-spread=0.969249 dB AM=5.93312% recovery=64.9029 ms
+pumping rate=384000 bpm=180 drive=16 bass=0 bed-50ms-spread=6.45273 dB bed-400ms-spread=0.830684 dB AM=28.3026% recovery=138.744 ms
+pumping rate=384000 bpm=180 drive=16 bass=1 bed-50ms-spread=7.24893 dB bed-400ms-spread=2.80098 dB AM=28.0289% recovery=130.807 ms
+pumping rate=48000 bpm=120 drive=7 bass=0 bed-50ms-spread=1.53882 dB bed-400ms-spread=0.259421 dB AM=4.92221% recovery=14.3542 ms
+pumping rate=48000 bpm=120 drive=7 bass=1 bed-50ms-spread=1.41953 dB bed-400ms-spread=0.339508 dB AM=4.18396% recovery=0 ms
+pumping rate=48000 bpm=120 drive=16 bass=0 bed-50ms-spread=8.17733 dB bed-400ms-spread=1.2308 dB AM=26.3822% recovery=249.51 ms
+pumping rate=48000 bpm=120 drive=16 bass=1 bed-50ms-spread=6.43291 dB bed-400ms-spread=1.11056 dB AM=21.8689% recovery=231.875 ms
+pumping rate=48000 bpm=180 drive=7 bass=0 bed-50ms-spread=1.10144 dB bed-400ms-spread=0.208238 dB AM=5.42645% recovery=0 ms
+pumping rate=48000 bpm=180 drive=7 bass=1 bed-50ms-spread=2.19693 dB bed-400ms-spread=0.968992 dB AM=5.93314% recovery=64.8889 ms
+pumping rate=48000 bpm=180 drive=16 bass=0 bed-50ms-spread=6.45308 dB bed-400ms-spread=0.82978 dB AM=28.3019% recovery=138.743 ms
+pumping rate=48000 bpm=180 drive=16 bass=1 bed-50ms-spread=7.24802 dB bed-400ms-spread=2.79977 dB AM=28.0299% recovery=130.826 ms
+PASS linked held-bed modulation, periodic recovery, sample bounds at four rates and two drives
+<end of output>
+Test time =   3.71 sec
+----------------------------------------------------------
+Test Passed.
+"PumpingBehaviourTests" end time: Oct 14 20:02 東京 (標準時)
+"PumpingBehaviourTests" time elapsed: 00:00:03
+----------------------------------------------------------
+
+7/9 Testing: CeilingTrackingTests
+7/9 Test: CeilingTrackingTests
+Command: "C:/Users/nkbys/Documents/Codex/2026-10-14/files-pasted-by-the-user-nkblimit/outputs/NKBLIMIT/build/CeilingTrackingTests.exe"
+Directory: C:/Users/nkbys/Documents/Codex/2026-10-14/files-pasted-by-the-user-nkblimit/outputs/NKBLIMIT/build
+"CeilingTrackingTests" start time: Oct 14 20:02 東京 (標準時)
+Output:
+----------------------------------------------------------
+PASS CeilingTracking crosscheck_cases=62 worst_steady_headroom_dB=0.0599592 worst_burst_excess_dB=0.0448816 max_vector_scalar_error=6.66134e-16
+<end of output>
+Test time =   0.96 sec
+----------------------------------------------------------
+Test Passed.
+"CeilingTrackingTests" end time: Oct 14 20:02 東京 (標準時)
+"CeilingTrackingTests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/9 Testing: ProcessorTests
+8/9 Test: ProcessorTests
+Command: "C:/Users/nkbys/Documents/Codex/2026-10-14/files-pasted-by-the-user-nkblimit/outputs/NKBLIMIT/build/ProcessorTests.exe"
+Directory: C:/Users/nkbys/Documents/Codex/2026-10-14/files-pasted-by-the-user-nkblimit/outputs/NKBLIMIT/build
+"ProcessorTests" start time: Oct 14 20:02 東京 (標準時)
+Output:
+----------------------------------------------------------
+PASS processor float/double, restore, OS latency, editor, interval peaks, final-output LUFS, meter reset
+<end of output>
+Test time =   0.76 sec
+----------------------------------------------------------
+Test Passed.
+"ProcessorTests" end time: Oct 14 20:02 東京 (標準時)
+"ProcessorTests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/9 Testing: VST3HostTests
+9/9 Test: VST3HostTests
+Command: "C:/Users/nkbys/Documents/Codex/2026-10-14/files-pasted-by-the-user-nkblimit/outputs/NKBLIMIT/build/VST3HostTests.exe" "C:/Users/nkbys/Documents/Codex/2026-10-14/files-pasted-by-the-user-nkblimit/outputs/NKBLIMIT/build/nkblimit_artefacts/Release/VST3/nkblimit.vst3/Contents/x86_64-win/../.."
+Directory: C:/Users/nkbys/Documents/Codex/2026-10-14/files-pasted-by-the-user-nkblimit/outputs/NKBLIMIT/build
+"VST3HostTests" start time: Oct 14 20:02 東京 (標準時)
+Output:
+----------------------------------------------------------
+VST3 rate=44100 double=0 latency=558 PASS
+VST3 rate=44100 double=1 latency=558 PASS
+VST3 rate=48000 double=0 latency=567 PASS
+VST3 rate=48000 double=1 latency=567 PASS
+VST3 rate=88200 double=0 latency=668 PASS
+VST3 rate=88200 double=1 latency=668 PASS
+VST3 rate=96000 double=0 latency=687 PASS
+VST3 rate=96000 double=1 latency=687 PASS
+VST3 rate=192000 double=0 latency=927 PASS
+VST3 rate=192000 double=1 latency=927 PASS
+PASS actual VST3 scan/load/process, host gestures, state, float/double, unload
+<end of output>
+Test time =   0.46 sec
+----------------------------------------------------------
+Test Passed.
+"VST3HostTests" end time: Oct 14 20:02 東京 (標準時)
+"VST3HostTests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Oct 14 20:02 東京 (標準時)

@@ -1,0 +1,23 @@
+Test project C:/Users/nkbys/Documents/Codex/2026-10-14/files-pasted-by-the-user-nkblimit/outputs/NKBLIMIT/build
+    Start 1: DSPTests
+1/9 Test #1: DSPTests .........................   Passed    6.81 sec
+    Start 2: LoudnessTests
+2/9 Test #2: LoudnessTests ....................   Passed    0.76 sec
+    Start 3: MeterBallisticsTests
+3/9 Test #3: MeterBallisticsTests .............   Passed    0.01 sec
+    Start 4: TruePeakGuardTests
+4/9 Test #4: TruePeakGuardTests ...............   Passed    7.60 sec
+    Start 5: LimiterBehaviourTests
+5/9 Test #5: LimiterBehaviourTests ............   Passed    0.79 sec
+    Start 6: PumpingBehaviourTests
+6/9 Test #6: PumpingBehaviourTests ............   Passed    3.71 sec
+    Start 7: CeilingTrackingTests
+7/9 Test #7: CeilingTrackingTests .............   Passed    0.96 sec
+    Start 8: ProcessorTests
+8/9 Test #8: ProcessorTests ...................   Passed    0.76 sec
+    Start 9: VST3HostTests
+9/9 Test #9: VST3HostTests ....................   Passed    0.46 sec
+
+100% tests passed out of 9
+
+Total Test time (real) =  22.00 sec

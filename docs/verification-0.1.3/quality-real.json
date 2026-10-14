@@ -1,0 +1,739 @@
+{
+  "method": "full VST3 latency-compensated PCM24 renders; three30s excerpts; equal ungated K-weighted mean power for temporal/spectral proxies; not integrated LUFS or a perceptual-quality score",
+  "source_sha256": "ca0f1b8f88ebb496ca1292f38af9bfb24f507c337240c51ace9811abe90a72a2",
+  "results": [
+    {
+      "frames": 1440000,
+      "sample_rate": 48000,
+      "integer_alignment_shift_samples": 0,
+      "ungated_k_weighted_lufs_equivalent": -8.393604868695371,
+      "level_match_gain_db": -6.601948508320163,
+      "sample_peak_dbfs": -0.5600001676410727,
+      "crest_factor_db": 10.783280346394495,
+      "source_crest_factor_db": 17.12660514772136,
+      "level_matched_residual_to_source_rms_db": -23.000665376802804,
+      "waveform_correlation": 0.9974915102276903,
+      "matched_10ms_rms_gain_db": {
+        "p10": -0.42296597822892873,
+        "p50": 0.2622652211667072,
+        "p90": 0.3865452661675463,
+        "p99": 0.38983328428706226
+      },
+      "10ms_log_envelope_correlation": 0.9837235395346561,
+      "matched_50ms_rms_gain_db": {
+        "p10": -0.5273942333318343,
+        "p50": 0.2194011522196304,
+        "p90": 0.38542485816745764,
+        "p99": 0.389820767187968
+      },
+      "50ms_log_envelope_correlation": 0.9835032589909883,
+      "matched_400ms_rms_gain_db": {
+        "p10": -0.18987701880098012,
+        "p50": -0.0025153476966185643,
+        "p90": 0.21496178157600773,
+        "p99": 0.38755336113354716
+      },
+      "400ms_log_envelope_correlation": 0.991138146068089,
+      "matched_band_power_change_db": {
+        "20-60Hz": -0.0421183384893844,
+        "60-120Hz": 0.0850825739832182,
+        "120-250Hz": -0.16322688256468318,
+        "250-500Hz": -0.14982734169689924,
+        "500-1000Hz": -0.03154920712802022,
+        "1000-2000Hz": 0.031733552960265525,
+        "2000-4000Hz": 0.09019850830455124,
+        "4000-8000Hz": 0.10109960887985547,
+        "8000-20000Hz": 0.15502771533452436
+      },
+      "source_selected_onset_count": 20,
+      "matched_source_selected_onset_10ms_gain_db": {
+        "p10": -2.4284756778352876,
+        "p50": -1.740394817954928,
+        "p90": -0.3753560351090011,
+        "p99": 0.3824164449899101
+      },
+      "matched_source_selected_post_onset_50ms_gain_db": {
+        "p10": -0.6796007835648346,
+        "p50": -0.07422145160052185,
+        "p90": 0.256640281788017,
+        "p99": 0.3843315456685642
+      },
+      "version": "0.1.2",
+      "gain_db": 7,
+      "source_start_seconds": 60,
+      "wav": "C:\\Users\\nkbys\\Documents\\Codex\\2026-10-14\\files-pasted-by-the-user-nkblimit\\outputs\\audio-comparison-0.1.3\\old-gain7dB-60to90sec.wav"
+    },
+    {
+      "frames": 1440000,
+      "sample_rate": 48000,
+      "integer_alignment_shift_samples": 0,
+      "ungated_k_weighted_lufs_equivalent": -8.348016684850096,
+      "level_match_gain_db": -6.64753669216544,
+      "sample_peak_dbfs": -0.5600001676410727,
+      "crest_factor_db": 10.735598058775182,
+      "source_crest_factor_db": 17.12660514772136,
+      "level_matched_residual_to_source_rms_db": -23.306456681420386,
+      "waveform_correlation": 0.9976623226002227,
+      "matched_10ms_rms_gain_db": {
+        "p10": -0.31987678660964275,
+        "p50": 0.2330802079353792,
+        "p90": 0.34133003907238635,
+        "p99": 0.3442893780891591
+      },
+      "10ms_log_envelope_correlation": 0.986206642737494,
+      "matched_50ms_rms_gain_db": {
+        "p10": -0.4225938413337906,
+        "p50": 0.1990017320073637,
+        "p90": 0.3400055392432145,
+        "p99": 0.34423258334269285
+      },
+      "50ms_log_envelope_correlation": 0.9862885696978311,
+      "matched_400ms_rms_gain_db": {
+        "p10": -0.17478303651270757,
+        "p50": 0.030013945428249096,
+        "p90": 0.186641079047571,
+        "p99": 0.34281136973248433
+      },
+      "400ms_log_envelope_correlation": 0.9924508622501724,
+      "matched_band_power_change_db": {
+        "20-60Hz": -0.023564314619863587,
+        "60-120Hz": 0.07346229980795119,
+        "120-250Hz": -0.1702979631319032,
+        "250-500Hz": -0.13937624209851612,
+        "500-1000Hz": -0.026468233028479782,
+        "1000-2000Hz": 0.027382562059925338,
+        "2000-4000Hz": 0.08203340831132651,
+        "4000-8000Hz": 0.08567415041300255,
+        "8000-20000Hz": 0.13494873084994877
+      },
+      "source_selected_onset_count": 20,
+      "matched_source_selected_onset_10ms_gain_db": {
+        "p10": -2.4429674516736313,
+        "p50": -1.7874713850725046,
+        "p90": -0.4229385211382717,
+        "p99": 0.33682826114463443
+      },
+      "matched_source_selected_post_onset_50ms_gain_db": {
+        "p10": -0.6155539993019244,
+        "p50": -0.09545821408293158,
+        "p90": 0.21105575711978145,
+        "p99": 0.33874336182328796
+      },
+      "version": "0.1.3",
+      "gain_db": 7,
+      "source_start_seconds": 60,
+      "wav": "C:\\Users\\nkbys\\Documents\\Codex\\2026-10-14\\files-pasted-by-the-user-nkblimit\\outputs\\audio-comparison-0.1.3\\updated-gain7dB-60to90sec.wav"
+    },
+    {
+      "frames": 1440000,
+      "sample_rate": 48000,
+      "integer_alignment_shift_samples": 0,
+      "ungated_k_weighted_lufs_equivalent": -6.2380735296690375,
+      "level_match_gain_db": -8.757479847346497,
+      "sample_peak_dbfs": -0.5600001676410727,
+      "crest_factor_db": 8.650573569476443,
+      "source_crest_factor_db": 17.12660514772136,
+      "level_matched_residual_to_source_rms_db": -14.131820659672247,
+      "waveform_correlation": 0.9806129026320329,
+      "matched_10ms_rms_gain_db": {
+        "p10": -1.5218002951811296,
+        "p50": -0.01606598589717636,
+        "p90": 2.632573319882247,
+        "p99": 4.811702078246654
+      },
+      "10ms_log_envelope_correlation": 0.687788790141518,
+      "matched_50ms_rms_gain_db": {
+        "p10": -1.3610165232034623,
+        "p50": -0.102173681729887,
+        "p90": 2.4548962845260105,
+        "p99": 4.250423839158619
+      },
+      "50ms_log_envelope_correlation": 0.6343742966231091,
+      "matched_400ms_rms_gain_db": {
+        "p10": -0.9315939655256196,
+        "p50": -0.12736352821639546,
+        "p90": 1.733312311160075,
+        "p99": 2.323977546862278
+      },
+      "400ms_log_envelope_correlation": 0.43092084793819774,
+      "matched_band_power_change_db": {
+        "20-60Hz": -0.3542046464207418,
+        "60-120Hz": 0.21127927668430269,
+        "120-250Hz": 0.03355686394166049,
+        "250-500Hz": -0.2548773502670779,
+        "500-1000Hz": -0.47620680876341615,
+        "1000-2000Hz": -0.19459329513064147,
+        "2000-4000Hz": 0.25134378589034634,
+        "4000-8000Hz": 0.39237465967220797,
+        "8000-20000Hz": 0.6771139414706696
+      },
+      "source_selected_onset_count": 20,
+      "matched_source_selected_onset_10ms_gain_db": {
+        "p10": -3.557577474392607,
+        "p50": -2.5091928043624483,
+        "p90": -0.3795646616714413,
+        "p99": 2.3690691325962154
+      },
+      "matched_source_selected_post_onset_50ms_gain_db": {
+        "p10": -1.8845719407583186,
+        "p50": 0.8449985196869454,
+        "p90": 2.1999330115089566,
+        "p99": 3.7830766922541996
+      },
+      "version": "0.1.2",
+      "gain_db": 16,
+      "source_start_seconds": 60,
+      "wav": "C:\\Users\\nkbys\\Documents\\Codex\\2026-10-14\\files-pasted-by-the-user-nkblimit\\outputs\\audio-comparison-0.1.3\\old-gain16dB-60to90sec.wav"
+    },
+    {
+      "frames": 1440000,
+      "sample_rate": 48000,
+      "integer_alignment_shift_samples": 0,
+      "ungated_k_weighted_lufs_equivalent": -6.2231573996947755,
+      "level_match_gain_db": -8.772395977320757,
+      "sample_peak_dbfs": -0.5600001676410727,
+      "crest_factor_db": 8.6250259674971,
+      "source_crest_factor_db": 17.12660514772136,
+      "level_matched_residual_to_source_rms_db": -14.491702510259731,
+      "waveform_correlation": 0.982172562974813,
+      "matched_10ms_rms_gain_db": {
+        "p10": -1.3543398147678503,
+        "p50": 0.0038875726501507927,
+        "p90": 2.5047108277743355,
+        "p99": 4.533409959558237
+      },
+      "10ms_log_envelope_correlation": 0.7379228397749228,
+      "matched_50ms_rms_gain_db": {
+        "p10": -1.2422845672852856,
+        "p50": -0.10598530586956076,
+        "p90": 2.2940310723233606,
+        "p99": 4.042642050441099
+      },
+      "50ms_log_envelope_correlation": 0.697000771313373,
+      "matched_400ms_rms_gain_db": {
+        "p10": -0.910022446354957,
+        "p50": -0.18231769811630405,
+        "p90": 1.7124679100047324,
+        "p99": 2.3416723754323043
+      },
+      "400ms_log_envelope_correlation": 0.4396335110734281,
+      "matched_band_power_change_db": {
+        "20-60Hz": -0.18697649258007087,
+        "60-120Hz": 0.18493808402361545,
+        "120-250Hz": 0.034730329653196355,
+        "250-500Hz": -0.2456026580327962,
+        "500-1000Hz": -0.43392458339039625,
+        "1000-2000Hz": -0.19403359216648733,
+        "2000-4000Hz": 0.22134519674164765,
+        "4000-8000Hz": 0.3603938936953232,
+        "8000-20000Hz": 0.5945326303191372
+      },
+      "source_selected_onset_count": 20,
+      "matched_source_selected_onset_10ms_gain_db": {
+        "p10": -3.6124162257180683,
+        "p50": -2.5182396829515667,
+        "p90": -0.8860677069990903,
+        "p99": 2.364624310303968
+      },
+      "matched_source_selected_post_onset_50ms_gain_db": {
+        "p10": -1.363900747202872,
+        "p50": 0.8503110784708638,
+        "p90": 2.2783915213679395,
+        "p99": 4.032826371906117
+      },
+      "version": "0.1.3",
+      "gain_db": 16,
+      "source_start_seconds": 60,
+      "wav": "C:\\Users\\nkbys\\Documents\\Codex\\2026-10-14\\files-pasted-by-the-user-nkblimit\\outputs\\audio-comparison-0.1.3\\updated-gain16dB-60to90sec.wav"
+    },
+    {
+      "frames": 1440000,
+      "sample_rate": 48000,
+      "integer_alignment_shift_samples": 0,
+      "ungated_k_weighted_lufs_equivalent": -8.762181282417183,
+      "level_match_gain_db": -6.601802538350031,
+      "sample_peak_dbfs": -0.5600001676410727,
+      "crest_factor_db": 11.09058109748088,
+      "source_crest_factor_db": 17.583959406886606,
+      "level_matched_residual_to_source_rms_db": -22.584244117662283,
+      "waveform_correlation": 0.9972392297079709,
+      "matched_10ms_rms_gain_db": {
+        "p10": -0.36435355452824386,
+        "p50": 0.28990845929601566,
+        "p90": 0.38658765651640276,
+        "p99": 0.3899686549753106
+      },
+      "10ms_log_envelope_correlation": 0.9881698014375426,
+      "matched_50ms_rms_gain_db": {
+        "p10": -0.5081473361907827,
+        "p50": 0.2512144738643408,
+        "p90": 0.38571093839228904,
+        "p99": 0.3898897411642696
+      },
+      "50ms_log_envelope_correlation": 0.9877230658021684,
+      "matched_400ms_rms_gain_db": {
+        "p10": -0.2833909509253139,
+        "p50": 0.07008141983354552,
+        "p90": 0.2608405469404092,
+        "p99": 0.3816269185305571
+      },
+      "400ms_log_envelope_correlation": 0.9918852749757604,
+      "matched_band_power_change_db": {
+        "20-60Hz": 0.023305958191896896,
+        "60-120Hz": 0.08231570619060047,
+        "120-250Hz": -0.10648917802571366,
+        "250-500Hz": -0.10757181961094425,
+        "500-1000Hz": -0.02115774172203508,
+        "1000-2000Hz": 0.051794652704725004,
+        "2000-4000Hz": 0.10546857396394287,
+        "4000-8000Hz": 0.08362920613562547,
+        "8000-20000Hz": 0.1634523557190386
+      },
+      "source_selected_onset_count": 20,
+      "matched_source_selected_onset_10ms_gain_db": {
+        "p10": -2.92366497305923,
+        "p50": -1.5949315024725959,
+        "p90": 0.38269082998404763,
+        "p99": 0.38887817216427295
+      },
+      "matched_source_selected_post_onset_50ms_gain_db": {
+        "p10": -0.46028058455262943,
+        "p50": -0.10510265502090937,
+        "p90": 0.3855350936300164,
+        "p99": 0.3891460382555946
+      },
+      "version": "0.1.2",
+      "gain_db": 7,
+      "source_start_seconds": 120,
+      "wav": "C:\\Users\\nkbys\\Documents\\Codex\\2026-10-14\\files-pasted-by-the-user-nkblimit\\outputs\\audio-comparison-0.1.3\\old-gain7dB-120to150sec.wav"
+    },
+    {
+      "frames": 1440000,
+      "sample_rate": 48000,
+      "integer_alignment_shift_samples": 0,
+      "ungated_k_weighted_lufs_equivalent": -8.709211835865954,
+      "level_match_gain_db": -6.654771984901261,
+      "sample_peak_dbfs": -0.5600001676410727,
+      "crest_factor_db": 11.037152350300834,
+      "source_crest_factor_db": 17.583959406886606,
+      "level_matched_residual_to_source_rms_db": -22.8053220389045,
+      "waveform_correlation": 0.9973763677333977,
+      "matched_10ms_rms_gain_db": {
+        "p10": -0.28621255829656234,
+        "p50": 0.26606980967352223,
+        "p90": 0.33434917763059435,
+        "p99": 0.33701958423077916
+      },
+      "10ms_log_envelope_correlation": 0.9895045027360797,
+      "matched_50ms_rms_gain_db": {
+        "p10": -0.4687059813988642,
+        "p50": 0.23988644987074023,
+        "p90": 0.3336232593869515,
+        "p99": 0.33692329517661523
+      },
+      "50ms_log_envelope_correlation": 0.9892345203513975,
+      "matched_400ms_rms_gain_db": {
+        "p10": -0.25123266028927577,
+        "p50": 0.04949686794665197,
+        "p90": 0.253361265993557,
+        "p99": 0.3288625491149845
+      },
+      "400ms_log_envelope_correlation": 0.9926646835841593,
+      "matched_band_power_change_db": {
+        "20-60Hz": 0.03385376885202522,
+        "60-120Hz": 0.07071002919964091,
+        "120-250Hz": -0.12360015590830802,
+        "250-500Hz": -0.10292585022665643,
+        "500-1000Hz": -0.01862846970535044,
+        "1000-2000Hz": 0.05110304378919587,
+        "2000-4000Hz": 0.10456302515598226,
+        "4000-8000Hz": 0.06587021171042312,
+        "8000-20000Hz": 0.14260611890292937
+      },
+      "source_selected_onset_count": 20,
+      "matched_source_selected_onset_10ms_gain_db": {
+        "p10": -2.964560028010926,
+        "p50": -1.657627204539816,
+        "p90": 0.32819760484641836,
+        "p99": 0.33541790725240145
+      },
+      "matched_source_selected_post_onset_50ms_gain_db": {
+        "p10": -0.3454731713006434,
+        "p50": -0.1253505590493516,
+        "p90": 0.33257220072924504,
+        "p99": 0.3361890436402382
+      },
+      "version": "0.1.3",
+      "gain_db": 7,
+      "source_start_seconds": 120,
+      "wav": "C:\\Users\\nkbys\\Documents\\Codex\\2026-10-14\\files-pasted-by-the-user-nkblimit\\outputs\\audio-comparison-0.1.3\\updated-gain7dB-120to150sec.wav"
+    },
+    {
+      "frames": 1440000,
+      "sample_rate": 48000,
+      "integer_alignment_shift_samples": 0,
+      "ungated_k_weighted_lufs_equivalent": -6.306106641390941,
+      "level_match_gain_db": -9.057877179376273,
+      "sample_peak_dbfs": -0.5600001676410727,
+      "crest_factor_db": 8.664415126129613,
+      "source_crest_factor_db": 17.583959406886606,
+      "level_matched_residual_to_source_rms_db": -13.074722935090897,
+      "waveform_correlation": 0.97525722800237,
+      "matched_10ms_rms_gain_db": {
+        "p10": -1.7570263486717443,
+        "p50": 0.16731271315579405,
+        "p90": 3.065734946930264,
+        "p99": 5.767117385315124
+      },
+      "10ms_log_envelope_correlation": 0.701053814284999,
+      "matched_50ms_rms_gain_db": {
+        "p10": -1.5494103665479668,
+        "p50": 0.01640326301430382,
+        "p90": 2.8409610086092907,
+        "p99": 5.312815284686473
+      },
+      "50ms_log_envelope_correlation": 0.6447397421745811,
+      "matched_400ms_rms_gain_db": {
+        "p10": -1.213529704881668,
+        "p50": -0.0660475467596862,
+        "p90": 1.8286263456044687,
+        "p99": 2.656167089121015
+      },
+      "400ms_log_envelope_correlation": 0.4068973167401693,
+      "matched_band_power_change_db": {
+        "20-60Hz": -0.06640587440760294,
+        "60-120Hz": 0.18138471360980146,
+        "120-250Hz": 0.38395399777894246,
+        "250-500Hz": 0.06438672205839231,
+        "500-1000Hz": -0.5777038044670801,
+        "1000-2000Hz": -0.08071111533229255,
+        "2000-4000Hz": 0.484602840729653,
+        "4000-8000Hz": 0.3293472913084225,
+        "8000-20000Hz": 0.8767990239155411
+      },
+      "source_selected_onset_count": 20,
+      "matched_source_selected_onset_10ms_gain_db": {
+        "p10": -3.6737375170810793,
+        "p50": -2.1658988920534394,
+        "p90": 0.7205864528049852,
+        "p99": 2.307444944850275
+      },
+      "matched_source_selected_post_onset_50ms_gain_db": {
+        "p10": -1.4892588430460167,
+        "p50": 0.49440405029227685,
+        "p90": 1.9842568830331693,
+        "p99": 2.3743876817666227
+      },
+      "version": "0.1.2",
+      "gain_db": 16,
+      "source_start_seconds": 120,
+      "wav": "C:\\Users\\nkbys\\Documents\\Codex\\2026-10-14\\files-pasted-by-the-user-nkblimit\\outputs\\audio-comparison-0.1.3\\old-gain16dB-120to150sec.wav"
+    },
+    {
+      "frames": 1440000,
+      "sample_rate": 48000,
+      "integer_alignment_shift_samples": 0,
+      "ungated_k_weighted_lufs_equivalent": -6.257730579175098,
+      "level_match_gain_db": -9.106253241592116,
+      "sample_peak_dbfs": -0.5600001676410727,
+      "crest_factor_db": 8.607417888500159,
+      "source_crest_factor_db": 17.583959406886606,
+      "level_matched_residual_to_source_rms_db": -13.41000411571475,
+      "waveform_correlation": 0.9771147257958078,
+      "matched_10ms_rms_gain_db": {
+        "p10": -1.595825847735895,
+        "p50": 0.18521568405380712,
+        "p90": 2.902801720674695,
+        "p99": 5.3771542124736325
+      },
+      "10ms_log_envelope_correlation": 0.7447948548026209,
+      "matched_50ms_rms_gain_db": {
+        "p10": -1.4895055372366224,
+        "p50": 0.026870198709698728,
+        "p90": 2.6375623869204374,
+        "p99": 4.866042103919097
+      },
+      "50ms_log_envelope_correlation": 0.6983842440684594,
+      "matched_400ms_rms_gain_db": {
+        "p10": -1.2006237559028865,
+        "p50": -0.06804178829135428,
+        "p90": 1.8260664619962956,
+        "p99": 2.810471564140966
+      },
+      "400ms_log_envelope_correlation": 0.3979054671827589,
+      "matched_band_power_change_db": {
+        "20-60Hz": 0.09848926444531422,
+        "60-120Hz": 0.16158895939763843,
+        "120-250Hz": 0.34495246697896725,
+        "250-500Hz": 0.04008821900249146,
+        "500-1000Hz": -0.5760456323727087,
+        "1000-2000Hz": -0.09412430070902605,
+        "2000-4000Hz": 0.4623825100969406,
+        "4000-8000Hz": 0.2921527989879837,
+        "8000-20000Hz": 0.924900225981876
+      },
+      "source_selected_onset_count": 20,
+      "matched_source_selected_onset_10ms_gain_db": {
+        "p10": -3.7337404696843137,
+        "p50": -2.215812039378614,
+        "p90": 0.6504602133390016,
+        "p99": 2.254541953114468
+      },
+      "matched_source_selected_post_onset_50ms_gain_db": {
+        "p10": -1.2265692231104999,
+        "p50": 0.48247215561069606,
+        "p90": 1.935703275456707,
+        "p99": 2.32582947268015
+      },
+      "version": "0.1.3",
+      "gain_db": 16,
+      "source_start_seconds": 120,
+      "wav": "C:\\Users\\nkbys\\Documents\\Codex\\2026-10-14\\files-pasted-by-the-user-nkblimit\\outputs\\audio-comparison-0.1.3\\updated-gain16dB-120to150sec.wav"
+    },
+    {
+      "frames": 1440000,
+      "sample_rate": 48000,
+      "integer_alignment_shift_samples": 0,
+      "ungated_k_weighted_lufs_equivalent": -7.736124732589264,
+      "level_match_gain_db": -6.462067847158842,
+      "sample_peak_dbfs": -0.5600001676410727,
+      "crest_factor_db": 10.289530064485994,
+      "source_crest_factor_db": 16.964086280127677,
+      "level_matched_residual_to_source_rms_db": -22.304316179447525,
+      "waveform_correlation": 0.9970550579333634,
+      "matched_10ms_rms_gain_db": {
+        "p10": -0.5270210803743041,
+        "p50": 0.24489934515238826,
+        "p90": 0.5199064424228687,
+        "p99": 0.528903406544642
+      },
+      "10ms_log_envelope_correlation": 0.9762523215978663,
+      "matched_50ms_rms_gain_db": {
+        "p10": -0.6007853918130631,
+        "p50": 0.17709802001724917,
+        "p90": 0.516486043762842,
+        "p99": 0.5285073519214248
+      },
+      "50ms_log_envelope_correlation": 0.9767741476141791,
+      "matched_400ms_rms_gain_db": {
+        "p10": -0.2768011861794169,
+        "p50": 0.015868440168595576,
+        "p90": 0.343751014354835,
+        "p99": 0.47665310063128424
+      },
+      "400ms_log_envelope_correlation": 0.9843758446794219,
+      "matched_band_power_change_db": {
+        "20-60Hz": -0.2696670732342419,
+        "60-120Hz": 0.05017351632555528,
+        "120-250Hz": -0.19490259892454764,
+        "250-500Hz": -0.12941756171037927,
+        "500-1000Hz": -0.02859956611625841,
+        "1000-2000Hz": -0.08930686179551076,
+        "2000-4000Hz": 0.06183166144321541,
+        "4000-8000Hz": 0.02316455959287884,
+        "8000-20000Hz": 0.19759201980527594
+      },
+      "source_selected_onset_count": 20,
+      "matched_source_selected_onset_10ms_gain_db": {
+        "p10": -2.9334033184461785,
+        "p50": -1.7613995516771117,
+        "p90": 0.37117970666583533,
+        "p99": 0.5110829647848005
+      },
+      "matched_source_selected_post_onset_50ms_gain_db": {
+        "p10": -0.6271356882646503,
+        "p50": -0.08367169058403198,
+        "p90": 0.3481574159419387,
+        "p99": 0.5143668006611881
+      },
+      "version": "0.1.2",
+      "gain_db": 7,
+      "source_start_seconds": 190,
+      "wav": "C:\\Users\\nkbys\\Documents\\Codex\\2026-10-14\\files-pasted-by-the-user-nkblimit\\outputs\\audio-comparison-0.1.3\\old-gain7dB-30sec.wav"
+    },
+    {
+      "frames": 1440000,
+      "sample_rate": 48000,
+      "integer_alignment_shift_samples": 0,
+      "ungated_k_weighted_lufs_equivalent": -7.692570413437874,
+      "level_match_gain_db": -6.505622166310231,
+      "sample_peak_dbfs": -0.5600001676410727,
+      "crest_factor_db": 10.243824375745287,
+      "source_crest_factor_db": 16.964086280127677,
+      "level_matched_residual_to_source_rms_db": -22.607863722286325,
+      "waveform_correlation": 0.9972542422749539,
+      "matched_10ms_rms_gain_db": {
+        "p10": -0.4219312367486093,
+        "p50": 0.22122710780950103,
+        "p90": 0.4772780579669584,
+        "p99": 0.4857367006001177
+      },
+      "10ms_log_envelope_correlation": 0.9795005825690832,
+      "matched_50ms_rms_gain_db": {
+        "p10": -0.49760611537646615,
+        "p50": 0.16253942513036684,
+        "p90": 0.47288873972282597,
+        "p99": 0.4853103338316229
+      },
+      "50ms_log_envelope_correlation": 0.9802057884550242,
+      "matched_400ms_rms_gain_db": {
+        "p10": -0.28972001584555385,
+        "p50": 0.05890081579944097,
+        "p90": 0.31279009583624207,
+        "p99": 0.43806896102020787
+      },
+      "400ms_log_envelope_correlation": 0.9851868675674559,
+      "matched_band_power_change_db": {
+        "20-60Hz": -0.2050477718563745,
+        "60-120Hz": 0.05344970612064173,
+        "120-250Hz": -0.2019750411596435,
+        "250-500Hz": -0.12085139172986367,
+        "500-1000Hz": -0.012111709906068378,
+        "1000-2000Hz": -0.0788161611664093,
+        "2000-4000Hz": 0.06316808474520182,
+        "4000-8000Hz": 0.03289967483214439,
+        "8000-20000Hz": 0.19572693355090287
+      },
+      "source_selected_onset_count": 20,
+      "matched_source_selected_onset_10ms_gain_db": {
+        "p10": -2.967549362397466,
+        "p50": -1.82629405829192,
+        "p90": 0.3282900322246887,
+        "p99": 0.4677879802336522
+      },
+      "matched_source_selected_post_onset_50ms_gain_db": {
+        "p10": -0.46142906604737294,
+        "p50": -0.0111156252242029,
+        "p90": 0.3058539834923025,
+        "p99": 0.4727472329329931
+      },
+      "version": "0.1.3",
+      "gain_db": 7,
+      "source_start_seconds": 190,
+      "wav": "C:\\Users\\nkbys\\Documents\\Codex\\2026-10-14\\files-pasted-by-the-user-nkblimit\\outputs\\audio-comparison-0.1.3\\updated-gain7dB-30sec.wav"
+    },
+    {
+      "frames": 1440000,
+      "sample_rate": 48000,
+      "integer_alignment_shift_samples": 0,
+      "ungated_k_weighted_lufs_equivalent": -6.038675634724068,
+      "level_match_gain_db": -8.159516945024038,
+      "sample_peak_dbfs": -0.5600001676410727,
+      "crest_factor_db": 8.611609874597562,
+      "source_crest_factor_db": 16.964086280127677,
+      "level_matched_residual_to_source_rms_db": -14.649300029188392,
+      "waveform_correlation": 0.9827978573481524,
+      "matched_10ms_rms_gain_db": {
+        "p10": -1.4022366168129325,
+        "p50": -0.04181147878525654,
+        "p90": 2.674448544679396,
+        "p99": 4.663408790925754
+      },
+      "10ms_log_envelope_correlation": 0.6881754189996372,
+      "matched_50ms_rms_gain_db": {
+        "p10": -1.2641942151711505,
+        "p50": -0.10213472227999248,
+        "p90": 2.52413303217072,
+        "p99": 4.05958666189894
+      },
+      "50ms_log_envelope_correlation": 0.6571779866880639,
+      "matched_400ms_rms_gain_db": {
+        "p10": -0.9227902361866653,
+        "p50": -0.12228497451562703,
+        "p90": 1.4378911748219034,
+        "p99": 2.5603322273314566
+      },
+      "400ms_log_envelope_correlation": 0.5755046308707903,
+      "matched_band_power_change_db": {
+        "20-60Hz": -0.6939055020913925,
+        "60-120Hz": 0.2677890866910276,
+        "120-250Hz": 0.06562831336024949,
+        "250-500Hz": -0.0407013823005993,
+        "500-1000Hz": -0.38143091519168437,
+        "1000-2000Hz": -0.3002608975179228,
+        "2000-4000Hz": 0.28570490527314596,
+        "4000-8000Hz": 0.15123420948606883,
+        "8000-20000Hz": 0.7434888231624439
+      },
+      "source_selected_onset_count": 20,
+      "matched_source_selected_onset_10ms_gain_db": {
+        "p10": -3.1417602738954735,
+        "p50": -1.8381109145830101,
+        "p90": 0.10620461938493934,
+        "p99": 3.792115541410243
+      },
+      "matched_source_selected_post_onset_50ms_gain_db": {
+        "p10": -1.0403307413157235,
+        "p50": -0.022256563460813825,
+        "p90": 2.2803632585368567,
+        "p99": 3.3754799644634113
+      },
+      "version": "0.1.2",
+      "gain_db": 16,
+      "source_start_seconds": 190,
+      "wav": "C:\\Users\\nkbys\\Documents\\Codex\\2026-10-14\\files-pasted-by-the-user-nkblimit\\outputs\\audio-comparison-0.1.3\\old-gain16dB-30sec.wav"
+    },
+    {
+      "frames": 1440000,
+      "sample_rate": 48000,
+      "integer_alignment_shift_samples": 0,
+      "ungated_k_weighted_lufs_equivalent": -6.026384398111536,
+      "level_match_gain_db": -8.17180818163657,
+      "sample_peak_dbfs": -0.5600001676410727,
+      "crest_factor_db": 8.590950457746057,
+      "source_crest_factor_db": 16.964086280127677,
+      "level_matched_residual_to_source_rms_db": -15.083566926480046,
+      "waveform_correlation": 0.9844471134373931,
+      "matched_10ms_rms_gain_db": {
+        "p10": -1.2138387530782182,
+        "p50": -0.046510133715545035,
+        "p90": 2.4348744799702913,
+        "p99": 4.272521921549293
+      },
+      "10ms_log_envelope_correlation": 0.7451129006982334,
+      "matched_50ms_rms_gain_db": {
+        "p10": -1.195065042680088,
+        "p50": -0.1306047714264582,
+        "p90": 2.21280505910939,
+        "p99": 3.7675004385678563
+      },
+      "50ms_log_envelope_correlation": 0.7224622644795167,
+      "matched_400ms_rms_gain_db": {
+        "p10": -0.9191103082324703,
+        "p50": -0.12395392795352306,
+        "p90": 1.3824495718076841,
+        "p99": 2.5426034704658598
+      },
+      "400ms_log_envelope_correlation": 0.5916330272698807,
+      "matched_band_power_change_db": {
+        "20-60Hz": -0.5241075401950545,
+        "60-120Hz": 0.23999117986919813,
+        "120-250Hz": 0.04179362502033673,
+        "250-500Hz": -0.005892322135903275,
+        "500-1000Hz": -0.32958108103136435,
+        "1000-2000Hz": -0.2759116725848902,
+        "2000-4000Hz": 0.2650904496605062,
+        "4000-8000Hz": 0.14790357495667522,
+        "8000-20000Hz": 0.695026679240986
+      },
+      "source_selected_onset_count": 20,
+      "matched_source_selected_onset_10ms_gain_db": {
+        "p10": -3.1543413947318526,
+        "p50": -2.0068832089450344,
+        "p90": 0.22211191116296564,
+        "p99": 3.6799845821372603
+      },
+      "matched_source_selected_post_onset_50ms_gain_db": {
+        "p10": -0.8028722500933938,
+        "p50": 0.2961887776819976,
+        "p90": 2.7322929405508423,
+        "p99": 3.4482402733923636
+      },
+      "version": "0.1.3",
+      "gain_db": 16,
+      "source_start_seconds": 190,
+      "wav": "C:\\Users\\nkbys\\Documents\\Codex\\2026-10-14\\files-pasted-by-the-user-nkblimit\\outputs\\audio-comparison-0.1.3\\updated-gain16dB-30sec.wav"
+    }
+  ],
+  "sources_unchanged": true
+}

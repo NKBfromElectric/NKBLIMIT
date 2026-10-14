@@ -14,6 +14,7 @@ inline int compareRealAudio(const juce::String& oldBundle,const juce::String& ne
     const auto driveText=juce::SystemStats::getEnvironmentVariable("NKBLIMIT_TEST_DRIVES","16,24");
     const auto limitText=juce::SystemStats::getEnvironmentVariable("NKBLIMIT_TEST_LENGTH_SECONDS",{});
     const auto precisionText=juce::SystemStats::getEnvironmentVariable("NKBLIMIT_TEST_PRECISION","double");
+    const auto extraStartText=juce::SystemStats::getEnvironmentVariable("NKBLIMIT_TEST_EXTRA_STARTS",{});
     juce::WavAudioFormat wave;
     auto sourceStream=juce::File(audioPath).createInputStream();
     if(!sourceStream) throw std::runtime_error("could not read test audio");
@@ -26,6 +27,12 @@ inline int compareRealAudio(const juce::String& oldBundle,const juce::String& ne
     juce::AudioBuffer<float> source(2,length); reader->read(&source,0,length,0,true,true);
     const int excerptStart=std::clamp(int(startText.getDoubleValue()*rate),0,std::max(0,length-int(30*rate)));
     const int excerptLength=std::min(int(30*rate),length-excerptStart);
+    std::vector<int> excerptStarts {excerptStart};
+    for (const auto& value : juce::StringArray::fromTokens(extraStartText,",",{})) {
+        if (value.trim().isEmpty()) continue;
+        const int extra=std::clamp(int(value.getDoubleValue()*rate),0,std::max(0,length-int(30*rate)));
+        if (std::find(excerptStarts.begin(),excerptStarts.end(),extra)==excerptStarts.end()) excerptStarts.push_back(extra);
+    }
     std::cout << "real_audio seconds=" << length/rate << " rate=" << rate
               << " excerpt_start=" << excerptStart/rate << " excerpt_seconds=" << excerptLength/rate << '\n' << std::flush;
     juce::AudioPluginFormatManager manager; manager.addFormat(std::make_unique<juce::VST3PluginFormatHeadless>());
@@ -108,7 +115,10 @@ inline int compareRealAudio(const juce::String& oldBundle,const juce::String& ne
             const auto folder=juce::File(renderDirectory); folder.createDirectory();
             const auto driveName=drive==std::floor(drive) ? juce::String(int(drive))
                 : juce::String(drive,1).replaceCharacter('.','p');
-            auto file=folder.getChildFile(juce::String(ozone ? "ozone" : label)+"-gain"+driveName+"dB-30sec.wav");
+            for (const auto start : excerptStarts) {
+            const auto suffix=start==excerptStart ? juce::String("30sec")
+                : juce::String(start/rate,0)+"to"+juce::String((start+excerptLength)/rate,0)+"sec";
+            auto file=folder.getChildFile(juce::String(ozone ? "ozone" : label)+"-gain"+driveName+"dB-"+suffix+".wav");
             file.deleteFile(); std::unique_ptr<juce::OutputStream> stream=file.createOutputStream();
             if(!stream) throw std::runtime_error("excerpt output stream failed");
             auto writer=wave.createWriterFor(stream,juce::AudioFormatWriterOptions()
@@ -116,10 +126,11 @@ inline int compareRealAudio(const juce::String& oldBundle,const juce::String& ne
             if(!writer) throw std::runtime_error("excerpt WAV writer failed");
             juce::AudioBuffer<float> excerpt(2,excerptLength);
             for(int i=0;i<excerptLength;++i) {
-                excerpt.setSample(0,i,float(left[std::size_t(excerptStart+latency+i)]));
-                excerpt.setSample(1,i,float(right[std::size_t(excerptStart+latency+i)]));
+                excerpt.setSample(0,i,float(left[std::size_t(start+latency+i)]));
+                excerpt.setSample(1,i,float(right[std::size_t(start+latency+i)]));
             }
             if(!writer->writeFromAudioSampleBuffer(excerpt,0,excerptLength)) throw std::runtime_error("excerpt write failed");
+            }
         }
         std::sort(levels.begin(),levels.end());
         const double median=levels[levels.size()/2];

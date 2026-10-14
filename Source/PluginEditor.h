@@ -7,7 +7,10 @@
 class NkblimitLookAndFeel final : public juce::LookAndFeel_V4 {
 public:
     NkblimitLookAndFeel();
-    void drawRotarySlider(juce::Graphics&, int, int, int, int, float, float, float, juce::Slider&) override;
+    void drawLinearSlider(juce::Graphics&, int, int, int, int, float, float, float,
+                          juce::Slider::SliderStyle, juce::Slider&) override;
+    juce::Slider::SliderLayout getSliderLayout(juce::Slider&) override;
+    juce::Label* createSliderTextBox(juce::Slider&) override;
 };
 
 class NkblimitEditor final : public juce::AudioProcessorEditor, private juce::Timer {
@@ -21,18 +24,22 @@ private:
     void consumeMeasurements();
     void resetDisplays();
     void updateNumbers();
+    void syncThreshold();
+    void thresholdChanged();
     void resetParameter(const char*, float);
     void drawLevelMeter(juce::Graphics&, juce::Rectangle<float>, float, float, juce::Colour);
     void drawReadout(juce::Graphics&, juce::Rectangle<int>, const juce::String&, const juce::String&,
                      const juce::String&, const juce::String&, juce::Colour);
     NkblimitProcessor& processor;
     NkblimitLookAndFeel lookAndFeel;
-    juce::Slider input, ceiling;
+    juce::Slider threshold, ceiling;
     juce::ComboBox oversampling;
-    juce::TextButton resetInput {"Reset gain"}, resetCeiling {"Reset ceiling"};
+    juce::TextButton resetThreshold {"Reset"}, resetCeiling {"Reset"};
     juce::TooltipWindow tooltips {this, 700};
-    std::unique_ptr<juce::AudioProcessorValueTreeState::SliderAttachment> inputAttachment, ceilingAttachment;
+    std::unique_ptr<juce::ParameterAttachment> thresholdAttachment;
+    std::unique_ptr<juce::AudioProcessorValueTreeState::SliderAttachment> ceilingAttachment;
     std::unique_ptr<juce::AudioProcessorValueTreeState::ComboBoxAttachment> osAttachment;
+    bool syncingThreshold = false, thresholdGestureActive = false;
 
     nkb::MeterBallistics inputBar {-240.0f, 0.0, 24.0f};
     nkb::MeterBallistics outputBar {-240.0f, 0.0, 24.0f};

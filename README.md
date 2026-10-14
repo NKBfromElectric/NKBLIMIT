@@ -1,7 +1,7 @@
 # nkblimit
 
 C++20 / JUCE 8 stereo mastering limiter foundation for Windows x64 VST3.
-**Development build, version 0.1.2. This is not a production mastering release.**
+**Development build, version 0.1.3. This is not a production mastering release.**
 
 Implemented: real audio processing in float/double, Input Gain (-12..24 dB), Output
 Ceiling (-3..0 dBTP), Transparent predictive lookahead limiter, separate peak/sustained
@@ -16,19 +16,23 @@ reconstruction stages. The second measures the first stage's actual gain-modulat
 output. Their small 0.02/0.06 dB reserves were selected by independent reconstruction
 tests; they are not a meter offset or an unconditional 0.08 dB output attenuation.
 The main limiter also recovers transient-only reduction sooner while retaining a
-longer release for low-crest tonal signals. See the [current validation](docs/validation-0.1.2.md),
+longer release for low-crest tonal signals. Version 0.1.3 uses a 50 ms energy
+detector to reduce rapid gain variation, while keeping the release endpoints,
+lookahead and two-stage true-peak guard. Some periodic heavy-limiting cases recover
+more slowly; this does not eliminate pumping at every time scale.
+See the [current validation](docs/validation-0.1.3.md),
 [envelope design](docs/envelope-revision.md), and [ceiling tracking](docs/ceiling-tracking.md).
 A direct public-VST3 comparison with the pictured Ozone 9 Elements settings is
 recorded in the validation report. Independent conformance testing remains
 separate work. Ozone-equivalent sound or performance is not established.
 
 The approved 238.67 s stereo music file, processed through the complete VST3 at 8x
-and a -0.5 dBTP ceiling, measured:
+and a -0.5 dBTP ceiling, measured for 0.1.2 and 0.1.3:
 
-| Input gain | 0.1.1 median LUFS-S | 0.1.2 median LUFS-S | 0.1.2 independent True Peak |
+| Input gain | 0.1.2 median LUFS-S | 0.1.3 median LUFS-S | 0.1.3 independent True Peak |
 | --- | ---: | ---: | ---: |
-| +16 dB | -8.410 | -6.270 | -0.546 dBTP |
-| +24 dB | -8.558 | -6.169 | -0.542 dBTP |
+| +7 dB | -8.862 | -8.804 | -0.551 dBTP |
+| +16 dB | -6.270 | -6.247 | -0.546 dBTP |
 
 These are complete 3 s short-term-window statistics, not Integrated LUFS. The finite
 test corpus does not prove a universal true-peak bound or subjective transparency.
@@ -60,7 +64,7 @@ ctest --test-dir build-vs -C Release --output-on-failure
 ```
 
 For VS2026 use its corresponding generator. The development machine uses VS2026
-Insiders, MSVC 19.51, SDK 10.0.26100.0. See docs/validation-0.1.2.md for actual results.
+Insiders, MSVC 19.51, SDK 10.0.26100.0. See docs/validation-0.1.3.md for actual results.
 
 Output: `build/nkblimit_artefacts/Release/VST3/nkblimit.vst3` (a directory bundle).
 Copy the entire bundle to a user-selected VST3 location and rescan in Cubase.
@@ -75,8 +79,14 @@ The full local repository already contains the JUCE checkout for offline builds.
 
 ## Controls and measurement
 
-Drag knobs; Shift enables fine adjustment. Double-click the numeric field to type
-an exact value. Separate reset buttons restore defaults. OS selection crossfades
+The editor displays **NKB LIMIT** and vertical Threshold/Ceiling faders. Lowering
+Threshold raises loudness; Shift enables fine adjustment. Edit a numeric field
+for an exact value. Separate reset buttons restore defaults. Threshold is the
+existing input-gain control shown as `ceiling - inputGain`; at Ceiling -0.5,
+Threshold -7.5 means Input Gain +7 dB. Changing Ceiling preserves input gain and
+updates the derived Threshold display. Existing host parameter IDs, names and
+saved state are preserved. See [UI mapping](docs/ui-threshold-design.md).
+OS selection crossfades
 between prepared, latency-aligned paths. True Peak safety is always enabled.
 Ceiling/Input automation is smoothed over a 20 ms exponential time constant; a new
 ceiling is not an instantaneous hard step. Wait at least 200 ms before assessing

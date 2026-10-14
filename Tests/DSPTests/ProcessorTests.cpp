@@ -4,9 +4,75 @@
 #include <cmath>
 #include <complex>
 void check(bool x,const char* description) { if (!x) throw std::runtime_error(description); }
+namespace {
+struct ParameterEvents final : juce::AudioProcessorParameter::Listener {
+    void parameterValueChanged(int, float) override { ++changes; }
+    void parameterGestureChanged(int, bool starting) override { starting ? ++begins : ++ends; }
+    int changes = 0, begins = 0, ends = 0;
+};
+void checkThresholdControls() {
+    // Exercise the UI transform against the actual legacy parameter state.
+    // Existing hosts still store/automate inputGain; the UI must neither
+    // invert old sessions nor alter it while synchronising Ceiling.
+    NkblimitProcessor processor;
+    auto* gain = processor.state.getParameter("inputGain");
+    auto* ceiling = processor.state.getParameter("ceiling");
+    std::unique_ptr<juce::AudioProcessorEditor> editor(processor.createEditor());
+    juce::Slider* thresholdSlider = nullptr;
+    juce::Slider* ceilingSlider = nullptr;
+    for (int i=0; i<editor->getNumChildComponents(); ++i) {
+        if (auto* slider = dynamic_cast<juce::Slider*>(editor->getChildComponent(i))) {
+            if (slider->getName().equalsIgnoreCase("Threshold")) thresholdSlider = slider;
+            if (slider->getName().equalsIgnoreCase("Ceiling")) ceilingSlider = slider;
+        }
+    }
+    check(thresholdSlider && ceilingSlider, "Threshold/Ceiling faders missing");
+    check(std::abs(thresholdSlider->getValueFromText("-7.50 dB")+7.5) < 0.001
+          && std::abs(ceilingSlider->getValueFromText("-0.50 dBTP")+0.5) < 0.001,
+          "Threshold/Ceiling numeric text parsing failed");
+    for (float outputCeiling : {-3.0f, -0.5f, 0.0f}) {
+        ceiling->setValueNotifyingHost(ceiling->convertTo0to1(outputCeiling));
+        for (float inputGain : {-12.0f, 0.0f, 7.0f, 24.0f}) {
+            gain->setValueNotifyingHost(gain->convertTo0to1(inputGain));
+            check(std::abs(thresholdSlider->getValue()-(outputCeiling-inputGain)) < 0.011,
+                  "host parameters did not update derived Threshold");
+            check(std::abs(thresholdSlider->getMinimum()-(outputCeiling-24.0)) < 0.011
+               && std::abs(thresholdSlider->getMaximum()-(outputCeiling+12.0)) < 0.011,
+                  "Threshold range no longer maps to legacy input gain bounds");
+        }
+    }
+    gain->setValueNotifyingHost(gain->convertTo0to1(7.0f));
+    ParameterEvents gainEvents;
+    gain->addListener(&gainEvents);
+    thresholdSlider->setValue(-13.5,juce::sendNotificationSync);
+    check(std::abs(processor.state.getRawParameterValue("inputGain")->load()-13.5f) < 0.011f,
+          "lowering Threshold did not boost input by the inverse mapping");
+    check(gainEvents.changes>0 && gainEvents.begins==1 && gainEvents.ends==1,
+          "typed Threshold change did not emit one complete host gesture");
+    gainEvents.changes = gainEvents.begins = gainEvents.ends = 0;
+    ceilingSlider->setValue(-1.25,juce::sendNotificationSync);
+    check(std::abs(processor.state.getRawParameterValue("ceiling")->load()+1.25f) < 0.011f,
+          "Ceiling fader did not update host state");
+    check(std::abs(processor.state.getRawParameterValue("inputGain")->load()-13.5f) < 0.011f
+          && gainEvents.changes==0 && gainEvents.begins==0 && gainEvents.ends==0,
+          "Ceiling display synchronisation modified or automated input gain");
+    check(std::abs(thresholdSlider->getValue()+14.75) < 0.011,
+          "Ceiling fader left derived Threshold stale");
+    thresholdSlider->onDragStart();
+    thresholdSlider->setValue(-18.25,juce::sendNotificationSync);
+    thresholdSlider->setValue(-19.25,juce::sendNotificationSync);
+    check(gainEvents.begins==1 && gainEvents.ends==0 && gainEvents.changes==2,
+          "Threshold drag did not group changes into one host gesture");
+    // Closing an editor during a drag must release its host gesture.
+    editor.reset();
+    check(gainEvents.ends==1, "editor destruction left a Threshold host gesture open");
+    gain->removeListener(&gainEvents);
+}
+}
 int main() {
     juce::ScopedJuceInitialiser_GUI gui;
     try {
+        checkThresholdControls();
         NkblimitProcessor p;
         check(p.getParameters().size()==3,"unexpected public parameters");
         auto* gain=p.state.getParameter("inputGain");

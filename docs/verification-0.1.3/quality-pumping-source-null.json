@@ -1,0 +1,134 @@
+{
+  "method": "self-created synthetic: right997Hz held carrier, left periodic kick with optional80Hzbass; level-invariant amplitude-modulation proxies; not subjective pump score",
+  "renders": {
+    "original": {
+      "ungated_k_lufs_equivalent": -20.7968339549824,
+      "sections": [
+        {
+          "start_seconds": 2.0,
+          "seconds": 5,
+          "bpm": 120,
+          "low_bass": false,
+          "carrier_peak_dbfs": -24.436975094096386,
+          "kick_rate_am_depth_percent": 3.453971055841601e-07,
+          "upper_sideband_to_carrier_db": -204.97731831753208,
+          "lower_sideband_to_carrier_db": -169.37658089707082,
+          "bed_10ms_gain": {
+            "p5_db": 0.0,
+            "p50_db": 0.0,
+            "p95_db": 0.0,
+            "p95minus5_db": 0.0,
+            "std_db": 0.0
+          },
+          "bed_50ms_gain": {
+            "p5_db": 0.0,
+            "p50_db": 0.0,
+            "p95_db": 0.0,
+            "p95minus5_db": 0.0,
+            "std_db": 0.0
+          },
+          "bed_400ms_gain": {
+            "p5_db": 0.0,
+            "p50_db": 0.0,
+            "p95_db": 0.0,
+            "p95minus5_db": 0.0,
+            "std_db": 0.0
+          }
+        },
+        {
+          "start_seconds": 9.5,
+          "seconds": 5,
+          "bpm": 120,
+          "low_bass": true,
+          "carrier_peak_dbfs": -24.43697509409638,
+          "kick_rate_am_depth_percent": 3.453971229529174e-07,
+          "upper_sideband_to_carrier_db": -204.97722405765273,
+          "lower_sideband_to_carrier_db": -169.3765820172414,
+          "bed_10ms_gain": {
+            "p5_db": 0.0,
+            "p50_db": 0.0,
+            "p95_db": 0.0,
+            "p95minus5_db": 0.0,
+            "std_db": 0.0
+          },
+          "bed_50ms_gain": {
+            "p5_db": 0.0,
+            "p50_db": 0.0,
+            "p95_db": 0.0,
+            "p95minus5_db": 0.0,
+            "std_db": 0.0
+          },
+          "bed_400ms_gain": {
+            "p5_db": 0.0,
+            "p50_db": 0.0,
+            "p95_db": 0.0,
+            "p95minus5_db": 0.0,
+            "std_db": 0.0
+          }
+        },
+        {
+          "start_seconds": 17.0,
+          "seconds": 5,
+          "bpm": 180,
+          "low_bass": false,
+          "carrier_peak_dbfs": -24.43697509409638,
+          "kick_rate_am_depth_percent": 3.5074342238007745e-12,
+          "upper_sideband_to_carrier_db": -240.0,
+          "lower_sideband_to_carrier_db": -240.0,
+          "bed_10ms_gain": {
+            "p5_db": 0.0,
+            "p50_db": 0.0,
+            "p95_db": 0.0,
+            "p95minus5_db": 0.0,
+            "std_db": 0.0
+          },
+          "bed_50ms_gain": {
+            "p5_db": 0.0,
+            "p50_db": 0.0,
+            "p95_db": 0.0,
+            "p95minus5_db": 0.0,
+            "std_db": 0.0
+          },
+          "bed_400ms_gain": {
+            "p5_db": 0.0,
+            "p50_db": 0.0,
+            "p95_db": 0.0,
+            "p95minus5_db": 0.0,
+            "std_db": 0.0
+          }
+        },
+        {
+          "start_seconds": 24.5,
+          "seconds": 5,
+          "bpm": 180,
+          "low_bass": true,
+          "carrier_peak_dbfs": -24.43697509409638,
+          "kick_rate_am_depth_percent": 3.5583943885810235e-12,
+          "upper_sideband_to_carrier_db": -240.0,
+          "lower_sideband_to_carrier_db": -240.0,
+          "bed_10ms_gain": {
+            "p5_db": 0.0,
+            "p50_db": 0.0,
+            "p95_db": 0.0,
+            "p95minus5_db": 0.0,
+            "std_db": 0.0
+          },
+          "bed_50ms_gain": {
+            "p5_db": 0.0,
+            "p50_db": 0.0,
+            "p95_db": 0.0,
+            "p95minus5_db": 0.0,
+            "std_db": 0.0
+          },
+          "bed_400ms_gain": {
+            "p5_db": 0.0,
+            "p50_db": 0.0,
+            "p95_db": 0.0,
+            "p95minus5_db": 0.0,
+            "std_db": 0.0
+          }
+        }
+      ]
+    }
+  }
+}

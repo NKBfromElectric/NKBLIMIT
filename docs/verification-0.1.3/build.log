@@ -1,0 +1,42 @@
+[0/2] Re-checking globbed directories...
+[1/2] Re-running CMake...
+-- Configuring juceaide
+-- Building juceaide
+-- Exporting juceaide
+-- Testing juceaide
+-- Finished setting up juceaide
+-- Configuring done (0.6s)
+-- Generating done (0.1s)
+-- Build files have been written to: C:/Users/nkbys/Documents/Codex/2026-10-14/files-pasted-by-the-user-nkblimit/outputs/NKBLIMIT/build
+[0/4] Re-checking globbed directories...
+[1/16] Building VST3 manifest helper for nkblimit
+-- Configuring done (0.0s)
+-- Generating done (0.1s)
+-- Build files have been written to: C:/Users/nkbys/Documents/Codex/2026-10-14/files-pasted-by-the-user-nkblimit/outputs/NKBLIMIT/build/vst3_helpers/nkblimit
+ninja: no work to do.
+[2/16] Building CXX object CMakeFiles\LimiterBehaviourTests.dir\Tests\DSPTests\LimiterBehaviourTests.cpp.obj
+[3/16] Building CXX object CMakeFiles\PumpingBehaviourTests.dir\Tests\DSPTests\PumpingBehaviourTests.cpp.obj
+[4/16] Building CXX object CMakeFiles\DSPTests.dir\Tests\DSPTests\Main.cpp.obj
+[5/16] Linking CXX executable DSPTests.exe
+[6/16] Linking CXX executable LimiterBehaviourTests.exe
+[7/16] Building CXX object CMakeFiles\nkblimit.dir\Source\PluginEditor.cpp.obj
+[8/16] Linking CXX executable PumpingBehaviourTests.exe
+[9/16] Building CXX object CMakeFiles\nkblimit.dir\Source\PluginProcessor.cpp.obj
+C:\Users\nkbys\Documents\Codex\2026-10-14\files-pasted-by-the-user-nkblimit\outputs\NKBLIMIT\Source\DSP\TruePeakGuard.h(84) : warning C4702: 制御が渡らないコードです。
+C:\Users\nkbys\Documents\Codex\2026-10-14\files-pasted-by-the-user-nkblimit\outputs\NKBLIMIT\Source\DSP\TruePeakGuard.h(84) : warning C4702: 制御が渡らないコードです。
+C:\Users\nkbys\Documents\Codex\2026-10-14\files-pasted-by-the-user-nkblimit\outputs\NKBLIMIT\Source\DSP\TruePeakGuard.h(85) : warning C4702: 制御が渡らないコードです。
+C:\Users\nkbys\Documents\Codex\2026-10-14\files-pasted-by-the-user-nkblimit\outputs\NKBLIMIT\Source\DSP\TruePeakGuard.h(84) : warning C4702: 制御が渡らないコードです。
+C:\Users\nkbys\Documents\Codex\2026-10-14\files-pasted-by-the-user-nkblimit\outputs\NKBLIMIT\Source\DSP\TruePeakGuard.h(85) : warning C4702: 制御が渡らないコードです。
+C:\Users\nkbys\Documents\Codex\2026-10-14\files-pasted-by-the-user-nkblimit\outputs\NKBLIMIT\Source\DSP\TruePeakGuard.h(86) : warning C4702: 制御が渡らないコードです。
+C:\Users\nkbys\Documents\Codex\2026-10-14\files-pasted-by-the-user-nkblimit\outputs\NKBLIMIT\Source\DSP\TruePeakGuard.h(85) : warning C4702: 制御が渡らないコードです。
+C:\Users\nkbys\Documents\Codex\2026-10-14\files-pasted-by-the-user-nkblimit\outputs\NKBLIMIT\Source\DSP\TruePeakGuard.h(86) : warning C4702: 制御が渡らないコードです。
+C:\Users\nkbys\Documents\Codex\2026-10-14\files-pasted-by-the-user-nkblimit\outputs\NKBLIMIT\Source\DSP\TruePeakGuard.h(86) : warning C4702: 制御が渡らないコードです。
+C:\Users\nkbys\Documents\Codex\2026-10-14\files-pasted-by-the-user-nkblimit\outputs\NKBLIMIT\Source\DSP\TruePeakGuard.h(84) : warning C4702: 制御が渡らないコードです。
+C:\Users\nkbys\Documents\Codex\2026-10-14\files-pasted-by-the-user-nkblimit\outputs\NKBLIMIT\Source\DSP\TruePeakGuard.h(85) : warning C4702: 制御が渡らないコードです。
+C:\Users\nkbys\Documents\Codex\2026-10-14\files-pasted-by-the-user-nkblimit\outputs\NKBLIMIT\Source\DSP\TruePeakGuard.h(86) : warning C4702: 制御が渡らないコードです。
+[10/16] Linking CXX static library nkblimit_artefacts\Release\nkblimit_SharedCode.lib
+[11/16] Linking CXX shared module nkblimit_artefacts\Release\VST3\nkblimit.vst3\Contents\x86_64-win\nkblimit.vst3
+removing moduleinfo.json
+creating C:/Users/nkbys/Documents/Codex/2026-10-14/files-pasted-by-the-user-nkblimit/outputs/NKBLIMIT/build/nkblimit_artefacts/Release/VST3/nkblimit.vst3/Contents/Resources/moduleinfo.json
+[12/16] Building CXX object CMakeFiles\ProcessorTests.dir\Tests\DSPTests\ProcessorTests.cpp.obj
+[13/16] Linking CXX executable ProcessorTests.exe

@@ -7,7 +7,7 @@ public:
     void prepare(double rate) noexcept {
         sampleRate = rate;
         energy = heldPeak = transientWeight = 0.0;
-        energyCoefficient = std::exp(-1.0 / (rate * 0.025));
+        energyCoefficient = std::exp(-1.0 / (rate * 0.050));
         peakCoefficient = std::exp(-1.0 / (rate * 0.100));
     }
 
@@ -15,6 +15,10 @@ public:
     // the amount of limiting. A deeper input drive must not, by itself, make
     // the release slower. A held peak gives a useful crest estimate between
     // drum hits; dividing RMS by the instantaneous sample did not do that.
+    // A 50 ms energy estimate keeps a short kick from repeatedly changing the
+    // crest-dependent attack blend and release. This reduces rapid modulation
+    // of a linked sustained bed; dense, deeply limited material can still take
+    // longer to recover between hits. Keep the release time bounds unchanged.
     double coefficient(double peak) noexcept {
         energy = energyCoefficient * energy + (1.0 - energyCoefficient) * peak * peak;
         heldPeak = std::max(peak, peakCoefficient * heldPeak);
