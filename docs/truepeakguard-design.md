@@ -1,5 +1,10 @@
 # True-peak guard revision (0.1.1)
 
+Historical 0.1.1 record. The current two-stage guard is documented in
+[ceiling-tracking.md](ceiling-tracking.md), with integrated results in
+[validation-0.1.2.md](validation-0.1.2.md). The implementation and measurements below
+describe 0.1.1 and are preserved as the record of that revision.
+
 The 0.1.0 guard used the sum of the absolute contributions of every reconstruction FIR tap. That bound is safe under arbitrary gain changes, but throws away cancellation between signed samples. It consequently reduces signals whose actual reconstructed peak is already near the ceiling.
 
 A standalone 48 kHz, 997 Hz sine comparison, using a 2 FS input and a -0.5 dBTP requested ceiling, measured:

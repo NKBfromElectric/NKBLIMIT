@@ -1,0 +1,8 @@
+[0/2] Re-checking globbed directories...
+[1/4] Building VST3 manifest helper for nkblimit
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: C:/Users/nkbys/Documents/Codex/2026-10-14/files-pasted-by-the-user-nkblimit/outputs/NKBLIMIT/build/vst3_helpers/nkblimit
+ninja: no work to do.
+[2/4] Building CXX object CMakeFiles\VST3HostTests.dir\Tests\DSPTests\VST3HostTests.cpp.obj
+[3/4] Linking CXX executable VST3HostTests.exe

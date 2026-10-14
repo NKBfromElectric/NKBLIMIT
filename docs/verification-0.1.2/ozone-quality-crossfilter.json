@@ -1,0 +1,23 @@
+{
+  "method": "independent NumPy overlap-save; finite FIR peak estimators; no certified conformance claim",
+  "files": {
+    "Ozone_IRCII_threshold-7p5_final": {
+      "rate": 48000,
+      "peaks_dbtp": {
+        "ui32tap8xBlackman": -0.5074438255108348,
+        "reference96tap16xKaiser9": -0.48510180806115266,
+        "reference192tap32xKaiser12": -0.4763271610619896
+      },
+      "ui_minus_long_reference_db": -0.0311166644488452
+    },
+    "0.1.2_gain7_final": {
+      "rate": 48000,
+      "peaks_dbtp": {
+        "ui32tap8xBlackman": -0.5515863206126977,
+        "reference96tap16xKaiser9": -0.5537653042081845,
+        "reference192tap32xKaiser12": -0.5538050221937549
+      },
+      "ui_minus_long_reference_db": 0.002218701581057192
+    }
+  }
+}

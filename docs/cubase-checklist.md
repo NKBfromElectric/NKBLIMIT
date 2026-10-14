@@ -23,5 +23,5 @@ from automated processor/VST3 tests.
 Do not mark Phase 1 complete until the real Cubase checks succeed.
 
 The user's screenshot confirms the initial0.1.0 appeared in a Cubase Stereo Out
-insert and displayed live readings. The0.1.1 update still requires the complete
+insert and displayed live readings. The 0.1.2 update still requires the complete
 host checklist above; CLI host/pluginval validation is documented separately.

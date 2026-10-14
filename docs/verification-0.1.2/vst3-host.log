@@ -1,0 +1,11 @@
+VST3 rate=44100 double=0 latency=558 PASS
+VST3 rate=44100 double=1 latency=558 PASS
+VST3 rate=48000 double=0 latency=567 PASS
+VST3 rate=48000 double=1 latency=567 PASS
+VST3 rate=88200 double=0 latency=668 PASS
+VST3 rate=88200 double=1 latency=668 PASS
+VST3 rate=96000 double=0 latency=687 PASS
+VST3 rate=96000 double=1 latency=687 PASS
+VST3 rate=192000 double=0 latency=927 PASS
+VST3 rate=192000 double=1 latency=927 PASS
+PASS actual VST3 scan/load/process, host gestures, state, float/double, unload

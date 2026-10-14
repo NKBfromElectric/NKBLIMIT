@@ -1,0 +1,592 @@
+[0/2] Re-checking globbed directories...
+[1/92] Building CXX object CMakeFiles\nkblimit.dir\Source\PluginEditor.cpp.obj
+[2/92] Building CXX object CMakeFiles\nkblimit.dir\Source\PluginProcessor.cpp.obj
+C:\Users\nkbys\Documents\Codex\2026-10-14\files-pasted-by-the-user-nkblimit\outputs\NKBLIMIT\Source\DSP\TruePeakGuard.h(84) : warning C4702: 制御が渡らないコードです。
+C:\Users\nkbys\Documents\Codex\2026-10-14\files-pasted-by-the-user-nkblimit\outputs\NKBLIMIT\Source\DSP\TruePeakGuard.h(84) : warning C4702: 制御が渡らないコードです。
+C:\Users\nkbys\Documents\Codex\2026-10-14\files-pasted-by-the-user-nkblimit\outputs\NKBLIMIT\Source\DSP\TruePeakGuard.h(84) : warning C4702: 制御が渡らないコードです。
+C:\Users\nkbys\Documents\Codex\2026-10-14\files-pasted-by-the-user-nkblimit\outputs\NKBLIMIT\Source\DSP\TruePeakGuard.h(84) : warning C4702: 制御が渡らないコードです。
+C:\Users\nkbys\Documents\Codex\2026-10-14\files-pasted-by-the-user-nkblimit\outputs\NKBLIMIT\Source\DSP\TruePeakGuard.h(85) : warning C4702: 制御が渡らないコードです。
+C:\Users\nkbys\Documents\Codex\2026-10-14\files-pasted-by-the-user-nkblimit\outputs\NKBLIMIT\Source\DSP\TruePeakGuard.h(85) : warning C4702: 制御が渡らないコードです。
+C:\Users\nkbys\Documents\Codex\2026-10-14\files-pasted-by-the-user-nkblimit\outputs\NKBLIMIT\Source\DSP\TruePeakGuard.h(85) : warning C4702: 制御が渡らないコードです。
+C:\Users\nkbys\Documents\Codex\2026-10-14\files-pasted-by-the-user-nkblimit\outputs\NKBLIMIT\Source\DSP\TruePeakGuard.h(85) : warning C4702: 制御が渡らないコードです。
+C:\Users\nkbys\Documents\Codex\2026-10-14\files-pasted-by-the-user-nkblimit\outputs\NKBLIMIT\Source\DSP\TruePeakGuard.h(86) : warning C4702: 制御が渡らないコードです。
+C:\Users\nkbys\Documents\Codex\2026-10-14\files-pasted-by-the-user-nkblimit\outputs\NKBLIMIT\Source\DSP\TruePeakGuard.h(86) : warning C4702: 制御が渡らないコードです。
+C:\Users\nkbys\Documents\Codex\2026-10-14\files-pasted-by-the-user-nkblimit\outputs\NKBLIMIT\Source\DSP\TruePeakGuard.h(86) : warning C4702: 制御が渡らないコードです。
+C:\Users\nkbys\Documents\Codex\2026-10-14\files-pasted-by-the-user-nkblimit\outputs\NKBLIMIT\Source\DSP\TruePeakGuard.h(86) : warning C4702: 制御が渡らないコードです。
+[3/92] Building CXX object CMakeFiles\nkblimit.dir\ThirdParty\JUCE\modules\juce_gui_extra\juce_gui_extra.cpp.obj
+[4/92] Building CXX object CMakeFiles\nkblimit.dir\ThirdParty\JUCE\modules\juce_audio_processors\juce_audio_processors.cpp.obj
+[5/92] Building CXX object CMakeFiles\nkblimit.dir\ThirdParty\JUCE\modules\juce_gui_basics\juce_gui_basics_2.cpp.obj
+[6/92] Building CXX object CMakeFiles\nkblimit.dir\ThirdParty\JUCE\modules\juce_gui_basics\juce_gui_basics_4.cpp.obj
+[7/92] Building CXX object CMakeFiles\nkblimit.dir\ThirdParty\JUCE\modules\juce_gui_basics\juce_gui_basics_3.cpp.obj
+[8/92] Building CXX object CMakeFiles\nkblimit.dir\ThirdParty\JUCE\modules\juce_gui_basics\juce_gui_basics_5.cpp.obj
+[9/92] Building C object CMakeFiles\nkblimit.dir\ThirdParty\JUCE\modules\juce_graphics\juce_graphics_Sheenbidi.c.obj
+[10/92] Building CXX object CMakeFiles\nkblimit.dir\ThirdParty\JUCE\modules\juce_gui_basics\juce_gui_basics.cpp.obj
+C:\Users\nkbys\Documents\Codex\2026-10-14\files-pasted-by-the-user-nkblimit\outputs\NKBLIMIT\ThirdParty\JUCE\modules\juce_gui_basics\juce_gui_basics.cpp(61) : Warning: This version of JUCE does not use the splash screen, the flag JUCE_DISPLAY_SPLASH_SCREEN is ignored
+[11/92] Building CXX object CMakeFiles\nkblimit.dir\ThirdParty\JUCE\modules\juce_events\juce_events.cpp.obj
+[12/92] Building CXX object CMakeFiles\nkblimit.dir\ThirdParty\JUCE\modules\juce_core\juce_core_CompilationTime.cpp.obj
+[13/92] Building CXX object CMakeFiles\nkblimit.dir\ThirdParty\JUCE\modules\juce_data_structures\juce_data_structures.cpp.obj
+[14/92] Building CXX object CMakeFiles\nkblimit.dir\ThirdParty\JUCE\modules\juce_core\juce_core.cpp.obj
+[15/92] Building CXX object CMakeFiles\nkblimit.dir\ThirdParty\JUCE\modules\juce_audio_processors_headless\juce_audio_processors_headless_ara.cpp.obj
+[16/92] Building CXX object CMakeFiles\nkblimit.dir\ThirdParty\JUCE\modules\juce_audio_processors_headless\juce_audio_processors_headless_lv2_libs.cpp.obj
+[17/92] Building CXX object CMakeFiles\nkblimit.dir\ThirdParty\JUCE\modules\juce_audio_basics\juce_audio_basics.cpp.obj
+[18/92] Building CXX object CMakeFiles\nkblimit.dir\ThirdParty\JUCE\modules\juce_audio_processors_headless\juce_audio_processors_headless.cpp.obj
+[19/92] Building CXX object CMakeFiles\nkblimit.dir\ThirdParty\JUCE\modules\juce_graphics\juce_graphics.cpp.obj
+[20/92] Building CXX object CMakeFiles\nkblimit.dir\ThirdParty\JUCE\modules\juce_graphics\juce_graphics_Harfbuzz.cpp.obj
+[21/92] Building CXX object CMakeFiles\nkblimit.dir\ThirdParty\JUCE\modules\juce_audio_formats\juce_audio_formats.cpp.obj
+[22/92] Building CXX object CMakeFiles\nkblimit.dir\ThirdParty\JUCE\modules\juce_audio_utils\juce_audio_utils.cpp.obj
+[23/92] Building VST3 manifest helper for nkblimit
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: C:/Users/nkbys/Documents/Codex/2026-10-14/files-pasted-by-the-user-nkblimit/outputs/NKBLIMIT/build/vst3_helpers/nkblimit
+[1/2] Building CXX object CMakeFiles\vst3_helper.dir\ab99d2e2f75aeb80775e8ffd93c44b75\juce_audio_plugin_client\VST3\juce_VST3ManifestHelper.cpp.obj
+メモ: インクルード ファイル:  C:\Users\nkbys\Documents\Codex\2026-10-14\files-pasted-by-the-user-nkblimit\outputs\NKBLIMIT\ThirdParty\JUCE\modules\juce_core/system/juce_CompilerWarnings.h
+メモ: インクルード ファイル:   C:\Users\nkbys\Documents\Codex\2026-10-14\files-pasted-by-the-user-nkblimit\outputs\NKBLIMIT\ThirdParty\JUCE\modules\juce_core\system\juce_TargetPlatform.h
+メモ: インクルード ファイル:  C:\Users\nkbys\Documents\Codex\2026-10-14\files-pasted-by-the-user-nkblimit\outputs\NKBLIMIT\ThirdParty\JUCE\modules\juce_core/system/juce_CompilerSupport.h
+メモ: インクルード ファイル:  C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.51.36231\include\array
+メモ: インクルード ファイル:   C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.51.36231\include\yvals_core.h
+メモ: インクルード ファイル:    C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.51.36231\include\vcruntime.h
+メモ: インクルード ファイル:     C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.51.36231\include\sal.h
+メモ: インクルード ファイル:      C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.51.36231\include\concurrencysal.h
+メモ: インクルード ファイル:     C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.51.36231\include\vadefs.h
+メモ: インクルード ファイル:    C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.51.36231\include\xkeycheck.h
+メモ: インクルード ファイル:   C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.51.36231\include\xutility
+メモ: インクルード ファイル:    C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.51.36231\include\yvals.h
+メモ: インクルード ファイル:     C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.51.36231\include\__msvc_doom_core.hpp
+メモ: インクルード ファイル:     C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt\crtdbg.h
+メモ: インクルード ファイル:      C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt\corecrt.h
+メモ: インクルード ファイル:      C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.51.36231\include\vcruntime_new_debug.h
+メモ: インクルード ファイル:       C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.51.36231\include\vcruntime_new.h
+メモ: インクルード ファイル:     C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.51.36231\include\crtdefs.h
+メモ: インクルード ファイル:     C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.51.36231\include\use_ansi.h
+メモ: インクルード ファイル:    C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.51.36231\include\__msvc_iter_core.hpp
+メモ: インクルード ファイル:     C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.51.36231\include\utility
+メモ: インクルード ファイル:      C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.51.36231\include\initializer_list
+メモ: インクルード ファイル:       C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.51.36231\include\cstddef
+メモ: インクルード ファイル:        C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt\stddef.h
+メモ: インクルード ファイル:        C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.51.36231\include\xtr1common
+メモ: インクルード ファイル:      C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.51.36231\include\type_traits
+メモ: インクルード ファイル:       C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.51.36231\include\cstdint
+メモ: インクルード ファイル:        C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.51.36231\include\stdint.h
+メモ: インクルード ファイル:    C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.51.36231\include\climits
+メモ: インクルード ファイル:     C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.51.36231\include\limits.h
+メモ: インクルード ファイル:    C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.51.36231\include\cstdlib
+メモ: インクルード ファイル:     C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt\math.h
+メモ: インクルード ファイル:      C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt\corecrt_math.h
+メモ: インクルード ファイル:     C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt\stdlib.h
+メモ: インクルード ファイル:      C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt\corecrt_malloc.h
+メモ: インクルード ファイル:      C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt\corecrt_search.h
+メモ: インクルード ファイル:      C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt\corecrt_wstdlib.h
+メモ: インクルード ファイル:    C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.51.36231\include\cstring
+メモ: インクルード ファイル:     C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt\string.h
+メモ: インクルード ファイル:      C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt\corecrt_memory.h
+メモ: インクルード ファイル:       C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt\corecrt_memcpy_s.h
+メモ: インクルード ファイル:        C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt\errno.h
+メモ: インクルード ファイル:        C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.51.36231\include\vcruntime_string.h
+メモ: インクルード ファイル:      C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt\corecrt_wstring.h
+メモ: インクルード ファイル:    C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.51.36231\include\cwchar
+メモ: インクルード ファイル:     C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.51.36231\include\cstdio
+メモ: インクルード ファイル:      C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt\stdio.h
+メモ: インクルード ファイル:       C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt\corecrt_wstdio.h
+メモ: インクルード ファイル:        C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt\corecrt_stdio_config.h
+メモ: インクルード ファイル:     C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt\wchar.h
+メモ: インクルード ファイル:      C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt\corecrt_wconio.h
+メモ: インクルード ファイル:      C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt\corecrt_wctype.h
+メモ: インクルード ファイル:      C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt\corecrt_wdirect.h
+メモ: インクルード ファイル:      C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt\corecrt_wio.h
+メモ: インクルード ファイル:       C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt\corecrt_share.h
+メモ: インクルード ファイル:      C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt\corecrt_wprocess.h
+メモ: インクルード ファイル:      C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt\corecrt_wtime.h
+メモ: インクルード ファイル:      C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt\sys/stat.h
+メモ: インクルード ファイル:       C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt\sys/types.h
+メモ: インクルード ファイル:      C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.51.36231\include\intrin.h
+メモ: インクルード ファイル:       C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.51.36231\include\intrin0.inl.h
+メモ: インクルード ファイル:       C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.51.36231\include\setjmp.h
+メモ: インクルード ファイル:       C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.51.36231\include\immintrin.h
+メモ: インクルード ファイル:        C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.51.36231\include\wmmintrin.h
+メモ: インクルード ファイル:         C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.51.36231\include\nmmintrin.h
+メモ: インクルード ファイル:          C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.51.36231\include\smmintrin.h
+メモ: インクルード ファイル:           C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.51.36231\include\tmmintrin.h
+メモ: インクルード ファイル:            C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.51.36231\include\pmmintrin.h
+メモ: インクルード ファイル:             C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.51.36231\include\emmintrin.h
+メモ: インクルード ファイル:              C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.51.36231\include\xmmintrin.h
+メモ: インクルード ファイル:               C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.51.36231\include\mmintrin.h
+メモ: インクルード ファイル:               C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt\malloc.h
+メモ: インクルード ファイル:        C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.51.36231\include\zmmintrin.h
+メモ: インクルード ファイル:       C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.51.36231\include\ammintrin.h
+メモ: インクルード ファイル:  C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.51.36231\include\atomic
+メモ: インクルード ファイル:   C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.51.36231\include\xatomic.h
+メモ: インクルード ファイル:    C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.51.36231\include\intrin0.h
+メモ: インクルード ファイル:   C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.51.36231\include\xthreads.h
+メモ: インクルード ファイル:    C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.51.36231\include\__msvc_threads_core.hpp
+メモ: インクルード ファイル:    C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.51.36231\include\xtimec.h
+メモ: インクルード ファイル:     C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.51.36231\include\ctime
+メモ: インクルード ファイル:      C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt\time.h
+メモ: インクルード ファイル:  C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.51.36231\include\cassert
+メモ: インクルード ファイル:   C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt\assert.h
+メモ: インクルード ファイル:  C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.51.36231\include\cctype
+メモ: インクルード ファイル:   C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt\ctype.h
+メモ: インクルード ファイル:  C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.51.36231\include\functional
+メモ: インクルード ファイル:   C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.51.36231\include\exception
+メモ: インクルード ファイル:    C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.51.36231\include\vcruntime_exception.h
+メモ: インクルード ファイル:     C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.51.36231\include\eh.h
+メモ: インクルード ファイル:      C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt\corecrt_terminate.h
+メモ: インクルード ファイル:   C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.51.36231\include\tuple
+メモ: インクルード ファイル:   C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.51.36231\include\typeinfo
+メモ: インクルード ファイル:    C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.51.36231\include\vcruntime_typeinfo.h
+メモ: インクルード ファイル:   C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.51.36231\include\xmemory
+メモ: インクルード ファイル:    C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.51.36231\include\limits
+メモ: インクルード ファイル:     C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.51.36231\include\cfloat
+メモ: インクルード ファイル:      C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt\float.h
+メモ: インクルード ファイル:    C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.51.36231\include\new
+メモ: インクルード ファイル:   C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.51.36231\include\unordered_map
+メモ: インクルード ファイル:    C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.51.36231\include\xhash
+メモ: インクルード ファイル:     C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.51.36231\include\cmath
+メモ: インクルード ファイル:     C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.51.36231\include\list
+メモ: インクルード ファイル:      C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.51.36231\include\xpolymorphic_allocator.h
+メモ: インクルード ファイル:     C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.51.36231\include\vector
+メモ: インクルード ファイル:      C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.51.36231\include\__msvc_bit_utils.hpp
+メモ: インクルード ファイル:      C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.51.36231\include\__msvc_sanitizer_annotate_container.hpp
+メモ: インクルード ファイル:     C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.51.36231\include\xbit_ops.h
+メモ: インクルード ファイル:     C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.51.36231\include\xnode_handle.h
+メモ: インクルード ファイル:  C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.51.36231\include\iomanip
+メモ: インクルード ファイル:   C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.51.36231\include\istream
+メモ: インクルード ファイル:    C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.51.36231\include\__msvc_ostream.hpp
+メモ: インクルード ファイル:     C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.51.36231\include\ios
+メモ: インクルード ファイル:      C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.51.36231\include\xlocnum
+メモ: インクルード ファイル:       C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.51.36231\include\iterator
+メモ: インクルード ファイル:        C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.51.36231\include\iosfwd
+メモ: インクルード ファイル:       C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.51.36231\include\streambuf
+メモ: インクルード ファイル:        C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.51.36231\include\xiosbase
+メモ: インクルード ファイル:         C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt\share.h
+メモ: インクルード ファイル:         C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.51.36231\include\system_error
+メモ: インクルード ファイル:          C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.51.36231\include\__msvc_system_error_abi.hpp
+メモ: インクルード ファイル:          C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.51.36231\include\cerrno
+メモ: インクルード ファイル:          C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.51.36231\include\stdexcept
+メモ: インクルード ファイル:           C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.51.36231\include\xstring
+メモ: インクルード ファイル:            C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.51.36231\include\__msvc_string_view.hpp
+メモ: インクルード ファイル:          C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.51.36231\include\xcall_once.h
+メモ: インクルード ファイル:          C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.51.36231\include\xerrc.h
+メモ: インクルード ファイル:         C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.51.36231\include\xlocale
+メモ: インクルード ファイル:          C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.51.36231\include\memory
+メモ: インクルード ファイル:          C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.51.36231\include\xfacet
+メモ: インクルード ファイル:          C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.51.36231\include\xlocinfo
+メモ: インクルード ファイル:           C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.51.36231\include\__msvc_xlocinfo_types.hpp
+メモ: インクルード ファイル:           C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.51.36231\include\clocale
+メモ: インクルード ファイル:            C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt\locale.h
+メモ: インクルード ファイル:   C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.51.36231\include\xlocmon
+メモ: インクルード ファイル:   C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.51.36231\include\xloctime
+メモ: インクルード ファイル:  C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.51.36231\include\sstream
+メモ: インクルード ファイル:   C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.51.36231\include\string
+メモ: インクルード ファイル:   C:\Users\nkbys\Documents\Codex\2026-10-14\files-pasted-by-the-user-nkblimit\outputs\NKBLIMIT\ThirdParty\JUCE\modules\juce_audio_processors_headless\format_types\VST3_SDK\pluginterfaces/base/funknown.h
+メモ: インクルード ファイル:    C:\Users\nkbys\Documents\Codex\2026-10-14\files-pasted-by-the-user-nkblimit\outputs\NKBLIMIT\ThirdParty\JUCE\modules\juce_audio_processors_headless\format_types\VST3_SDK\pluginterfaces/base/fplatform.h
+メモ: インクルード ファイル:    C:\Users\nkbys\Documents\Codex\2026-10-14\files-pasted-by-the-user-nkblimit\outputs\NKBLIMIT\ThirdParty\JUCE\modules\juce_audio_processors_headless\format_types\VST3_SDK\pluginterfaces/base/ftypes.h
+メモ: インクルード ファイル:    C:\Users\nkbys\Documents\Codex\2026-10-14\files-pasted-by-the-user-nkblimit\outputs\NKBLIMIT\ThirdParty\JUCE\modules\juce_audio_processors_headless\format_types\VST3_SDK\pluginterfaces/base/smartpointer.h
+メモ: インクルード ファイル:   C:\Users\nkbys\Documents\Codex\2026-10-14\files-pasted-by-the-user-nkblimit\outputs\NKBLIMIT\ThirdParty\JUCE\modules\juce_audio_processors_headless\format_types\VST3_SDK\pluginterfaces/base/ibstream.h
+メモ: インクルード ファイル:   C:\Users\nkbys\Documents\Codex\2026-10-14\files-pasted-by-the-user-nkblimit\outputs\NKBLIMIT\ThirdParty\JUCE\modules\juce_audio_processors_headless\format_types\VST3_SDK\pluginterfaces/base/icloneable.h
+メモ: インクルード ファイル:   C:\Users\nkbys\Documents\Codex\2026-10-14\files-pasted-by-the-user-nkblimit\outputs\NKBLIMIT\ThirdParty\JUCE\modules\juce_audio_processors_headless\format_types\VST3_SDK\pluginterfaces/base/ipluginbase.h
+メモ: インクルード ファイル:    C:\Users\nkbys\Documents\Codex\2026-10-14\files-pasted-by-the-user-nkblimit\outputs\NKBLIMIT\ThirdParty\JUCE\modules\juce_audio_processors_headless\format_types\VST3_SDK\pluginterfaces\base\fstrdefs.h
+メモ: インクルード ファイル:   C:\Users\nkbys\Documents\Codex\2026-10-14\files-pasted-by-the-user-nkblimit\outputs\NKBLIMIT\ThirdParty\JUCE\modules\juce_audio_processors_headless\format_types\VST3_SDK\pluginterfaces/base/iupdatehandler.h
+メモ: インクルード ファイル:   C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\um\objbase.h
+メモ: インクルード ファイル:    C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\shared\winapifamily.h
+メモ: インクルード ファイル:     C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\shared\winpackagefamily.h
+メモ: インクルード ファイル:    C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\shared\rpc.h
+メモ: インクルード ファイル:     C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\um\windows.h
+メモ: インクルード ファイル:      C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\shared\sdkddkver.h
+メモ: インクルード ファイル:      C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.51.36231\include\excpt.h
+メモ: インクルード ファイル:      C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.51.36231\include\stdarg.h
+メモ: インクルード ファイル:      C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\shared\windef.h
+メモ: インクルード ファイル:       C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\shared\minwindef.h
+メモ: インクルード ファイル:        C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\shared\specstrings.h
+メモ: インクルード ファイル:         C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\shared\specstrings_strict.h
+メモ: インクルード ファイル:          C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\shared\specstrings_undef.h
+メモ: インクルード ファイル:         C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\shared\driverspecs.h
+メモ: インクルード ファイル:          C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\shared\sdv_driverspecs.h
+メモ: インクルード ファイル:        C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\um\winnt.h
+メモ: インクルード ファイル:         C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\shared\kernelspecs.h
+メモ: インクルード ファイル:         C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\shared\basetsd.h
+メモ: インクルード ファイル:         C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\shared\guiddef.h
+メモ: インクルード ファイル:         C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\shared\pshpack4.h
+メモ: インクルード ファイル:         C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\shared\poppack.h
+メモ: インクルード ファイル:         C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\shared\pshpack4.h
+メモ: インクルード ファイル:         C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\shared\poppack.h
+メモ: インクルード ファイル:         C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\shared\pshpack4.h
+メモ: インクルード ファイル:         C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\shared\pshpack2.h
+メモ: インクルード ファイル:         C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\shared\poppack.h
+メモ: インクルード ファイル:         C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\shared\pshpack2.h
+メモ: インクルード ファイル:         C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\shared\pshpack2.h
+メモ: インクルード ファイル:         C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\shared\poppack.h
+メモ: インクルード ファイル:         C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\shared\poppack.h
+メモ: インクルード ファイル:         C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\shared\pshpack8.h
+メモ: インクルード ファイル:         C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\shared\poppack.h
+メモ: インクルード ファイル:         C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\shared\pshpack1.h
+メモ: インクルード ファイル:         C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\shared\poppack.h
+メモ: インクルード ファイル:         C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\shared\pshpack1.h
+メモ: インクルード ファイル:         C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\shared\poppack.h
+メモ: インクルード ファイル:         C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\shared\poppack.h
+メモ: インクルード ファイル:         C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\shared\apiset.h
+メモ: インクルード ファイル:         C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\shared\ktmtypes.h
+メモ: インクルード ファイル:      C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\um\winbase.h
+メモ: インクルード ファイル:       C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\shared\apisetcconv.h
+メモ: インクルード ファイル:       C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\um\minwinbase.h
+メモ: インクルード ファイル:       C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\um\apiquery2.h
+メモ: インクルード ファイル:       C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\um\processenv.h
+メモ: インクルード ファイル:       C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\um\fileapifromapp.h
+メモ: インクルード ファイル:        C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\um\fileapi.h
+メモ: インクルード ファイル:       C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\um\debugapi.h
+メモ: インクルード ファイル:       C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\um\utilapiset.h
+メモ: インクルード ファイル:       C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\um\handleapi.h
+メモ: インクルード ファイル:       C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\um\errhandlingapi.h
+メモ: インクルード ファイル:       C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\um\fibersapi.h
+メモ: インクルード ファイル:       C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\um\namedpipeapi.h
+メモ: インクルード ファイル:       C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\um\profileapi.h
+メモ: インクルード ファイル:       C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\um\heapapi.h
+メモ: インクルード ファイル:       C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\um\ioapiset.h
+メモ: インクルード ファイル:       C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\um\synchapi.h
+メモ: インクルード ファイル:       C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\um\interlockedapi.h
+メモ: インクルード ファイル:       C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\um\processthreadsapi.h
+メモ: インクルード ファイル:       C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\um\sysinfoapi.h
+メモ: インクルード ファイル:       C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\um\memoryapi.h
+メモ: インクルード ファイル:       C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\um\enclaveapi.h
+メモ: インクルード ファイル:       C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\um\threadpoollegacyapiset.h
+メモ: インクルード ファイル:       C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\um\threadpoolapiset.h
+メモ: インクルード ファイル:       C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\um\jobapi.h
+メモ: インクルード ファイル:       C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\um\jobapi2.h
+メモ: インクルード ファイル:       C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\um\wow64apiset.h
+メモ: インクルード ファイル:       C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\um\libloaderapi.h
+メモ: インクルード ファイル:       C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\um\securitybaseapi.h
+メモ: インクルード ファイル:       C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\um\namespaceapi.h
+メモ: インクルード ファイル:       C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\um\systemtopologyapi.h
+メモ: インクルード ファイル:       C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\um\processtopologyapi.h
+メモ: インクルード ファイル:       C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\um\securityappcontainer.h
+メモ: インクルード ファイル:       C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\um\realtimeapiset.h
+メモ: インクルード ファイル:       C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\shared\winerror.h
+メモ: インクルード ファイル:       C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\um\timezoneapi.h
+メモ: インクルード ファイル:      C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\um\wingdi.h
+メモ: インクルード ファイル:       C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\shared\pshpack1.h
+メモ: インクルード ファイル:       C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\shared\poppack.h
+メモ: インクルード ファイル:       C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\shared\pshpack2.h
+メモ: インクルード ファイル:       C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\shared\poppack.h
+メモ: インクルード ファイル:       C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\shared\pshpack2.h
+メモ: インクルード ファイル:       C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\shared\poppack.h
+メモ: インクルード ファイル:       C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\shared\pshpack4.h
+メモ: インクルード ファイル:       C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\shared\poppack.h
+メモ: インクルード ファイル:       C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\shared\pshpack4.h
+メモ: インクルード ファイル:       C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\shared\poppack.h
+メモ: インクルード ファイル:      C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\um\winuser.h
+メモ: インクルード ファイル:       C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\shared\pshpack2.h
+メモ: インクルード ファイル:       C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\shared\poppack.h
+メモ: インクルード ファイル:       C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\shared\tvout.h
+メモ: インクルード ファイル:      C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\um\winnls.h
+メモ: インクルード ファイル:       C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\um\datetimeapi.h
+メモ: インクルード ファイル:       C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\um\stringapiset.h
+メモ: インクルード ファイル:        C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\um\winnls.h
+メモ: インクルード ファイル:      C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\um\wincon.h
+メモ: インクルード ファイル:       C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\um\wincontypes.h
+メモ: インクルード ファイル:       C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\um\consoleapi.h
+メモ: インクルード ファイル:       C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\um\consoleapi2.h
+メモ: インクルード ファイル:       C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\um\consoleapi3.h
+メモ: インクルード ファイル:      C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\um\winver.h
+メモ: インクルード ファイル:       C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\um\verrsrc.h
+メモ: インクルード ファイル:      C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\um\winreg.h
+メモ: インクルード ファイル:       C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\um\reason.h
+メモ: インクルード ファイル:      C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\um\winnetwk.h
+メモ: インクルード ファイル:       C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\shared\wnnc.h
+メモ: インクルード ファイル:      C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\shared\cderr.h
+メモ: インクルード ファイル:      C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\um\dde.h
+メモ: インクルード ファイル:      C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\um\ddeml.h
+メモ: インクルード ファイル:      C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\um\dlgs.h
+メモ: インクルード ファイル:      C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\um\lzexpand.h
+メモ: インクルード ファイル:      C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\um\mmsystem.h
+メモ: インクルード ファイル:       C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\um\mmsyscom.h
+メモ: インクルード ファイル:        C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\shared\pshpack1.h
+メモ: インクルード ファイル:        C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\shared\poppack.h
+メモ: インクルード ファイル:       C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\shared\pshpack1.h
+メモ: インクルード ファイル:       C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\um\mciapi.h
+メモ: インクルード ファイル:        C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\um\mmsyscom.h
+メモ: インクルード ファイル:       C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\um\mmiscapi.h
+メモ: インクルード ファイル:        C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\um\mmsyscom.h
+メモ: インクルード ファイル:       C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\um\mmiscapi2.h
+メモ: インクルード ファイル:        C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\um\mmsyscom.h
+メモ: インクルード ファイル:       C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\um\playsoundapi.h
+メモ: インクルード ファイル:        C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\um\mmsyscom.h
+メモ: インクルード ファイル:       C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\um\mmeapi.h
+メモ: インクルード ファイル:        C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\um\mmsyscom.h
+メモ: インクルード ファイル:       C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\um\timeapi.h
+メモ: インクルード ファイル:        C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\um\mmsyscom.h
+メモ: インクルード ファイル:       C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\um\joystickapi.h
+メモ: インクルード ファイル:        C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\um\mmsyscom.h
+メモ: インクルード ファイル:       C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\shared\poppack.h
+メモ: インクルード ファイル:      C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\um\nb30.h
+メモ: インクルード ファイル:      C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\shared\rpc.h
+メモ: インクルード ファイル:       C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\shared\pshpack8.h
+メモ: インクルード ファイル:       C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\shared\rpcdce.h
+メモ: インクルード ファイル:        C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\shared\rpcdcep.h
+メモ: インクルード ファイル:       C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\um\rpcnsi.h
+メモ: インクルード ファイル:       C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\shared\rpcnterr.h
+メモ: インクルード ファイル:       C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\shared\rpcasync.h
+メモ: インクルード ファイル:        C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\shared\pshpack8.h
+メモ: インクルード ファイル:        C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\shared\poppack.h
+メモ: インクルード ファイル:       C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\shared\poppack.h
+メモ: インクルード ファイル:      C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\um\shellapi.h
+メモ: インクルード ファイル:      C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\um\winperf.h
+メモ: インクルード ファイル:       C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\shared\pshpack8.h
+メモ: インクルード ファイル:       C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\shared\poppack.h
+メモ: インクルード ファイル:      C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\um\winsock.h
+メモ: インクルード ファイル:       C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\shared\inaddr.h
+メモ: インクルード ファイル:      C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\um\wincrypt.h
+メモ: インクルード ファイル:       C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\shared\bcrypt.h
+メモ: インクルード ファイル:       C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\um\ncrypt.h
+メモ: インクルード ファイル:       C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\um\dpapi.h
+メモ: インクルード ファイル:      C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\um\winefs.h
+メモ: インクルード ファイル:      C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\um\winscard.h
+メモ: インクルード ファイル:       C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\shared\wtypes.h
+メモ: インクルード ファイル:        C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\shared\rpcndr.h
+メモ: インクルード ファイル:         C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\shared\pshpack8.h
+メモ: インクルード ファイル:         C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\um\rpcnsip.h
+メモ: インクルード ファイル:         C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\shared\rpcsal.h
+メモ: インクルード ファイル:         C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\shared\poppack.h
+メモ: インクルード ファイル:        C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\shared\wtypesbase.h
+メモ: インクルード ファイル:         C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\shared\guiddef.h
+メモ: インクルード ファイル:       C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\um\winioctl.h
+メモ: インクルード ファイル:        C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\shared\pshpack1.h
+メモ: インクルード ファイル:        C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\shared\poppack.h
+メモ: インクルード ファイル:        C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\shared\pshpack1.h
+メモ: インクルード ファイル:        C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\shared\poppack.h
+メモ: インクルード ファイル:        C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\shared\pshpack1.h
+メモ: インクルード ファイル:        C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\shared\poppack.h
+メモ: インクルード ファイル:        C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\shared\pshpack1.h
+メモ: インクルード ファイル:        C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\shared\poppack.h
+メモ: インクルード ファイル:        C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\shared\pshpack1.h
+メモ: インクルード ファイル:        C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\shared\poppack.h
+メモ: インクルード ファイル:        C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\shared\pshpack1.h
+メモ: インクルード ファイル:        C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\shared\poppack.h
+メモ: インクルード ファイル:        C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\shared\pshpack1.h
+メモ: インクルード ファイル:        C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\shared\poppack.h
+メモ: インクルード ファイル:       C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\shared\winsmcrd.h
+メモ: インクルード ファイル:      C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\um\winspool.h
+メモ: インクルード ファイル:       C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\um\prsht.h
+メモ: インクルード ファイル:        C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\shared\pshpack8.h
+メモ: インクルード ファイル:        C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\shared\poppack.h
+メモ: インクルード ファイル:      C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\um\ole2.h
+メモ: インクルード ファイル:       C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\shared\pshpack8.h
+メモ: インクルード ファイル:       C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\um\objbase.h
+メモ: インクルード ファイル:        C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\shared\pshpack8.h
+メモ: インクルード ファイル:        C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\um\combaseapi.h
+メモ: インクルード ファイル:         C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\shared\pshpack8.h
+メモ: インクルード ファイル:         C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\um\unknwnbase.h
+メモ: インクルード ファイル:         C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\um\objidlbase.h
+メモ: インクルード ファイル:         C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\shared\guiddef.h
+メモ: インクルード ファイル:         C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\um\cguid.h
+メモ: インクルード ファイル:         C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\shared\poppack.h
+メモ: インクルード ファイル:        C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\um\coml2api.h
+メモ: インクルード ファイル:         C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\um\objidl.h
+メモ: インクルード ファイル:          C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\um\unknwn.h
+メモ: インクルード ファイル:         C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\um\propidlbase.h
+メモ: インクルード ファイル:          C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\um\oaidl.h
+メモ: インクルード ファイル:        C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\um\urlmon.h
+メモ: インクルード ファイル:         C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\um\oleidl.h
+メモ: インクルード ファイル:         C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\um\servprov.h
+メモ: インクルード ファイル:         C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\um\msxml.h
+メモ: インクルード ファイル:        C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\um\propidl.h
+メモ: インクルード ファイル:        C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\shared\poppack.h
+メモ: インクルード ファイル:       C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\um\oleauto.h
+メモ: インクルード ファイル:        C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\shared\pshpack8.h
+メモ: インクルード ファイル:        C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\shared\poppack.h
+メモ: インクルード ファイル:       C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\shared\poppack.h
+メモ: インクルード ファイル:      C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\um\commdlg.h
+メモ: インクルード ファイル:       C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\um\prsht.h
+メモ: インクルード ファイル:      C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\shared\stralign.h
+メモ: インクルード ファイル:      C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\um\winsvc.h
+メモ: インクルード ファイル:      C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\um\mcx.h
+メモ: インクルード ファイル:      C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\um\imm.h
+メモ: インクルード ファイル:       C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\um\ime_cmodes.h
+メモ: インクルード ファイル:   C:\Users\nkbys\Documents\Codex\2026-10-14\files-pasted-by-the-user-nkblimit\outputs\NKBLIMIT\ThirdParty\JUCE\modules\juce_audio_processors_headless\format_types\VST3_SDK\public.sdk\source\common\commonstringconvert.h
+メモ: インクルード ファイル:   C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.51.36231\include\codecvt
+メモ: インクルード ファイル:    C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.51.36231\include\locale
+メモ: インクルード ファイル:     C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.51.36231\include\xlocbuf
+メモ: インクルード ファイル:     C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.51.36231\include\xlocmes
+メモ: インクルード ファイル:   C:\Users\nkbys\Documents\Codex\2026-10-14\files-pasted-by-the-user-nkblimit\outputs\NKBLIMIT\ThirdParty\JUCE\modules\juce_audio_processors_headless\format_types\VST3_SDK\public.sdk\source\common\memorystream.h
+メモ: インクルード ファイル:   C:\Users\nkbys\Documents\Codex\2026-10-14\files-pasted-by-the-user-nkblimit\outputs\NKBLIMIT\ThirdParty\JUCE\modules\juce_audio_processors_headless\format_types\VST3_SDK\pluginterfaces/base/futils.h
+メモ: インクルード ファイル:   C:\Users\nkbys\Documents\Codex\2026-10-14\files-pasted-by-the-user-nkblimit\outputs\NKBLIMIT\ThirdParty\JUCE\modules\juce_audio_processors_headless\format_types\VST3_SDK\public.sdk\source\common\readfile.h
+メモ: インクルード ファイル:   C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.51.36231\include\fstream
+メモ: インクルード ファイル:    C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.51.36231\include\__msvc_filebuf.hpp
+メモ: インクルード ファイル:   C:\Users\nkbys\Documents\Codex\2026-10-14\files-pasted-by-the-user-nkblimit\outputs\NKBLIMIT\ThirdParty\JUCE\modules\juce_audio_processors_headless\format_types\VST3_SDK\public.sdk\source\vst\hosting\module.h
+メモ: インクルード ファイル:    C:\Users\nkbys\Documents\Codex\2026-10-14\files-pasted-by-the-user-nkblimit\outputs\NKBLIMIT\ThirdParty\JUCE\modules\juce_audio_processors_headless\format_types\VST3_SDK\public.sdk\source\vst\hosting\../utility/uid.h
+メモ: インクルード ファイル:     C:\Users\nkbys\Documents\Codex\2026-10-14\files-pasted-by-the-user-nkblimit\outputs\NKBLIMIT\ThirdParty\JUCE\modules\juce_audio_processors_headless\format_types\VST3_SDK\public.sdk\source\vst\utility\optional.h
+メモ: インクルード ファイル:      C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.51.36231\include\cassert
+メモ: インクルード ファイル:       C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt\assert.h
+メモ: インクルード ファイル:   C:\Users\nkbys\Documents\Codex\2026-10-14\files-pasted-by-the-user-nkblimit\outputs\NKBLIMIT\ThirdParty\JUCE\modules\juce_audio_processors_headless\format_types\VST3_SDK\public.sdk/source/vst/utility/stringconvert.h
+メモ: インクルード ファイル:    C:\Users\nkbys\Documents\Codex\2026-10-14\files-pasted-by-the-user-nkblimit\outputs\NKBLIMIT\ThirdParty\JUCE\modules\juce_audio_processors_headless\format_types\VST3_SDK\pluginterfaces/vst/vsttypes.h
+メモ: インクルード ファイル:   C:\Users\nkbys\Documents\Codex\2026-10-14\files-pasted-by-the-user-nkblimit\outputs\NKBLIMIT\ThirdParty\JUCE\modules\juce_audio_processors_headless\format_types\VST3_SDK\pluginterfaces/base/funknownimpl.h
+メモ: インクルード ファイル:   C:\Users\nkbys\Documents\Codex\2026-10-14\files-pasted-by-the-user-nkblimit\outputs\NKBLIMIT\ThirdParty\JUCE\modules\juce_audio_processors_headless\format_types\VST3_SDK\public.sdk\source\vst\moduleinfo\moduleinfocreator.h
+メモ: インクルード ファイル:    C:\Users\nkbys\Documents\Codex\2026-10-14\files-pasted-by-the-user-nkblimit\outputs\NKBLIMIT\ThirdParty\JUCE\modules\juce_audio_processors_headless\format_types\VST3_SDK\public.sdk\source\vst\moduleinfo\moduleinfo.h
+メモ: インクルード ファイル:    C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.51.36231\include\iostream
+メモ: インクルード ファイル:     C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.51.36231\include\ostream
+メモ: インクルード ファイル:    C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.51.36231\include\optional
+メモ: インクルード ファイル:     C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.51.36231\include\xsmf_control.h
+メモ: インクルード ファイル:    C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.51.36231\include\string_view
+メモ: インクルード ファイル:   C:\Users\nkbys\Documents\Codex\2026-10-14\files-pasted-by-the-user-nkblimit\outputs\NKBLIMIT\ThirdParty\JUCE\modules\juce_audio_processors_headless\format_types\VST3_SDK\public.sdk\source\vst\moduleinfo\jsoncxx.h
+メモ: インクルード ファイル:    C:\Users\nkbys\Documents\Codex\2026-10-14\files-pasted-by-the-user-nkblimit\outputs\NKBLIMIT\ThirdParty\JUCE\modules\juce_audio_processors_headless\format_types\VST3_SDK\public.sdk\source\vst\moduleinfo\json.h
+メモ: インクルード ファイル:     C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt\inttypes.h
+メモ: インクルード ファイル:    C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.51.36231\include\cassert
+メモ: インクルード ファイル:     C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt\assert.h
+メモ: インクルード ファイル:    C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.51.36231\include\variant
+メモ: インクルード ファイル:    C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.51.36231\include\charconv
+メモ: インクルード ファイル:     C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.51.36231\include\xcharconv.h
+メモ: インクルード ファイル:     C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.51.36231\include\xcharconv_ryu.h
+メモ: インクルード ファイル:      C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.51.36231\include\xcharconv_ryu_tables.h
+メモ: インクルード ファイル:     C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.51.36231\include\xcharconv_tables.h
+メモ: インクルード ファイル:   C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.51.36231\include\algorithm
+メモ: インクルード ファイル:    C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.51.36231\include\__msvc_heap_algorithms.hpp
+メモ: インクルード ファイル:    C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.51.36231\include\__msvc_int128.hpp
+メモ: インクルード ファイル:    C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.51.36231\include\__msvc_minmax.hpp
+メモ: インクルード ファイル:   C:\Users\nkbys\Documents\Codex\2026-10-14\files-pasted-by-the-user-nkblimit\outputs\NKBLIMIT\ThirdParty\JUCE\modules\juce_audio_processors_headless\format_types\VST3_SDK\public.sdk\source\vst\moduleinfo\moduleinfoparser.h
+メモ: インクルード ファイル:   C:\Users\nkbys\Documents\Codex\2026-10-14\files-pasted-by-the-user-nkblimit\outputs\NKBLIMIT\ThirdParty\JUCE\modules\juce_audio_processors_headless\format_types\VST3_SDK\pluginterfaces/base/iplugincompatibility.h
+メモ: インクルード ファイル:   C:\Users\nkbys\Documents\Codex\2026-10-14\files-pasted-by-the-user-nkblimit\outputs\NKBLIMIT\ThirdParty\JUCE\modules\juce_audio_processors_headless\format_types\VST3_SDK\pluginterfaces/vst/ivstaudioprocessor.h
+メモ: インクルード ファイル:    C:\Users\nkbys\Documents\Codex\2026-10-14\files-pasted-by-the-user-nkblimit\outputs\NKBLIMIT\ThirdParty\JUCE\modules\juce_audio_processors_headless\format_types\VST3_SDK\pluginterfaces\vst\ivstcomponent.h
+メモ: インクルード ファイル:     C:\Users\nkbys\Documents\Codex\2026-10-14\files-pasted-by-the-user-nkblimit\outputs\NKBLIMIT\ThirdParty\JUCE\modules\juce_audio_processors_headless\format_types\VST3_SDK\pluginterfaces/base/falignpush.h
+メモ: インクルード ファイル:     C:\Users\nkbys\Documents\Codex\2026-10-14\files-pasted-by-the-user-nkblimit\outputs\NKBLIMIT\ThirdParty\JUCE\modules\juce_audio_processors_headless\format_types\VST3_SDK\pluginterfaces/base/falignpop.h
+メモ: インクルード ファイル:    C:\Users\nkbys\Documents\Codex\2026-10-14\files-pasted-by-the-user-nkblimit\outputs\NKBLIMIT\ThirdParty\JUCE\modules\juce_audio_processors_headless\format_types\VST3_SDK\pluginterfaces\vst\vstspeaker.h
+メモ: インクルード ファイル:    C:\Users\nkbys\Documents\Codex\2026-10-14\files-pasted-by-the-user-nkblimit\outputs\NKBLIMIT\ThirdParty\JUCE\modules\juce_audio_processors_headless\format_types\VST3_SDK\pluginterfaces/base/falignpush.h
+メモ: インクルード ファイル:    C:\Users\nkbys\Documents\Codex\2026-10-14\files-pasted-by-the-user-nkblimit\outputs\NKBLIMIT\ThirdParty\JUCE\modules\juce_audio_processors_headless\format_types\VST3_SDK\pluginterfaces/base/falignpop.h
+メモ: インクルード ファイル:   C:\Users\nkbys\Documents\Codex\2026-10-14\files-pasted-by-the-user-nkblimit\outputs\NKBLIMIT\ThirdParty\JUCE\modules\juce_audio_processors_headless\format_types\VST3_SDK\pluginterfaces/vst/ivstautomationstate.h
+メモ: インクルード ファイル:    C:\Users\nkbys\Documents\Codex\2026-10-14\files-pasted-by-the-user-nkblimit\outputs\NKBLIMIT\ThirdParty\JUCE\modules\juce_audio_processors_headless\format_types\VST3_SDK\pluginterfaces/base/falignpush.h
+メモ: インクルード ファイル:    C:\Users\nkbys\Documents\Codex\2026-10-14\files-pasted-by-the-user-nkblimit\outputs\NKBLIMIT\ThirdParty\JUCE\modules\juce_audio_processors_headless\format_types\VST3_SDK\pluginterfaces/base/falignpop.h
+メモ: インクルード ファイル:   C:\Users\nkbys\Documents\Codex\2026-10-14\files-pasted-by-the-user-nkblimit\outputs\NKBLIMIT\ThirdParty\JUCE\modules\juce_audio_processors_headless\format_types\VST3_SDK\pluginterfaces/vst/ivstchannelcontextinfo.h
+メモ: インクルード ファイル:    C:\Users\nkbys\Documents\Codex\2026-10-14\files-pasted-by-the-user-nkblimit\outputs\NKBLIMIT\ThirdParty\JUCE\modules\juce_audio_processors_headless\format_types\VST3_SDK\pluginterfaces/vst/ivstattributes.h
+メモ: インクルード ファイル:     C:\Users\nkbys\Documents\Codex\2026-10-14\files-pasted-by-the-user-nkblimit\outputs\NKBLIMIT\ThirdParty\JUCE\modules\juce_audio_processors_headless\format_types\VST3_SDK\pluginterfaces/base/falignpush.h
+メモ: インクルード ファイル:     C:\Users\nkbys\Documents\Codex\2026-10-14\files-pasted-by-the-user-nkblimit\outputs\NKBLIMIT\ThirdParty\JUCE\modules\juce_audio_processors_headless\format_types\VST3_SDK\pluginterfaces/base/falignpop.h
+メモ: インクルード ファイル:    C:\Users\nkbys\Documents\Codex\2026-10-14\files-pasted-by-the-user-nkblimit\outputs\NKBLIMIT\ThirdParty\JUCE\modules\juce_audio_processors_headless\format_types\VST3_SDK\pluginterfaces/base/falignpush.h
+メモ: インクルード ファイル:    C:\Users\nkbys\Documents\Codex\2026-10-14\files-pasted-by-the-user-nkblimit\outputs\NKBLIMIT\ThirdParty\JUCE\modules\juce_audio_processors_headless\format_types\VST3_SDK\pluginterfaces/base/falignpop.h
+メモ: インクルード ファイル:   C:\Users\nkbys\Documents\Codex\2026-10-14\files-pasted-by-the-user-nkblimit\outputs\NKBLIMIT\ThirdParty\JUCE\modules\juce_audio_processors_headless\format_types\VST3_SDK\pluginterfaces/vst/ivstcontextmenu.h
+メモ: インクルード ファイル:    C:\Users\nkbys\Documents\Codex\2026-10-14\files-pasted-by-the-user-nkblimit\outputs\NKBLIMIT\ThirdParty\JUCE\modules\juce_audio_processors_headless\format_types\VST3_SDK\pluginterfaces/base/falignpush.h
+メモ: インクルード ファイル:    C:\Users\nkbys\Documents\Codex\2026-10-14\files-pasted-by-the-user-nkblimit\outputs\NKBLIMIT\ThirdParty\JUCE\modules\juce_audio_processors_headless\format_types\VST3_SDK\pluginterfaces/base/falignpop.h
+メモ: インクルード ファイル:   C:\Users\nkbys\Documents\Codex\2026-10-14\files-pasted-by-the-user-nkblimit\outputs\NKBLIMIT\ThirdParty\JUCE\modules\juce_audio_processors_headless\format_types\VST3_SDK\pluginterfaces/vst/ivstdataexchange.h
+メモ: インクルード ファイル:    C:\Users\nkbys\Documents\Codex\2026-10-14\files-pasted-by-the-user-nkblimit\outputs\NKBLIMIT\ThirdParty\JUCE\modules\juce_audio_processors_headless\format_types\VST3_SDK\pluginterfaces/base/falignpush.h
+メモ: インクルード ファイル:    C:\Users\nkbys\Documents\Codex\2026-10-14\files-pasted-by-the-user-nkblimit\outputs\NKBLIMIT\ThirdParty\JUCE\modules\juce_audio_processors_headless\format_types\VST3_SDK\pluginterfaces/base/falignpop.h
+メモ: インクルード ファイル:   C:\Users\nkbys\Documents\Codex\2026-10-14\files-pasted-by-the-user-nkblimit\outputs\NKBLIMIT\ThirdParty\JUCE\modules\juce_audio_processors_headless\format_types\VST3_SDK\pluginterfaces/vst/ivsteditcontroller.h
+メモ: インクルード ファイル:    C:\Users\nkbys\Documents\Codex\2026-10-14\files-pasted-by-the-user-nkblimit\outputs\NKBLIMIT\ThirdParty\JUCE\modules\juce_audio_processors_headless\format_types\VST3_SDK\pluginterfaces/base/falignpush.h
+メモ: インクルード ファイル:    C:\Users\nkbys\Documents\Codex\2026-10-14\files-pasted-by-the-user-nkblimit\outputs\NKBLIMIT\ThirdParty\JUCE\modules\juce_audio_processors_headless\format_types\VST3_SDK\pluginterfaces/base/falignpop.h
+メモ: インクルード ファイル:   C:\Users\nkbys\Documents\Codex\2026-10-14\files-pasted-by-the-user-nkblimit\outputs\NKBLIMIT\ThirdParty\JUCE\modules\juce_audio_processors_headless\format_types\VST3_SDK\pluginterfaces/vst/ivstevents.h
+メモ: インクルード ファイル:    C:\Users\nkbys\Documents\Codex\2026-10-14\files-pasted-by-the-user-nkblimit\outputs\NKBLIMIT\ThirdParty\JUCE\modules\juce_audio_processors_headless\format_types\VST3_SDK\pluginterfaces/vst/ivstprocesscontext.h
+メモ: インクルード ファイル:     C:\Users\nkbys\Documents\Codex\2026-10-14\files-pasted-by-the-user-nkblimit\outputs\NKBLIMIT\ThirdParty\JUCE\modules\juce_audio_processors_headless\format_types\VST3_SDK\pluginterfaces/base/falignpush.h
+メモ: インクルード ファイル:     C:\Users\nkbys\Documents\Codex\2026-10-14\files-pasted-by-the-user-nkblimit\outputs\NKBLIMIT\ThirdParty\JUCE\modules\juce_audio_processors_headless\format_types\VST3_SDK\pluginterfaces/base/falignpop.h
+メモ: インクルード ファイル:    C:\Users\nkbys\Documents\Codex\2026-10-14\files-pasted-by-the-user-nkblimit\outputs\NKBLIMIT\ThirdParty\JUCE\modules\juce_audio_processors_headless\format_types\VST3_SDK\pluginterfaces/vst/ivstnoteexpression.h
+メモ: インクルード ファイル:     C:\Users\nkbys\Documents\Codex\2026-10-14\files-pasted-by-the-user-nkblimit\outputs\NKBLIMIT\ThirdParty\JUCE\modules\juce_audio_processors_headless\format_types\VST3_SDK\pluginterfaces/base/falignpush.h
+メモ: インクルード ファイル:     C:\Users\nkbys\Documents\Codex\2026-10-14\files-pasted-by-the-user-nkblimit\outputs\NKBLIMIT\ThirdParty\JUCE\modules\juce_audio_processors_headless\format_types\VST3_SDK\pluginterfaces/base/falignpop.h
+メモ: インクルード ファイル:    C:\Users\nkbys\Documents\Codex\2026-10-14\files-pasted-by-the-user-nkblimit\outputs\NKBLIMIT\ThirdParty\JUCE\modules\juce_audio_processors_headless\format_types\VST3_SDK\pluginterfaces/base/falignpush.h
+メモ: インクルード ファイル:    C:\Users\nkbys\Documents\Codex\2026-10-14\files-pasted-by-the-user-nkblimit\outputs\NKBLIMIT\ThirdParty\JUCE\modules\juce_audio_processors_headless\format_types\VST3_SDK\pluginterfaces/base/falignpop.h
+メモ: インクルード ファイル:   C:\Users\nkbys\Documents\Codex\2026-10-14\files-pasted-by-the-user-nkblimit\outputs\NKBLIMIT\ThirdParty\JUCE\modules\juce_audio_processors_headless\format_types\VST3_SDK\pluginterfaces/vst/ivsthostapplication.h
+メモ: インクルード ファイル:    C:\Users\nkbys\Documents\Codex\2026-10-14\files-pasted-by-the-user-nkblimit\outputs\NKBLIMIT\ThirdParty\JUCE\modules\juce_audio_processors_headless\format_types\VST3_SDK\pluginterfaces/vst/ivstmessage.h
+メモ: インクルード ファイル:     C:\Users\nkbys\Documents\Codex\2026-10-14\files-pasted-by-the-user-nkblimit\outputs\NKBLIMIT\ThirdParty\JUCE\modules\juce_audio_processors_headless\format_types\VST3_SDK\pluginterfaces/base/falignpush.h
+メモ: インクルード ファイル:     C:\Users\nkbys\Documents\Codex\2026-10-14\files-pasted-by-the-user-nkblimit\outputs\NKBLIMIT\ThirdParty\JUCE\modules\juce_audio_processors_headless\format_types\VST3_SDK\pluginterfaces/base/falignpop.h
+メモ: インクルード ファイル:   C:\Users\nkbys\Documents\Codex\2026-10-14\files-pasted-by-the-user-nkblimit\outputs\NKBLIMIT\ThirdParty\JUCE\modules\juce_audio_processors_headless\format_types\VST3_SDK\pluginterfaces/vst/ivstinterappaudio.h
+メモ: インクルード ファイル:   C:\Users\nkbys\Documents\Codex\2026-10-14\files-pasted-by-the-user-nkblimit\outputs\NKBLIMIT\ThirdParty\JUCE\modules\juce_audio_processors_headless\format_types\VST3_SDK\pluginterfaces/vst/ivstmidimapping2.h
+メモ: インクルード ファイル:    C:\Users\nkbys\Documents\Codex\2026-10-14\files-pasted-by-the-user-nkblimit\outputs\NKBLIMIT\ThirdParty\JUCE\modules\juce_audio_processors_headless\format_types\VST3_SDK\pluginterfaces/base/falignpush.h
+メモ: インクルード ファイル:    C:\Users\nkbys\Documents\Codex\2026-10-14\files-pasted-by-the-user-nkblimit\outputs\NKBLIMIT\ThirdParty\JUCE\modules\juce_audio_processors_headless\format_types\VST3_SDK\pluginterfaces/base/falignpop.h
+メモ: インクルード ファイル:   C:\Users\nkbys\Documents\Codex\2026-10-14\files-pasted-by-the-user-nkblimit\outputs\NKBLIMIT\ThirdParty\JUCE\modules\juce_audio_processors_headless\format_types\VST3_SDK\pluginterfaces/vst/ivstmidilearn.h
+メモ: インクルード ファイル:   C:\Users\nkbys\Documents\Codex\2026-10-14\files-pasted-by-the-user-nkblimit\outputs\NKBLIMIT\ThirdParty\JUCE\modules\juce_audio_processors_headless\format_types\VST3_SDK\pluginterfaces/vst/ivstparameterchanges.h
+メモ: インクルード ファイル:    C:\Users\nkbys\Documents\Codex\2026-10-14\files-pasted-by-the-user-nkblimit\outputs\NKBLIMIT\ThirdParty\JUCE\modules\juce_audio_processors_headless\format_types\VST3_SDK\pluginterfaces/base/falignpush.h
+メモ: インクルード ファイル:    C:\Users\nkbys\Documents\Codex\2026-10-14\files-pasted-by-the-user-nkblimit\outputs\NKBLIMIT\ThirdParty\JUCE\modules\juce_audio_processors_headless\format_types\VST3_SDK\pluginterfaces/base/falignpop.h
+メモ: インクルード ファイル:   C:\Users\nkbys\Documents\Codex\2026-10-14\files-pasted-by-the-user-nkblimit\outputs\NKBLIMIT\ThirdParty\JUCE\modules\juce_audio_processors_headless\format_types\VST3_SDK\pluginterfaces/vst/ivstparameterfunctionname.h
+メモ: インクルード ファイル:    C:\Users\nkbys\Documents\Codex\2026-10-14\files-pasted-by-the-user-nkblimit\outputs\NKBLIMIT\ThirdParty\JUCE\modules\juce_audio_processors_headless\format_types\VST3_SDK\pluginterfaces/base/falignpush.h
+メモ: インクルード ファイル:    C:\Users\nkbys\Documents\Codex\2026-10-14\files-pasted-by-the-user-nkblimit\outputs\NKBLIMIT\ThirdParty\JUCE\modules\juce_audio_processors_headless\format_types\VST3_SDK\pluginterfaces/base/falignpop.h
+メモ: インクルード ファイル:   C:\Users\nkbys\Documents\Codex\2026-10-14\files-pasted-by-the-user-nkblimit\outputs\NKBLIMIT\ThirdParty\JUCE\modules\juce_audio_processors_headless\format_types\VST3_SDK\pluginterfaces/vst/ivstphysicalui.h
+メモ: インクルード ファイル:    C:\Users\nkbys\Documents\Codex\2026-10-14\files-pasted-by-the-user-nkblimit\outputs\NKBLIMIT\ThirdParty\JUCE\modules\juce_audio_processors_headless\format_types\VST3_SDK\pluginterfaces/base/falignpush.h
+メモ: インクルード ファイル:    C:\Users\nkbys\Documents\Codex\2026-10-14\files-pasted-by-the-user-nkblimit\outputs\NKBLIMIT\ThirdParty\JUCE\modules\juce_audio_processors_headless\format_types\VST3_SDK\pluginterfaces/base/falignpop.h
+メモ: インクルード ファイル:   C:\Users\nkbys\Documents\Codex\2026-10-14\files-pasted-by-the-user-nkblimit\outputs\NKBLIMIT\ThirdParty\JUCE\modules\juce_audio_processors_headless\format_types\VST3_SDK\pluginterfaces/vst/ivstpluginterfacesupport.h
+メモ: インクルード ファイル:   C:\Users\nkbys\Documents\Codex\2026-10-14\files-pasted-by-the-user-nkblimit\outputs\NKBLIMIT\ThirdParty\JUCE\modules\juce_audio_processors_headless\format_types\VST3_SDK\pluginterfaces/vst/ivstplugview.h
+メモ: インクルード ファイル:    C:\Users\nkbys\Documents\Codex\2026-10-14\files-pasted-by-the-user-nkblimit\outputs\NKBLIMIT\ThirdParty\JUCE\modules\juce_audio_processors_headless\format_types\VST3_SDK\pluginterfaces/base/falignpush.h
+メモ: インクルード ファイル:    C:\Users\nkbys\Documents\Codex\2026-10-14\files-pasted-by-the-user-nkblimit\outputs\NKBLIMIT\ThirdParty\JUCE\modules\juce_audio_processors_headless\format_types\VST3_SDK\pluginterfaces/base/falignpop.h
+メモ: インクルード ファイル:   C:\Users\nkbys\Documents\Codex\2026-10-14\files-pasted-by-the-user-nkblimit\outputs\NKBLIMIT\ThirdParty\JUCE\modules\juce_audio_processors_headless\format_types\VST3_SDK\pluginterfaces/vst/ivstprefetchablesupport.h
+メモ: インクルード ファイル:    C:\Users\nkbys\Documents\Codex\2026-10-14\files-pasted-by-the-user-nkblimit\outputs\NKBLIMIT\ThirdParty\JUCE\modules\juce_audio_processors_headless\format_types\VST3_SDK\pluginterfaces/base/falignpush.h
+メモ: インクルード ファイル:    C:\Users\nkbys\Documents\Codex\2026-10-14\files-pasted-by-the-user-nkblimit\outputs\NKBLIMIT\ThirdParty\JUCE\modules\juce_audio_processors_headless\format_types\VST3_SDK\pluginterfaces/base/falignpop.h
+メモ: インクルード ファイル:   C:\Users\nkbys\Documents\Codex\2026-10-14\files-pasted-by-the-user-nkblimit\outputs\NKBLIMIT\ThirdParty\JUCE\modules\juce_audio_processors_headless\format_types\VST3_SDK\pluginterfaces/vst/ivstremapparamid.h
+メモ: インクルード ファイル:    C:\Users\nkbys\Documents\Codex\2026-10-14\files-pasted-by-the-user-nkblimit\outputs\NKBLIMIT\ThirdParty\JUCE\modules\juce_audio_processors_headless\format_types\VST3_SDK\pluginterfaces/base/falignpush.h
+メモ: インクルード ファイル:    C:\Users\nkbys\Documents\Codex\2026-10-14\files-pasted-by-the-user-nkblimit\outputs\NKBLIMIT\ThirdParty\JUCE\modules\juce_audio_processors_headless\format_types\VST3_SDK\pluginterfaces/base/falignpop.h
+メモ: インクルード ファイル:   C:\Users\nkbys\Documents\Codex\2026-10-14\files-pasted-by-the-user-nkblimit\outputs\NKBLIMIT\ThirdParty\JUCE\modules\juce_audio_processors_headless\format_types\VST3_SDK\pluginterfaces/vst/ivstrepresentation.h
+メモ: インクルード ファイル:    C:\Users\nkbys\Documents\Codex\2026-10-14\files-pasted-by-the-user-nkblimit\outputs\NKBLIMIT\ThirdParty\JUCE\modules\juce_audio_processors_headless\format_types\VST3_SDK\pluginterfaces/base/falignpush.h
+メモ: インクルード ファイル:    C:\Users\nkbys\Documents\Codex\2026-10-14\files-pasted-by-the-user-nkblimit\outputs\NKBLIMIT\ThirdParty\JUCE\modules\juce_audio_processors_headless\format_types\VST3_SDK\pluginterfaces/base/falignpop.h
+メモ: インクルード ファイル:   C:\Users\nkbys\Documents\Codex\2026-10-14\files-pasted-by-the-user-nkblimit\outputs\NKBLIMIT\ThirdParty\JUCE\modules\juce_audio_processors_headless\format_types\VST3_SDK\pluginterfaces/vst/ivsttestplugprovider.h
+メモ: インクルード ファイル:    C:\Users\nkbys\Documents\Codex\2026-10-14\files-pasted-by-the-user-nkblimit\outputs\NKBLIMIT\ThirdParty\JUCE\modules\juce_audio_processors_headless\format_types\VST3_SDK\pluginterfaces/base/istringresult.h
+メモ: インクルード ファイル:   C:\Users\nkbys\Documents\Codex\2026-10-14\files-pasted-by-the-user-nkblimit\outputs\NKBLIMIT\ThirdParty\JUCE\modules\juce_audio_processors_headless\format_types\VST3_SDK\pluginterfaces/vst/ivstunits.h
+メモ: インクルード ファイル:    C:\Users\nkbys\Documents\Codex\2026-10-14\files-pasted-by-the-user-nkblimit\outputs\NKBLIMIT\ThirdParty\JUCE\modules\juce_audio_processors_headless\format_types\VST3_SDK\pluginterfaces/base/falignpush.h
+メモ: インクルード ファイル:    C:\Users\nkbys\Documents\Codex\2026-10-14\files-pasted-by-the-user-nkblimit\outputs\NKBLIMIT\ThirdParty\JUCE\modules\juce_audio_processors_headless\format_types\VST3_SDK\pluginterfaces/base/falignpop.h
+メモ: インクルード ファイル:  C:\Users\nkbys\Documents\Codex\2026-10-14\files-pasted-by-the-user-nkblimit\outputs\NKBLIMIT\ThirdParty\JUCE\modules\juce_core/detail/juce_IncrementRef.h
+メモ: インクルード ファイル:  C:\Users\nkbys\Documents\Codex\2026-10-14\files-pasted-by-the-user-nkblimit\outputs\NKBLIMIT\ThirdParty\JUCE\modules\juce_audio_processors_headless/format_types/juce_VST3Utilities.h
+メモ: インクルード ファイル:  C:\Users\nkbys\Documents\Codex\2026-10-14\files-pasted-by-the-user-nkblimit\outputs\NKBLIMIT\ThirdParty\JUCE\modules\juce_audio_processors_headless/utilities/juce_VST3Interface.h
+メモ: インクルード ファイル:  C:\Users\nkbys\Documents\Codex\2026-10-14\files-pasted-by-the-user-nkblimit\outputs\NKBLIMIT\ThirdParty\JUCE\modules\juce_audio_plugin_client/juce_audio_plugin_client.h
+メモ: インクルード ファイル:  C:\Users\nkbys\Documents\Codex\2026-10-14\files-pasted-by-the-user-nkblimit\outputs\NKBLIMIT\ThirdParty\JUCE\modules\juce_audio_plugin_client\VST3\juce_VST3ModuleInfo.h
+[2/2] Linking CXX executable vst3_helper.exe
+[24/92] Building CXX object CMakeFiles\nkblimit.dir\ThirdParty\JUCE\modules\juce_dsp\juce_dsp.cpp.obj
+[25/92] Building CXX object CMakeFiles\nkblimit.dir\ThirdParty\JUCE\modules\juce_audio_devices\juce_audio_devices.cpp.obj
+[26/92] Linking CXX static library nkblimit_artefacts\Release\nkblimit_SharedCode.lib
+[27/92] Building CXX object CMakeFiles\DSPTests.dir\Tests\DSPTests\Main.cpp.obj
+[28/92] Building CXX object CMakeFiles\nkblimit_VST3.dir\ThirdParty\JUCE\modules\juce_audio_processors\juce_audio_processors.cpp.obj
+[29/92] Building CXX object CMakeFiles\nkblimit_VST3.dir\ThirdParty\JUCE\modules\juce_audio_utils\juce_audio_utils.cpp.obj
+[30/92] Building CXX object CMakeFiles\nkblimit_VST3.dir\ThirdParty\JUCE\modules\juce_gui_extra\juce_gui_extra.cpp.obj
+[31/92] Building CXX object CMakeFiles\nkblimit_VST3.dir\ThirdParty\JUCE\modules\juce_gui_basics\juce_gui_basics_2.cpp.obj
+[32/92] Building CXX object CMakeFiles\nkblimit_VST3.dir\ThirdParty\JUCE\modules\juce_gui_basics\juce_gui_basics_4.cpp.obj
+[33/92] Building CXX object CMakeFiles\nkblimit_VST3.dir\ThirdParty\JUCE\modules\juce_gui_basics\juce_gui_basics.cpp.obj
+C:\Users\nkbys\Documents\Codex\2026-10-14\files-pasted-by-the-user-nkblimit\outputs\NKBLIMIT\ThirdParty\JUCE\modules\juce_gui_basics\juce_gui_basics.cpp(61) : Warning: This version of JUCE does not use the splash screen, the flag JUCE_DISPLAY_SPLASH_SCREEN is ignored
+[34/92] Building CXX object CMakeFiles\nkblimit_VST3.dir\ThirdParty\JUCE\modules\juce_gui_basics\juce_gui_basics_3.cpp.obj
+[35/92] Building C object CMakeFiles\nkblimit_VST3.dir\ThirdParty\JUCE\modules\juce_graphics\juce_graphics_Sheenbidi.c.obj
+[36/92] Building CXX object CMakeFiles\nkblimit_VST3.dir\ThirdParty\JUCE\modules\juce_gui_basics\juce_gui_basics_5.cpp.obj
+[37/92] Building CXX object CMakeFiles\nkblimit_VST3.dir\ThirdParty\JUCE\modules\juce_events\juce_events.cpp.obj
+[38/92] Building CXX object CMakeFiles\nkblimit_VST3.dir\ThirdParty\JUCE\modules\juce_core\juce_core_CompilationTime.cpp.obj
+[39/92] Building CXX object CMakeFiles\nkblimit_VST3.dir\ThirdParty\JUCE\modules\juce_data_structures\juce_data_structures.cpp.obj
+[40/92] Building CXX object CMakeFiles\nkblimit_VST3.dir\ThirdParty\JUCE\modules\juce_core\juce_core.cpp.obj
+[41/92] Building CXX object CMakeFiles\nkblimit_VST3.dir\ThirdParty\JUCE\modules\juce_audio_processors_headless\juce_audio_processors_headless_ara.cpp.obj
+[42/92] Building CXX object CMakeFiles\nkblimit_VST3.dir\ThirdParty\JUCE\modules\juce_audio_processors_headless\juce_audio_processors_headless_lv2_libs.cpp.obj
+[43/92] Building CXX object CMakeFiles\nkblimit_VST3.dir\ThirdParty\JUCE\modules\juce_audio_processors_headless\juce_audio_processors_headless.cpp.obj
+[44/92] Building CXX object CMakeFiles\nkblimit_VST3.dir\ThirdParty\JUCE\modules\juce_audio_basics\juce_audio_basics.cpp.obj
+[45/92] Building CXX object CMakeFiles\nkblimit_VST3.dir\ThirdParty\JUCE\modules\juce_graphics\juce_graphics.cpp.obj
+[46/92] Building CXX object CMakeFiles\nkblimit_VST3.dir\ThirdParty\JUCE\modules\juce_graphics\juce_graphics_Harfbuzz.cpp.obj
+[47/92] Building CXX object CMakeFiles\nkblimit_VST3.dir\ThirdParty\JUCE\modules\juce_audio_plugin_client\juce_audio_plugin_client_AAX.cpp.obj
+[48/92] Building CXX object CMakeFiles\nkblimit_VST3.dir\ThirdParty\JUCE\modules\juce_audio_plugin_client\juce_audio_plugin_client_AAX_utils.cpp.obj
+[49/92] Building CXX object CMakeFiles\nkblimit_VST3.dir\ThirdParty\JUCE\modules\juce_audio_plugin_client\juce_audio_plugin_client_ARA.cpp.obj
+[50/92] Building CXX object CMakeFiles\nkblimit_VST3.dir\ThirdParty\JUCE\modules\juce_audio_plugin_client\juce_audio_plugin_client_LV2.cpp.obj
+[51/92] Building CXX object CMakeFiles\nkblimit_VST3.dir\ThirdParty\JUCE\modules\juce_audio_plugin_client\juce_audio_plugin_client_Standalone.cpp.obj
+[52/92] Building CXX object CMakeFiles\nkblimit_VST3.dir\ThirdParty\JUCE\modules\juce_audio_plugin_client\juce_audio_plugin_client_Unity.cpp.obj
+[53/92] Building CXX object CMakeFiles\nkblimit_VST3.dir\ThirdParty\JUCE\modules\juce_audio_plugin_client\juce_audio_plugin_client_VST2.cpp.obj
+[54/92] Building CXX object CMakeFiles\nkblimit_VST3.dir\ThirdParty\JUCE\modules\juce_audio_formats\juce_audio_formats.cpp.obj
+[55/92] Building CXX object CMakeFiles\nkblimit_VST3.dir\ThirdParty\JUCE\modules\juce_dsp\juce_dsp.cpp.obj
+[56/92] Building CXX object CMakeFiles\TruePeakGuardTests.dir\Tests\DSPTests\TruePeakGuardTests.cpp.obj
+[57/92] Building CXX object CMakeFiles\CeilingTrackingTests.dir\Tests\DSPTests\CeilingTrackingTests.cpp.obj
+[58/92] Building CXX object CMakeFiles\LimiterBehaviourTests.dir\Tests\DSPTests\LimiterBehaviourTests.cpp.obj
+[59/92] Building CXX object CMakeFiles\nkblimit_VST3.dir\ThirdParty\JUCE\modules\juce_audio_devices\juce_audio_devices.cpp.obj
+[60/92] Building CXX object CMakeFiles\ProcessorTests.dir\Tests\DSPTests\ProcessorTests.cpp.obj
+[61/92] Building CXX object CMakeFiles\nkblimit_VST3.dir\ThirdParty\JUCE\modules\juce_audio_plugin_client\juce_audio_plugin_client_VST3.cpp.obj
+[62/92] Building CXX object CMakeFiles\ProcessorTests.dir\ThirdParty\JUCE\modules\juce_audio_processors\juce_audio_processors.cpp.obj
+[63/92] Linking CXX shared module nkblimit_artefacts\Release\VST3\nkblimit.vst3\Contents\x86_64-win\nkblimit.vst3
+removing moduleinfo.json
+creating C:/Users/nkbys/Documents/Codex/2026-10-14/files-pasted-by-the-user-nkblimit/outputs/NKBLIMIT/build/nkblimit_artefacts/Release/VST3/nkblimit.vst3/Contents/Resources/moduleinfo.json
+[64/92] Building CXX object CMakeFiles\ProcessorTests.dir\ThirdParty\JUCE\modules\juce_audio_utils\juce_audio_utils.cpp.obj
+[65/92] Building CXX object CMakeFiles\ProcessorTests.dir\ThirdParty\JUCE\modules\juce_gui_extra\juce_gui_extra.cpp.obj
+[66/92] Building CXX object CMakeFiles\ProcessorTests.dir\ThirdParty\JUCE\modules\juce_gui_basics\juce_gui_basics_2.cpp.obj
+[67/92] Building CXX object CMakeFiles\ProcessorTests.dir\ThirdParty\JUCE\modules\juce_gui_basics\juce_gui_basics_3.cpp.obj
+[68/92] Building CXX object CMakeFiles\ProcessorTests.dir\ThirdParty\JUCE\modules\juce_gui_basics\juce_gui_basics_5.cpp.obj
+[69/92] Building CXX object CMakeFiles\ProcessorTests.dir\ThirdParty\JUCE\modules\juce_gui_basics\juce_gui_basics_4.cpp.obj
+[70/92] Building C object CMakeFiles\ProcessorTests.dir\ThirdParty\JUCE\modules\juce_graphics\juce_graphics_Sheenbidi.c.obj
+[71/92] Building CXX object CMakeFiles\ProcessorTests.dir\ThirdParty\JUCE\modules\juce_gui_basics\juce_gui_basics.cpp.obj
+C:\Users\nkbys\Documents\Codex\2026-10-14\files-pasted-by-the-user-nkblimit\outputs\NKBLIMIT\ThirdParty\JUCE\modules\juce_gui_basics\juce_gui_basics.cpp(61) : Warning: This version of JUCE does not use the splash screen, the flag JUCE_DISPLAY_SPLASH_SCREEN is ignored
+[72/92] Building CXX object CMakeFiles\ProcessorTests.dir\ThirdParty\JUCE\modules\juce_events\juce_events.cpp.obj
+[73/92] Building CXX object CMakeFiles\ProcessorTests.dir\ThirdParty\JUCE\modules\juce_core\juce_core_CompilationTime.cpp.obj
+[74/92] Building CXX object CMakeFiles\ProcessorTests.dir\ThirdParty\JUCE\modules\juce_data_structures\juce_data_structures.cpp.obj
+[75/92] Building CXX object CMakeFiles\ProcessorTests.dir\ThirdParty\JUCE\modules\juce_core\juce_core.cpp.obj
+[76/92] Building CXX object CMakeFiles\ProcessorTests.dir\ThirdParty\JUCE\modules\juce_audio_processors_headless\juce_audio_processors_headless_ara.cpp.obj
+[77/92] Building CXX object CMakeFiles\ProcessorTests.dir\ThirdParty\JUCE\modules\juce_audio_processors_headless\juce_audio_processors_headless_lv2_libs.cpp.obj
+[78/92] Building CXX object CMakeFiles\ProcessorTests.dir\ThirdParty\JUCE\modules\juce_audio_processors_headless\juce_audio_processors_headless.cpp.obj
+[79/92] Building CXX object CMakeFiles\ProcessorTests.dir\ThirdParty\JUCE\modules\juce_audio_basics\juce_audio_basics.cpp.obj
+[80/92] Building CXX object CMakeFiles\ProcessorTests.dir\ThirdParty\JUCE\modules\juce_graphics\juce_graphics.cpp.obj
+[81/92] Building CXX object CMakeFiles\ProcessorTests.dir\ThirdParty\JUCE\modules\juce_graphics\juce_graphics_Harfbuzz.cpp.obj
+[82/92] Building CXX object CMakeFiles\ProcessorTests.dir\ThirdParty\JUCE\modules\juce_audio_formats\juce_audio_formats.cpp.obj
+[83/92] Linking CXX executable DSPTests.exe
+[84/92] Linking CXX executable TruePeakGuardTests.exe
+[85/92] Linking CXX executable LimiterBehaviourTests.exe
+[86/92] Linking CXX executable CeilingTrackingTests.exe
+[87/92] Building CXX object CMakeFiles\ProcessorTests.dir\ThirdParty\JUCE\modules\juce_dsp\juce_dsp.cpp.obj
+[88/92] Building CXX object CMakeFiles\ProcessorTests.dir\ThirdParty\JUCE\modules\juce_audio_devices\juce_audio_devices.cpp.obj
+[89/92] Building CXX object CMakeFiles\VST3HostTests.dir\Tests\DSPTests\VST3HostTests.cpp.obj
+[90/92] Linking CXX executable ProcessorTests.exe
+[91/92] Linking CXX executable VST3HostTests.exe

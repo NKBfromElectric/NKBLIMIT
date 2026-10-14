@@ -4,10 +4,12 @@
 #include <cmath>
 #include "../Benchmarks/LoudnessComparison.h"
 #include "../Benchmarks/RealAudioComparison.h"
+#include "../Benchmarks/ReferencePlugin.h"
 void check(bool passed,const char* message) { if(!passed) throw std::runtime_error(message); }
 int main(int argc,char** argv) {
     juce::ScopedJuceInitialiser_GUI init;
     try {
+        if(argc==3 && juce::String(argv[1])=="--inspect") return inspectReferencePlugin(argv[2]);
         if(argc==4 && juce::String(argv[1])=="--compare") return compareLoudnessBundles(argv[2],argv[3]);
         if(argc==4 && juce::String(argv[1])=="--music") return compareRealAudio(argv[2],argv[3]);
         check(argc==2,"expected VST3 bundle path");

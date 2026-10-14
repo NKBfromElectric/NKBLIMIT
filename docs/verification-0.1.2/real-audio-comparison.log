@@ -1,0 +1,43 @@
+real_audio seconds=238.667 rate=48000 excerpt_start=190 excerpt_seconds=30
+CALIBRATION old drive=16 quiet_makeup_dB=15.9931 precision=double latency=376
+old drive=16 rendered_seconds=30.0053
+old drive=16 rendered_seconds=60
+old drive=16 rendered_seconds=90.0053
+old drive=16 rendered_seconds=120
+old drive=16 rendered_seconds=150.005
+old drive=16 rendered_seconds=180
+old drive=16 rendered_seconds=210.005
+old drive=16 analyzing_independent_16x_true_peak
+old drive=16 max_LUFS-S=-7.40261 median_LUFS-S=-8.41047 dBTP=-0.981731 elapsed_s=32.7211
+CALIBRATION updated drive=16 quiet_makeup_dB=15.9931 precision=double latency=567
+updated drive=16 rendered_seconds=30.0053
+updated drive=16 rendered_seconds=60
+updated drive=16 rendered_seconds=90.0053
+updated drive=16 rendered_seconds=120
+updated drive=16 rendered_seconds=150.005
+updated drive=16 rendered_seconds=180
+updated drive=16 rendered_seconds=210.005
+updated drive=16 analyzing_independent_16x_true_peak
+updated drive=16 max_LUFS-S=-5.63506 median_LUFS-S=-6.2699 dBTP=-0.54609 elapsed_s=36.7842
+REAL_RESULT drive=16 old_max_LUFS-S=-7.40261 new_max_LUFS-S=-5.63506 old_median_LUFS-S=-8.41047 new_median_LUFS-S=-6.2699 median_gain_LU=2.14057 old_dBTP=-0.981731 new_dBTP=-0.54609 equivalent_nkb_gain=16
+CALIBRATION old drive=24 quiet_makeup_dB=23.9931 precision=double latency=376
+old drive=24 rendered_seconds=30.0053
+old drive=24 rendered_seconds=60
+old drive=24 rendered_seconds=90.0053
+old drive=24 rendered_seconds=120
+old drive=24 rendered_seconds=150.005
+old drive=24 rendered_seconds=180
+old drive=24 rendered_seconds=210.005
+old drive=24 analyzing_independent_16x_true_peak
+old drive=24 max_LUFS-S=-7.49466 median_LUFS-S=-8.55834 dBTP=-0.981733 elapsed_s=34.8649
+CALIBRATION updated drive=24 quiet_makeup_dB=23.9931 precision=double latency=567
+updated drive=24 rendered_seconds=30.0053
+updated drive=24 rendered_seconds=60
+updated drive=24 rendered_seconds=90.0053
+updated drive=24 rendered_seconds=120
+updated drive=24 rendered_seconds=150.005
+updated drive=24 rendered_seconds=180
+updated drive=24 rendered_seconds=210.005
+updated drive=24 analyzing_independent_16x_true_peak
+updated drive=24 max_LUFS-S=-5.62782 median_LUFS-S=-6.16935 dBTP=-0.541797 elapsed_s=39.303
+REAL_RESULT drive=24 old_max_LUFS-S=-7.49466 new_max_LUFS-S=-5.62782 old_median_LUFS-S=-8.55834 new_median_LUFS-S=-6.16935 median_gain_LU=2.38899 old_dBTP=-0.981733 new_dBTP=-0.541797 equivalent_nkb_gain=24

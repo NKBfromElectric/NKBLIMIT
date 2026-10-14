@@ -70,7 +70,7 @@ template <typename T> static void behaviour() {
         const auto y = guard.process({T(2. * std::sin(2. * std::numbers::pi * 997 * i / 48000.)),T{}},nkb::dbToGain(-.5));
         if (i >= 4096) peak = std::max(peak,std::abs(double(y[0])));
     }
-    require(nkb::gainToDb(peak) > -1.02,"guard applies excessive steady-state headroom");
+    require(nkb::gainToDb(peak) > -0.60,"guard applies excessive steady-state headroom");
     guard.reset();
     // Changing the ceiling under the signal's peak must preserve unity gain.
     for (int i = 0; i < 8192; ++i) {

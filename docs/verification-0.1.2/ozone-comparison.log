@@ -1,0 +1,42 @@
+real_audio seconds=238.667 rate=48000 excerpt_start=190 excerpt_seconds=30
+REF_PARAM "EQ: Bypass"="On" normalized=1
+REF_PARAM "Global Bypass"="Off" normalized=0
+REF_PARAM "IMG: Bypass"="On" normalized=1
+REF_PARAM "MAX: Bypass"="Off" normalized=0
+REF_PARAM "MAX: Mode"="IRC II" normalized=1
+REF_PARAM "MAX: Threshold"="-7.50" normalized=0.625
+REF_PARAM "MAX: Ceiling"="-0.50" normalized=0.975098
+REF_PARAM "MAX: Character"="2.00" normalized=0.2
+REF_PARAM "MAX: Stereo Unlink Amt"="0.00" normalized=0
+REF_PARAM "MAX: Enable Transient Shaping"="Off" normalized=0
+REF_PARAM "MAX: Transient Shaping Amt"="0.00" normalized=0
+REF_PARAM "MAX: True Peak Limiting"="On" normalized=1
+REF_PARAM "GAIN: Input L (Locked)"="0.00" normalized=0.935065
+REF_PARAM "GAIN: Input L (Unlocked)"="0.00" normalized=0.935065
+REF_PARAM "GAIN: Input R (Unlocked)"="0.00" normalized=0.935065
+REF_PARAM "GAIN: Output L (Locked)"="0.00" normalized=0.935065
+REF_PARAM "GAIN: Ouput L (Unlocked)"="0.00" normalized=0.935065
+REF_PARAM "GAIN: Output R (Unlocked)"="0.00" normalized=0.935065
+CALIBRATION Ozone drive=7.5 quiet_makeup_dB=7.00195 precision=float latency=784
+RENDER_LATENCY Ozone samples=3790
+old drive=7.5 rendered_seconds=30.0053
+old drive=7.5 rendered_seconds=60
+old drive=7.5 rendered_seconds=90.0053
+old drive=7.5 rendered_seconds=120
+old drive=7.5 rendered_seconds=150.005
+old drive=7.5 rendered_seconds=180
+old drive=7.5 rendered_seconds=210.005
+old drive=7.5 analyzing_independent_16x_true_peak
+old drive=7.5 max_LUFS-S=-5.99766 median_LUFS-S=-9.02394 dBTP=-0.426655 elapsed_s=19.626
+CALIBRATION updated drive=7 quiet_makeup_dB=6.99306 precision=float latency=567
+RENDER_LATENCY updated samples=567
+updated drive=7 rendered_seconds=30.0053
+updated drive=7 rendered_seconds=60
+updated drive=7 rendered_seconds=90.0053
+updated drive=7 rendered_seconds=120
+updated drive=7 rendered_seconds=150.005
+updated drive=7 rendered_seconds=180
+updated drive=7 rendered_seconds=210.005
+updated drive=7 analyzing_independent_16x_true_peak
+updated drive=7 max_LUFS-S=-6.64417 median_LUFS-S=-8.8618 dBTP=-0.550869 elapsed_s=38.216
+REAL_RESULT drive=7.5 old_max_LUFS-S=-5.99766 new_max_LUFS-S=-6.64417 old_median_LUFS-S=-9.02394 new_median_LUFS-S=-8.8618 median_gain_LU=0.162138 old_dBTP=-0.426655 new_dBTP=-0.550869 equivalent_nkb_gain=7

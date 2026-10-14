@@ -1,0 +1,23 @@
+{
+  "method": "independent NumPy overlap-save; finite FIR peak estimators; no certified conformance claim",
+  "files": {
+    "0.1.2_gain16": {
+      "rate": 48000,
+      "peaks_dbtp": {
+        "ui32tap8xBlackman": -0.5424810407515697,
+        "reference96tap16xKaiser9": -0.5502195032048348,
+        "reference192tap32xKaiser12": -0.5497146906172738
+      },
+      "ui_minus_long_reference_db": 0.007233649865704184
+    },
+    "0.1.2_gain24": {
+      "rate": 48000,
+      "peaks_dbtp": {
+        "ui32tap8xBlackman": -0.5340176854875267,
+        "reference96tap16xKaiser9": -0.5501888722319465,
+        "reference192tap32xKaiser12": -0.5497393439683418
+      },
+      "ui_minus_long_reference_db": 0.01572165848081508
+    }
+  }
+}

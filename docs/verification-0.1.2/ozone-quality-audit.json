@@ -1,0 +1,120 @@
+{
+  "method": "aligned waveform/temporal/spectral proxies after equal ungated K-weighted power; no perceptual-quality score",
+  "source_start_seconds": 190.0,
+  "renders": {
+    "Ozone_IRCII_threshold-7p5_final": {
+      "frames": 1440000,
+      "sample_rate": 48000,
+      "integer_alignment_shift_samples": 0,
+      "ungated_k_weighted_lufs_equivalent": -7.55442108761136,
+      "level_match_gain_db": -6.643771492136744,
+      "sample_peak_dbfs": -0.5081262266102391,
+      "crest_factor_db": 10.15947116948099,
+      "source_crest_factor_db": 16.964086280127677,
+      "level_matched_residual_to_source_rms_db": -12.278066985723,
+      "waveform_correlation": 0.9703585309591377,
+      "matched_10ms_rms_gain_db": {
+        "p10": -0.11499710793938,
+        "p50": 0.35751744303031596,
+        "p90": 0.3581818639573698,
+        "p99": 0.35818248842798506
+      },
+      "10ms_log_envelope_correlation": 0.10009686631800022,
+      "matched_50ms_rms_gain_db": {
+        "p10": -0.1670195459953525,
+        "p50": 0.3415119623055403,
+        "p90": 0.35818177953231745,
+        "p99": 0.35818196735473606
+      },
+      "50ms_log_envelope_correlation": 0.10904731460410212,
+      "matched_400ms_rms_gain_db": {
+        "p10": 0.09260110497440328,
+        "p50": 0.23863777245796833,
+        "p90": 0.3208265963581013,
+        "p99": 0.35730919161373353
+      },
+      "400ms_log_envelope_correlation": 0.21710541614277468,
+      "matched_band_power_change_db": {
+        "20-60Hz": -0.40020310819836924,
+        "60-120Hz": -0.038927670567756686,
+        "120-250Hz": -0.36087372358622627,
+        "250-500Hz": -0.2173675391439807,
+        "500-1000Hz": 0.03423050607390283,
+        "1000-2000Hz": 0.011127138853367061,
+        "2000-4000Hz": 0.04900435524860857,
+        "4000-8000Hz": 0.06493323350635787,
+        "8000-20000Hz": -0.2506260199752007
+      },
+      "source_selected_onset_count": 20,
+      "matched_source_selected_onset_10ms_gain_db": {
+        "p10": -1.9934480703277226,
+        "p50": -0.6254104160927377,
+        "p90": 0.21826207411987755,
+        "p99": 0.35575633259776146
+      },
+      "matched_source_selected_post_onset_50ms_gain_db": {
+        "p10": -0.056890793810352,
+        "p50": 0.18577945041202587,
+        "p90": 0.3447952273784198,
+        "p99": 0.3580242844732032
+      }
+    },
+    "0.1.2_gain7_final": {
+      "frames": 1440000,
+      "sample_rate": 48000,
+      "integer_alignment_shift_samples": 0,
+      "ungated_k_weighted_lufs_equivalent": -7.736124607727132,
+      "level_match_gain_db": -6.462067972020973,
+      "sample_peak_dbfs": -0.5600001676410727,
+      "crest_factor_db": 10.28952993363105,
+      "source_crest_factor_db": 16.964086280127677,
+      "level_matched_residual_to_source_rms_db": -22.30431602563149,
+      "waveform_correlation": 0.9970550578298144,
+      "matched_10ms_rms_gain_db": {
+        "p10": -0.5270223804735472,
+        "p50": 0.24489933473058006,
+        "p90": 0.5199064630609175,
+        "p99": 0.5289034908352299
+      },
+      "10ms_log_envelope_correlation": 0.9762523208470459,
+      "matched_50ms_rms_gain_db": {
+        "p10": -0.6007856670832183,
+        "p50": 0.17709803616113484,
+        "p90": 0.5164860868466098,
+        "p99": 0.5285074068845635
+      },
+      "50ms_log_envelope_correlation": 0.9767741473150665,
+      "matched_400ms_rms_gain_db": {
+        "p10": -0.27680125351856066,
+        "p50": 0.01586861886448933,
+        "p90": 0.3437510018146831,
+        "p99": 0.4766531877143928
+      },
+      "400ms_log_envelope_correlation": 0.9843758423198145,
+      "matched_band_power_change_db": {
+        "20-60Hz": -0.2696670888703679,
+        "60-120Hz": 0.050173521107395,
+        "120-250Hz": -0.19490261000292244,
+        "250-500Hz": -0.12941752559542258,
+        "500-1000Hz": -0.028599521743445454,
+        "1000-2000Hz": -0.08930688023807626,
+        "2000-4000Hz": 0.061831627896151986,
+        "4000-8000Hz": 0.023164469790985305,
+        "8000-20000Hz": 0.19759182666600306
+      },
+      "source_selected_onset_count": 20,
+      "matched_source_selected_onset_10ms_gain_db": {
+        "p10": -2.9334033939553477,
+        "p50": -1.761399475104481,
+        "p90": 0.37117986198108405,
+        "p99": 0.5110831878221422
+      },
+      "matched_source_selected_post_onset_50ms_gain_db": {
+        "p10": -0.6271358159297766,
+        "p50": -0.08367165900724657,
+        "p90": 0.34815748540809166,
+        "p99": 0.5143667980722026
+      }
+    }
+  }
+}
