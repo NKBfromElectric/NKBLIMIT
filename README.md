@@ -1,17 +1,19 @@
 # nkblimit
 
 C++20 / JUCE 8 stereo mastering limiter foundation for Windows x64 VST3.
-**Phase 1 development build, version 0.1.0. This is not a production mastering release.**
+**Development build, version 0.1.1. This is not a production mastering release.**
 
 Implemented: real audio processing in float/double, Input Gain (-12..24 dB), Output
 Ceiling (-3..0 dBTP), Transparent lookahead limiter, adaptive release, stereo link,
-4x/8x FIR oversampling, post-downsampling conservative peak safety, state save/restore,
-automatable parameters, functional native JUCE controls and actual output meters.
+4x/8x FIR oversampling, post-downsampling predictive peak safety, state save/restore,
+automatable parameters, native controls, held peaks and output Short-term LUFS (3 s).
 
-Punch, Loud, Clipper, LUFS, GR history, final knob artwork and certified BS.1770
+Punch, Loud, Clipper, Integrated LUFS, GR history and certified BS.1770
 metering are not implemented. They are intentionally absent from the public parameters.
-The safety guard can attenuate appreciably below the nominal ceiling. Listening tests
-and independent conformance tests must precede mastering/release claims.
+The 0.1.0 safety guard's absolute-contribution bound has been replaced with signed
+reconstruction prediction; a measured 0.5 dB safety margin remains. See the validation
+report in docs/validation-0.1.1.md for actual old/new audio measurements. Independent conformance tests must
+precede certification or comparisons with commercial mastering products.
 
 ## Build
 
@@ -40,7 +42,7 @@ ctest --test-dir build-vs -C Release --output-on-failure
 ```
 
 For VS2026 use its corresponding generator. The development machine uses VS2026
-Insiders, MSVC 19.51, SDK 10.0.26100.0. See docs/validation.md for actual results.
+Insiders, MSVC 19.51, SDK 10.0.26100.0. See docs/validation-0.1.1.md for actual results.
 
 Output: `build/nkblimit_artefacts/Release/VST3/nkblimit.vst3` (a directory bundle).
 Copy the entire bundle to a user-selected VST3 location and rescan in Cubase.
@@ -62,9 +64,12 @@ Ceiling/Input automation is smoothed over a 20 ms exponential time constant; a n
 ceiling is not an instantaneous hard step. Wait at least 200 ms before assessing
 the final ceiling after automation. No bypass parameter is added in this phase.
 
-The UI displays latest audio-block peaks and a production 8x FIR TP estimate. It
-does not yet provide peak hold, LUFS, or certified metering. Meter readings at a
-30 Hz UI refresh can miss short blocks; the offline tests inspect the entire stream.
+The UI captures all audio-block maxima between refreshes. Numerical readouts update
+5 times/second, peaks hold for 1 s, and bars move at 30 Hz with gradual decay.
+LUFS-S measures actual final stereo output through K weighting over an exact,
+ungated 3 s window. It shows Measuring during the first 3 s after prepare/reset.
+Measurement has no additional smoothing; only numerical display refresh is slowed.
+This does not claim full EBU Mode or certified metering.
 GR control estimates the selected/mixed path envelope plus safety gain, not input/output
 peak differences across latency; filter delays mean it is not an exact sample-aligned ratio.
 

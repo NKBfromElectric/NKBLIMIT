@@ -1,0 +1,130 @@
+Start testing: Oct 14 13:31 東京 (標準時)
+----------------------------------------------------------
+1/6 Testing: DSPTests
+1/6 Test: DSPTests
+Command: "C:/Users/nkbys/Documents/Codex/2026-10-14/files-pasted-by-the-user-nkblimit/outputs/NKBLIMIT/build/DSPTests.exe"
+Directory: C:/Users/nkbys/Documents/Codex/2026-10-14/files-pasted-by-the-user-nkblimit/outputs/NKBLIMIT/build
+"DSPTests" start time: Oct 14 13:31 東京 (標準時)
+Output:
+----------------------------------------------------------
+passband 8x=0 error_ratio=1.22245e-07 latency=376
+passband 8x=1 error_ratio=6.41648e-07 latency=376
+passband 8x=0 error_ratio=1.22246e-07 latency=376
+passband 8x=1 error_ratio=6.41684e-07 latency=376
+float matrix rate=44100 PASS
+float matrix rate=48000 PASS
+float matrix rate=88200 PASS
+float matrix rate=96000 PASS
+float matrix rate=192000 PASS
+double matrix rate=44100 PASS
+double matrix rate=48000 PASS
+double matrix rate=88200 PASS
+double matrix rate=96000 PASS
+double matrix rate=192000 PASS
+PASS checks=2305386 worst_ceiling_excess_dB=-0.417811 largest_short_run_RTF=0.314671
+RTF includes both warm 4x/8x paths, safety FIR, meter; not a DAW CPU benchmark.
+<end of output>
+Test time =   5.53 sec
+----------------------------------------------------------
+Test Passed.
+"DSPTests" end time: Oct 14 13:31 東京 (標準時)
+"DSPTests" time elapsed: 00:00:05
+----------------------------------------------------------
+
+2/6 Testing: LoudnessTests
+2/6 Test: LoudnessTests
+Command: "C:/Users/nkbys/Documents/Codex/2026-10-14/files-pasted-by-the-user-nkblimit/outputs/NKBLIMIT/build/LoudnessTests.exe"
+Directory: C:/Users/nkbys/Documents/Codex/2026-10-14/files-pasted-by-the-user-nkblimit/outputs/NKBLIMIT/build
+"LoudnessTests" start time: Oct 14 13:31 東京 (標準時)
+Output:
+----------------------------------------------------------
+LUFS sine calibration / frequency response rate=44100 PASS
+LUFS sine calibration / frequency response rate=48000 PASS
+LUFS sine calibration / frequency response rate=88200 PASS
+LUFS sine calibration / frequency response rate=96000 PASS
+LUFS sine calibration / frequency response rate=192000 PASS
+LUFS callbacks and reset: zero operator new allocations PASS
+LoudnessTests PASS: 3339 checks, 0.757275 seconds
+<end of output>
+Test time =   0.77 sec
+----------------------------------------------------------
+Test Passed.
+"LoudnessTests" end time: Oct 14 13:31 東京 (標準時)
+"LoudnessTests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/6 Testing: MeterBallisticsTests
+3/6 Test: MeterBallisticsTests
+Command: "C:/Users/nkbys/Documents/Codex/2026-10-14/files-pasted-by-the-user-nkblimit/outputs/NKBLIMIT/build/MeterBallisticsTests.exe"
+Directory: C:/Users/nkbys/Documents/Codex/2026-10-14/files-pasted-by-the-user-nkblimit/outputs/NKBLIMIT/build
+"MeterBallisticsTests" start time: Oct 14 13:31 東京 (標準時)
+Output:
+----------------------------------------------------------
+Meter ballistics tests passed
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"MeterBallisticsTests" end time: Oct 14 13:31 東京 (標準時)
+"MeterBallisticsTests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/6 Testing: TruePeakGuardTests
+4/6 Test: TruePeakGuardTests
+Command: "C:/Users/nkbys/Documents/Codex/2026-10-14/files-pasted-by-the-user-nkblimit/outputs/NKBLIMIT/build/TruePeakGuardTests.exe"
+Directory: C:/Users/nkbys/Documents/Codex/2026-10-14/files-pasted-by-the-user-nkblimit/outputs/NKBLIMIT/build
+"TruePeakGuardTests" start time: Oct 14 13:31 東京 (標準時)
+Output:
+----------------------------------------------------------
+PASS TruePeakGuard cases=768 worst_reference_excess_dB=-0.014168
+<end of output>
+Test time =   6.89 sec
+----------------------------------------------------------
+Test Passed.
+"TruePeakGuardTests" end time: Oct 14 13:32 東京 (標準時)
+"TruePeakGuardTests" time elapsed: 00:00:06
+----------------------------------------------------------
+
+5/6 Testing: ProcessorTests
+5/6 Test: ProcessorTests
+Command: "C:/Users/nkbys/Documents/Codex/2026-10-14/files-pasted-by-the-user-nkblimit/outputs/NKBLIMIT/build/ProcessorTests.exe"
+Directory: C:/Users/nkbys/Documents/Codex/2026-10-14/files-pasted-by-the-user-nkblimit/outputs/NKBLIMIT/build
+"ProcessorTests" start time: Oct 14 13:32 東京 (標準時)
+Output:
+----------------------------------------------------------
+PASS processor float/double, restore, OS latency, editor, interval peaks, final-output LUFS, meter reset
+<end of output>
+Test time =   0.66 sec
+----------------------------------------------------------
+Test Passed.
+"ProcessorTests" end time: Oct 14 13:32 東京 (標準時)
+"ProcessorTests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/6 Testing: VST3HostTests
+6/6 Test: VST3HostTests
+Command: "C:/Users/nkbys/Documents/Codex/2026-10-14/files-pasted-by-the-user-nkblimit/outputs/NKBLIMIT/build/VST3HostTests.exe" "C:/Users/nkbys/Documents/Codex/2026-10-14/files-pasted-by-the-user-nkblimit/outputs/NKBLIMIT/build/nkblimit_artefacts/Release/VST3/nkblimit.vst3/Contents/x86_64-win/../.."
+Directory: C:/Users/nkbys/Documents/Codex/2026-10-14/files-pasted-by-the-user-nkblimit/outputs/NKBLIMIT/build
+"VST3HostTests" start time: Oct 14 13:32 東京 (標準時)
+Output:
+----------------------------------------------------------
+VST3 rate=44100 double=0 latency=367 PASS
+VST3 rate=44100 double=1 latency=367 PASS
+VST3 rate=48000 double=0 latency=376 PASS
+VST3 rate=48000 double=1 latency=376 PASS
+VST3 rate=88200 double=0 latency=477 PASS
+VST3 rate=88200 double=1 latency=477 PASS
+VST3 rate=96000 double=0 latency=496 PASS
+VST3 rate=96000 double=1 latency=496 PASS
+VST3 rate=192000 double=0 latency=736 PASS
+VST3 rate=192000 double=1 latency=736 PASS
+PASS actual VST3 scan/load/process, host gestures, state, float/double, unload
+<end of output>
+Test time =   0.36 sec
+----------------------------------------------------------
+Test Passed.
+"VST3HostTests" end time: Oct 14 13:32 東京 (標準時)
+"VST3HostTests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Oct 14 13:32 東京 (標準時)

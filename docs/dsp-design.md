@@ -1,4 +1,4 @@
-# Phase 1 DSP architecture and decisions
+# DSP architecture and decisions — 0.1.1
 
 ## Signal path
 
@@ -31,7 +31,7 @@ Linear phase is selected for predictable alignment; pre-ringing needs listening
 evaluation. The higher latency determines the common delay; a preallocated stereo
 delay compensates the shorter path. Both run continuously, so switching needs no
 allocation or cold filter start. This costs more than running only the selected path.
-The reported latency is `max(OS FIR latency) + ceil(fs*2.5ms) + 31` samples.
+The reported latency is `max(OS FIR latency) + ceil(fs*2.5ms) + 191` samples.
 Sample rate changes require host prepareToPlay. Larger/unusual blocks are subdivided
 into preallocated chunks with continuous state. No process-block-size allocation.
 MSVC source/execution character encoding is explicitly UTF-8, preserving JUCE's
@@ -39,23 +39,18 @@ Unicode source files on Japanese Windows installations.
 
 ## Post-downsampling safety
 
-The safety guard is intentionally conservative for the first build. An 8-phase,
-32-tap normalised Blackman-windowed sinc FIR forms **absolute contribution bounds**
-`B[n] = max_phase,channel sum_k |h[phase,k] * x[channel,n-k]|`, including sample peaks.
-For an input sample m, every FIR support containing it corresponds to n=m..m+31.
-Delay output by 31 samples and take the maximum of those bounds. Apply
-`g[m] <= min(1, ceiling*10^(-0.3/20) / max B[n])`. Attack is immediate in the guard;
-release is 80 ms. Under constant ceiling, triangle inequality bounds all reconstructed
-phases for this finite production FIR even when neighbouring gains differ. This is a
-gain multiplier on delayed audio, not sample hard clipping.
+The 0.1.0 absolute FIR contribution bound lost signal phase cancellation, causing
+unnecessary attenuation and poor loudness. In 0.1.1, signed reconstruction uses a
+128-tap / 8-phase normalised Kaiser sinc predictor, a 128-sample support maximum,
+64-sample forecast attack ramp and 32 ms release. Both channels share the gain.
+The total guard delay is 191 base samples. A 0.5 dB measured margin covers tested
+gain-modulation/filter differences. It is a predictive gain stage, not a clipper.
+See truepeakguard-design.md for details, adversarial results and measured CPU cost.
 
-This finite-filter bound **is not a mathematical guarantee for all continuous-time
-reconstructions**. Longer/different filters, frequency response, automation and arbitrary
-adversarial waveforms require validation. The 0.3 dB margin is measured with an
-independent 16x 96-tap Kaiser reference in tests, not a certification guarantee.
-The conservative absolute bound loses phase cancellation and may over-attenuate
-high-frequency/sustained audio and create additional gain modulation. Replacing it
-with a less conservative predictor is a future quality task; it must retain peak tests.
+This changes the safety strategy from a conservative finite-filter bound to a
+signal-aware predictor. It is not an all-input mathematical guarantee. Independent
+16x/96-tap and additional 20x/128-tap reconstruction tests, the full DSP matrix and
+the supplied music file are used to validate the target, rather than claiming a proof.
 
 ## Parameters and state
 
@@ -73,11 +68,16 @@ control work, not processBlock work.
 
 ## Metering
 
-Final output feeds a signed 8x FIR TP estimator; safety uses a distinct detector state.
-Peak and GR values cross to UI through atomics. The offline reference is separately
+Final output feeds a signed 8x FIR TP estimator and independent stereo LoudnessMeter.
+Safety uses a different reconstruction filter. Peak and GR interval maxima cross to
+UI through lock-free CAS/exchange atomics; loudness uses atomic value/readiness.
+UI reset epochs clear held values. Numerical text updates at 5 Hz, peak holds are
+1 s, bars repaint at 30 Hz. These display ballistics never affect audio processing.
+The offline reference is separately
 implemented at 16x/96 taps with a Kaiser window and zero-padding through its tail.
 This follows the oversampled reconstruction approach in BS.1770-5 Annex 2, but does
-not claim BS.2217/EBU test-suite conformance. LUFS and integrated gating are future work.
+not claim BS.2217/EBU test-suite conformance. Output LUFS-S is an exact 3 s ungated
+K-weighted energy window; see loudness-design.md. Integrated gating is future work.
 
 References: https://www.itu.int/rec/R-REC-BS.1770-5-202311-I/en and
 JUCE modules/juce_dsp/processors/juce_Oversampling.h at the pinned commit.

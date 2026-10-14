@@ -3,10 +3,16 @@
 #include <juce_dsp/juce_dsp.h>
 #include "LimiterEngine.h"
 #include "TruePeakGuard.h"
+#include "../Metering/LoudnessMeter.h"
+#include "../Metering/TruePeakMeter.h"
 #include <memory>
 namespace nkb {
 struct Parameters { double inputDb = 0.0, ceilingDb = -0.5; bool eight = false; };
-struct Measurement { double input = 0.0, output = 0.0, truePeak = 0.0, reductionDb = 0.0; };
+struct Measurement {
+    double input = 0.0, output = 0.0, truePeak = 0.0, reductionDb = 0.0;
+    double shortTermLufs = -240.0;
+    bool loudnessReady = false;
+};
 template <typename T> class OversamplingEngine {
     struct Path {
         std::unique_ptr<juce::dsp::Oversampling<T>> os;
@@ -41,7 +47,7 @@ public:
         mix.prepare(rate, 20.0, initial.eight ? 1.0 : 0.0);
         ceilingValues.resize(std::size_t(capacity));
         mixValues.resize(std::size_t(capacity));
-        guard.prepare(rate); meter.reset(); measurements = {};
+        guard.prepare(rate); meter.reset(); loudness.prepare(rate); measurements = {};
     }
     void process(T* left, T* right, int count, Parameters params) noexcept {
         measurements = {};
@@ -85,6 +91,7 @@ public:
                 left[offset+i] = y[0]; right[offset+i] = y[1];
                 measurements.output = std::max({measurements.output,std::abs(double(y[0])),std::abs(double(y[1]))});
                 measurements.truePeak = std::max(measurements.truePeak,meter.push(y[0],y[1]));
+                loudness.push(y[0],y[1]);
                 const double selectedGain = (1.0-a)*paths[0].gains[std::size_t(i)] + a*paths[1].gains[std::size_t(i)];
                 // Gain-control indication; FIR filtering makes this an estimate
                 // of audible sample reduction, rather than a waveform ratio.
@@ -92,6 +99,8 @@ public:
                     -gainToDb(guard.gain * selectedGain));
             }
         }
+        measurements.shortTermLufs = loudness.shortTermLufs();
+        measurements.loudnessReady = loudness.isReady();
     }
     void reset(Parameters initial) noexcept {
         for (auto& path : paths) {
@@ -100,7 +109,7 @@ public:
         input.prepare(sampleRate,20.0,initial.inputDb);
         ceiling.prepare(sampleRate,20.0,initial.ceilingDb);
         mix.prepare(sampleRate,20.0,initial.eight ? 1.0 : 0.0);
-        guard.reset(); meter.reset(); measurements = {};
+        guard.reset(); meter.reset(); loudness.reset(); measurements = {};
     }
     int latency() const noexcept { return latencySamples; }
     Measurement measurements;
@@ -109,6 +118,7 @@ private:
     Smoother input, ceiling, mix;
     TruePeakGuard<T> guard;
     TruePeakMeter meter;
+    LoudnessMeter loudness;
     std::vector<double> ceilingValues, mixValues;
     int capacity = 1, latencySamples = 0;
     double sampleRate = 48000.0;

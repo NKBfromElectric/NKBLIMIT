@@ -2,10 +2,14 @@
 #include <juce_audio_processors_headless/juce_audio_processors_headless.h>
 #include <iostream>
 #include <cmath>
+#include "../Benchmarks/LoudnessComparison.h"
+#include "../Benchmarks/RealAudioComparison.h"
 void check(bool passed,const char* message) { if(!passed) throw std::runtime_error(message); }
 int main(int argc,char** argv) {
     juce::ScopedJuceInitialiser_GUI init;
     try {
+        if(argc==4 && juce::String(argv[1])=="--compare") return compareLoudnessBundles(argv[2],argv[3]);
+        if(argc==4 && juce::String(argv[1])=="--music") return compareRealAudio(argv[2],argv[3]);
         check(argc==2,"expected VST3 bundle path");
         juce::AudioPluginFormatManager manager;
         manager.addFormat(std::make_unique<juce::VST3PluginFormatHeadless>());

@@ -1,0 +1,28 @@
+[0/2] Re-checking globbed directories...
+[1/22] Building VST3 manifest helper for nkblimit
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: C:/Users/nkbys/Documents/Codex/2026-10-14/files-pasted-by-the-user-nkblimit/outputs/NKBLIMIT/build/vst3_helpers/nkblimit
+ninja: no work to do.
+[2/22] Building CXX object CMakeFiles\TruePeakGuardTests.dir\Tests\DSPTests\TruePeakGuardTests.cpp.obj
+[3/22] Building CXX object CMakeFiles\DSPTests.dir\Tests\DSPTests\Main.cpp.obj
+[4/22] Building CXX object CMakeFiles\nkblimit.dir\Source\PluginEditor.cpp.obj
+[5/22] Building CXX object CMakeFiles\nkblimit.dir\Source\PluginProcessor.cpp.obj
+[6/22] Linking CXX static library nkblimit_artefacts\Release\nkblimit_SharedCode.lib
+[7/22] Building CXX object CMakeFiles\ProcessorTests.dir\Tests\DSPTests\ProcessorTests.cpp.obj
+[8/22] Building CXX object CMakeFiles\VST3HostTests.dir\ThirdParty\JUCE\modules\juce_audio_processors_headless\juce_audio_processors_headless_ara.cpp.obj
+[9/22] Building CXX object CMakeFiles\VST3HostTests.dir\ThirdParty\JUCE\modules\juce_audio_processors_headless\juce_audio_processors_headless_lv2_libs.cpp.obj
+[10/22] Linking CXX shared module nkblimit_artefacts\Release\VST3\nkblimit.vst3\Contents\x86_64-win\nkblimit.vst3
+removing moduleinfo.json
+creating C:/Users/nkbys/Documents/Codex/2026-10-14/files-pasted-by-the-user-nkblimit/outputs/NKBLIMIT/build/nkblimit_artefacts/Release/VST3/nkblimit.vst3/Contents/Resources/moduleinfo.json
+[11/22] Building CXX object CMakeFiles\VST3HostTests.dir\Tests\DSPTests\VST3HostTests.cpp.obj
+[12/22] Building CXX object CMakeFiles\VST3HostTests.dir\ThirdParty\JUCE\modules\juce_core\juce_core_CompilationTime.cpp.obj
+[13/22] Building CXX object CMakeFiles\VST3HostTests.dir\ThirdParty\JUCE\modules\juce_audio_basics\juce_audio_basics.cpp.obj
+[14/22] Building CXX object CMakeFiles\VST3HostTests.dir\ThirdParty\JUCE\modules\juce_events\juce_events.cpp.obj
+[15/22] Linking CXX executable DSPTests.exe
+[16/22] Linking CXX executable TruePeakGuardTests.exe
+[17/22] Linking CXX executable ProcessorTests.exe
+[18/22] Building CXX object CMakeFiles\VST3HostTests.dir\ThirdParty\JUCE\modules\juce_core\juce_core.cpp.obj
+[19/22] Building CXX object CMakeFiles\VST3HostTests.dir\ThirdParty\JUCE\modules\juce_audio_processors_headless\juce_audio_processors_headless.cpp.obj
+[20/22] Building CXX object CMakeFiles\VST3HostTests.dir\ThirdParty\JUCE\modules\juce_audio_formats\juce_audio_formats.cpp.obj
+[21/22] Linking CXX executable VST3HostTests.exe

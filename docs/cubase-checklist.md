@@ -16,8 +16,12 @@ from automated processor/VST3 tests.
 - Create/delete editors, resize host windows, use HiDPI, fine adjustment, direct numeric
   entry and separate reset controls. Keep playback running during UI stress.
 - Render drums, bass, vocals, guitars and cymbals. Loudness-match comparisons. Investigate
-  over-attenuation/pumping from conservative guard before any quality claim.
+  gain modulation, transient preservation and pumping before any quality claim.
 - Run 60+ minutes, multiple instances and CPU stress, then document crashes/dropouts.
 - Validate final output using an independent certified true-peak meter.
 
 Do not mark Phase 1 complete until the real Cubase checks succeed.
+
+The user's screenshot confirms the initial0.1.0 appeared in a Cubase Stereo Out
+insert and displayed live readings. The0.1.1 update still requires the complete
+host checklist above; CLI host/pluginval validation is documented separately.

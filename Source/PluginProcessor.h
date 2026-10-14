@@ -3,6 +3,7 @@
 #include <juce_audio_processors/juce_audio_processors.h>
 #include "DSP/OversamplingEngine.h"
 #include <atomic>
+#include <cstdint>
 class NkblimitProcessor final : public juce::AudioProcessor {
 public:
     NkblimitProcessor();
@@ -29,10 +30,14 @@ public:
     juce::AudioProcessorValueTreeState state;
     struct MeterValues {
         std::atomic<float> input {-240}, output {-240}, truePeak {-240}, reduction {0};
+        std::atomic<float> shortTermLufs {-240};
+        std::atomic<bool> loudnessReady {false};
+        std::atomic<std::uint32_t> epoch {0};
     } meters;
 private:
     static juce::AudioProcessorValueTreeState::ParameterLayout layout();
     nkb::Parameters parameters() const noexcept;
+    void resetMeters() noexcept;
     template<typename T> void process(juce::AudioBuffer<T>&,nkb::OversamplingEngine<T>&);
     nkb::OversamplingEngine<float> floatEngine;
     nkb::OversamplingEngine<double> doubleEngine;

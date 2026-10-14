@@ -6,6 +6,8 @@ NkblimitProcessor::NkblimitProcessor()
     : AudioProcessor(BusesProperties().withInput("Input",juce::AudioChannelSet::stereo(),true)
       .withOutput("Output",juce::AudioChannelSet::stereo(),true)), state(*this,nullptr,"NKBLIMIT",layout()) {
     static_assert(std::atomic<float>::is_always_lock_free);
+    static_assert(std::atomic<bool>::is_always_lock_free);
+    static_assert(std::atomic<std::uint32_t>::is_always_lock_free);
     inputParam = state.getRawParameterValue("inputGain");
     ceilingParam = state.getRawParameterValue("ceiling");
     oversamplingParam = state.getRawParameterValue("oversampling");
@@ -32,10 +34,19 @@ void NkblimitProcessor::prepareToPlay(double rate,int block) {
     doubleEngine.prepare(rate,preparedBlock,parameters());
     jassert(floatEngine.latency() == doubleEngine.latency());
     setLatencySamples(floatEngine.latency());
-    meters.input.store(-240); meters.output.store(-240); meters.truePeak.store(-240); meters.reduction.store(0);
+    resetMeters();
 }
 void NkblimitProcessor::reset() {
-    if (preparedRate > 0) { floatEngine.reset(parameters()); doubleEngine.reset(parameters()); }
+    if (preparedRate > 0) { floatEngine.reset(parameters()); doubleEngine.reset(parameters()); resetMeters(); }
+}
+void NkblimitProcessor::resetMeters() noexcept {
+    meters.input.store(-240,std::memory_order_relaxed);
+    meters.output.store(-240,std::memory_order_relaxed);
+    meters.truePeak.store(-240,std::memory_order_relaxed);
+    meters.reduction.store(0,std::memory_order_relaxed);
+    meters.shortTermLufs.store(-240,std::memory_order_relaxed);
+    meters.loudnessReady.store(false,std::memory_order_relaxed);
+    meters.epoch.fetch_add(1,std::memory_order_release);
 }
 bool NkblimitProcessor::isBusesLayoutSupported(const BusesLayout& b) const {
     return b.getMainInputChannelSet() == juce::AudioChannelSet::stereo()
@@ -46,10 +57,19 @@ template<typename T> void NkblimitProcessor::process(juce::AudioBuffer<T>& b,nkb
     if (preparedRate <= 0 || b.getNumChannels() != 2) { b.clear(); return; }
     engine.process(b.getWritePointer(0),b.getWritePointer(1),b.getNumSamples(),parameters());
     const auto& m = engine.measurements;
-    meters.input.store(float(nkb::gainToDb(m.input)),std::memory_order_relaxed);
-    meters.output.store(float(nkb::gainToDb(m.output)),std::memory_order_relaxed);
-    meters.truePeak.store(float(nkb::gainToDb(m.truePeak)),std::memory_order_relaxed);
-    meters.reduction.store(float(m.reductionDb),std::memory_order_relaxed);
+    // UI consumes interval maxima with exchange(). Preserve peaks across audio
+    // blocks rather than overwriting short transients before the UI refresh.
+    auto publishMaximum = [](std::atomic<float>& destination,float value) noexcept {
+        auto previous = destination.load(std::memory_order_relaxed);
+        while (previous < value && !destination.compare_exchange_weak(previous,value,
+               std::memory_order_relaxed,std::memory_order_relaxed)) {}
+    };
+    publishMaximum(meters.input,float(nkb::gainToDb(m.input)));
+    publishMaximum(meters.output,float(nkb::gainToDb(m.output)));
+    publishMaximum(meters.truePeak,float(nkb::gainToDb(m.truePeak)));
+    publishMaximum(meters.reduction,float(m.reductionDb));
+    meters.shortTermLufs.store(float(m.shortTermLufs),std::memory_order_relaxed);
+    meters.loudnessReady.store(m.loudnessReady,std::memory_order_release);
 }
 void NkblimitProcessor::processBlock(juce::AudioBuffer<float>& b,juce::MidiBuffer& midi) { midi.clear(); process(b,floatEngine); }
 void NkblimitProcessor::processBlock(juce::AudioBuffer<double>& b,juce::MidiBuffer& midi) { midi.clear(); process(b,doubleEngine); }

@@ -1,0 +1,39 @@
+real_audio seconds=238.667 rate=48000 excerpt_start=190 excerpt_seconds=30
+old drive=16 rendered_seconds=30.0053
+old drive=16 rendered_seconds=60
+old drive=16 rendered_seconds=90.0053
+old drive=16 rendered_seconds=120
+old drive=16 rendered_seconds=150.005
+old drive=16 rendered_seconds=180
+old drive=16 rendered_seconds=210.005
+old drive=16 analyzing_independent_16x_true_peak
+old drive=16 max_LUFS-S=-12.4536 median_LUFS-S=-13.2042 dBTP=-3.01942 elapsed_s=27.0666
+updated drive=16 rendered_seconds=30.0053
+updated drive=16 rendered_seconds=60
+updated drive=16 rendered_seconds=90.0053
+updated drive=16 rendered_seconds=120
+updated drive=16 rendered_seconds=150.005
+updated drive=16 rendered_seconds=180
+updated drive=16 rendered_seconds=210.005
+updated drive=16 analyzing_independent_16x_true_peak
+updated drive=16 max_LUFS-S=-7.40261 median_LUFS-S=-8.41047 dBTP=-0.981731 elapsed_s=32.724
+REAL_RESULT drive=16 old_max_LUFS-S=-12.4536 new_max_LUFS-S=-7.40261 old_median_LUFS-S=-13.2042 new_median_LUFS-S=-8.41047 median_gain_LU=4.79378 old_dBTP=-3.01942 new_dBTP=-0.981731
+old drive=24 rendered_seconds=30.0053
+old drive=24 rendered_seconds=60
+old drive=24 rendered_seconds=90.0053
+old drive=24 rendered_seconds=120
+old drive=24 rendered_seconds=150.005
+old drive=24 rendered_seconds=180
+old drive=24 rendered_seconds=210.005
+old drive=24 analyzing_independent_16x_true_peak
+old drive=24 max_LUFS-S=-12.4733 median_LUFS-S=-13.2367 dBTP=-3.01933 elapsed_s=28.0971
+updated drive=24 rendered_seconds=30.0053
+updated drive=24 rendered_seconds=60
+updated drive=24 rendered_seconds=90.0053
+updated drive=24 rendered_seconds=120
+updated drive=24 rendered_seconds=150.005
+updated drive=24 rendered_seconds=180
+updated drive=24 rendered_seconds=210.005
+updated drive=24 analyzing_independent_16x_true_peak
+updated drive=24 max_LUFS-S=-7.49466 median_LUFS-S=-8.55834 dBTP=-0.981733 elapsed_s=32.7712
+REAL_RESULT drive=24 old_max_LUFS-S=-12.4733 new_max_LUFS-S=-7.49466 old_median_LUFS-S=-13.2367 new_median_LUFS-S=-8.55834 median_gain_LU=4.67834 old_dBTP=-3.01933 new_dBTP=-0.981733
