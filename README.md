@@ -3,6 +3,10 @@
 C++20 / JUCE 8 stereo mastering limiter foundation for Windows x64 VST3.
 **Development build, version 0.1.3. This is not a production mastering release.**
 
+Repository: [NKBfromElectric/NKBLIMIT](https://github.com/NKBfromElectric/NKBLIMIT).
+The v0.1.3 release includes a Windows VST3 ZIP, its corresponding source archive,
+and SHA-256 checksums. See [Releases](https://github.com/NKBfromElectric/NKBLIMIT/releases).
+
 Implemented: real audio processing in float/double, Input Gain (-12..24 dB), Output
 Ceiling (-3..0 dBTP), Transparent predictive lookahead limiter, separate peak/sustained
 dB release paths, stereo link, 4x/8x FIR oversampling, two-stage post-downsampling
@@ -110,5 +114,5 @@ peak differences across latency; filter delays mean it is not an exact sample-al
 Original project code: **AGPL-3.0-only**, full text in LICENSE. JUCE modules are used
 under their AGPLv3 option, not the commercial licence. See docs/licensing.md and
 ThirdParty/JUCE/LICENSE.md. Distributing binaries requires providing the corresponding
-source and required notices under the applicable licence terms. No GitHub push or
-publication has been performed.
+source and required notices under the applicable licence terms. Corresponding
+source and preserved notices are included with the release assets.
